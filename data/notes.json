@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1687570752615,
-      "created": 1687570752615,
+      "updated": 1687571173613,
+      "created": 1687571173613,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1967,12 +1967,12 @@
         "w9h2yeqs0gc5da00dbw690j",
         "o7lmvujajn5mr0cyficoef5",
         "ex5lcezatpfmu8p97fgbey7",
-        "24toh17pg8klimwy5gy9xo4"
+        "218js88kimcujeri1kdql6t"
       ],
       "parent": "09edenuzuoqp22bxje5l36y",
       "data": {}
     },
-    "24toh17pg8klimwy5gy9xo4": {
+    "218js88kimcujeri1kdql6t": {
       "fname": "web-components.high-level-solutions.lit.examples",
       "stub": true,
       "vault": {
@@ -1982,9 +1982,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1687570752261,
-      "created": 1687570752261,
-      "id": "24toh17pg8klimwy5gy9xo4",
+      "updated": 1687571173138,
+      "created": 1687571173138,
+      "id": "218js88kimcujeri1kdql6t",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -2124,7 +2124,7 @@
         }
       },
       "children": [],
-      "parent": "24toh17pg8klimwy5gy9xo4",
+      "parent": "218js88kimcujeri1kdql6t",
       "data": {}
     },
     "q73ywmrtq7srqjbs0jjzxm2": {
@@ -2170,7 +2170,7 @@
         }
       },
       "children": [],
-      "parent": "24toh17pg8klimwy5gy9xo4",
+      "parent": "218js88kimcujeri1kdql6t",
       "data": {}
     },
     "ex5lcezatpfmu8p97fgbey7": {
