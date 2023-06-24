@@ -1,0 +1,4648 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1687566649373,
+      "created": 1687566649373,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "guomymvu5xxkrbvedoncjdw": {
+      "id": "guomymvu5xxkrbvedoncjdw",
+      "title": "Root",
+      "desc": "",
+      "updated": 1687553787663,
+      "created": 1687478467553,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "cb6d2289d9babdad43709e4ff265bef2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "guomymvu5xxkrbvedoncjdw",
+            "vaultName": "docs"
+          },
+          "value": "https://webcomponent.dev/",
+          "alias": "Cory Rylan",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 94,
+              "offset": 117
+            },
+            "end": {
+              "line": 4,
+              "column": 134,
+              "offset": 157
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://webcomponent.dev/"
+          }
+        }
+      ],
+      "anchors": {
+        "web-components-docs": {
+          "type": "header",
+          "text": "Web Components DOCS",
+          "value": "web-components-docs",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "zkfccjgcs7b7pqvirwby57p"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "zkfccjgcs7b7pqvirwby57p": {
+      "id": "zkfccjgcs7b7pqvirwby57p",
+      "title": "Web Components",
+      "desc": "",
+      "updated": 1687525724710,
+      "created": 1687489828462,
+      "custom": {},
+      "fname": "web-components",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "89f82f5df274804247ca1556a97df75d",
+      "links": [],
+      "anchors": {
+        "qué-es-un-web-component": {
+          "type": "header",
+          "text": "Qué es un Web Component",
+          "value": "qué-es-un-web-component",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "jz2mgtp1h1frnrzmeqocl36",
+        "1mhjcs0yb8e8xp0x1g030qq",
+        "hgfihscw1sv5ewje8sm80r9",
+        "a3xw0se9vtlbizvaguc85sw",
+        "gxmnngmtnylxfipxr0980ej",
+        "f1sy95vvl2cyfpto8miwxhh",
+        "wulm1e3c9d69le8k1pa5lxh",
+        "rg687b7to7j4yjrnuq4oou1",
+        "q15otbw8uwv9jvwz49jmfx7",
+        "rk3mbyx8c8u3ri96j2fdjre",
+        "vc963s3lgnqueu0uzhrsvk8"
+      ],
+      "parent": "guomymvu5xxkrbvedoncjdw",
+      "data": {}
+    },
+    "vc963s3lgnqueu0uzhrsvk8": {
+      "fname": "web-components.high-level-solutions",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1687566648946,
+      "created": 1687566648946,
+      "id": "vc963s3lgnqueu0uzhrsvk8",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ik9twe6vf70yht7mt79j88t",
+        "gl5xjjjpsuuiazam6swp1qp"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {},
+      "title": "High Level Solutions"
+    },
+    "gl5xjjjpsuuiazam6swp1qp": {
+      "id": "gl5xjjjpsuuiazam6swp1qp",
+      "title": "Stencil",
+      "desc": "",
+      "updated": 1687545564493,
+      "created": 1687542348479,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.stencil",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "413e4c61add93a7eabbfc398ca7d49e9",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.lit",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 61,
+              "offset": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 104,
+              "offset": 103
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.lit"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 23,
+              "offset": 730
+            },
+            "end": {
+              "line": 5,
+              "column": 59,
+              "offset": 766
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.stencil.decorators",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 1,
+              "offset": 2585
+            },
+            "end": {
+              "line": 52,
+              "column": 60,
+              "offset": 2644
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.stencil.decorators"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.stencil.jsx-templates",
+          "position": {
+            "start": {
+              "line": 55,
+              "column": 1,
+              "offset": 2750
+            },
+            "end": {
+              "line": 55,
+              "column": 63,
+              "offset": 2812
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.stencil.jsx-templates"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.stencil.component-bindings",
+          "position": {
+            "start": {
+              "line": 61,
+              "column": 1,
+              "offset": 3029
+            },
+            "end": {
+              "line": 61,
+              "column": 68,
+              "offset": 3096
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.stencil.component-bindings"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.stencil.building",
+          "position": {
+            "start": {
+              "line": 65,
+              "column": 1,
+              "offset": 3144
+            },
+            "end": {
+              "line": 65,
+              "column": 58,
+              "offset": 3201
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.stencil.building"
+          }
+        }
+      ],
+      "anchors": {
+        "stencil-cli": {
+          "type": "header",
+          "text": "Stencil CLI",
+          "value": "stencil-cli",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "peaxf97kpd4jafg9wekcaz8",
+        "s3mhgxb78z7jyifmzp1hsd3",
+        "grym4gsk3se3limyrf8uoip",
+        "3x98jnnbdtk4yacyr4wpefc"
+      ],
+      "parent": "vc963s3lgnqueu0uzhrsvk8",
+      "data": {}
+    },
+    "3x98jnnbdtk4yacyr4wpefc": {
+      "id": "3x98jnnbdtk4yacyr4wpefc",
+      "title": "JSX Templates",
+      "desc": "",
+      "updated": 1687544886392,
+      "created": 1687544796710,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.stencil.jsx-templates",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "e33e8007eb570694b59aba3d7d208d90",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 55,
+              "column": 1,
+              "offset": 2750
+            },
+            "end": {
+              "line": 55,
+              "column": 63,
+              "offset": 2812
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.stencil.jsx-templates"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "gl5xjjjpsuuiazam6swp1qp",
+      "data": {}
+    },
+    "grym4gsk3se3limyrf8uoip": {
+      "id": "grym4gsk3se3limyrf8uoip",
+      "title": "Decorators",
+      "desc": "",
+      "updated": 1687544726783,
+      "created": 1687544289078,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.stencil.decorators",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "b9eae4f47a40b7cbb5fdeb13b0abacb1",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil.decorators",
+            "id": "grym4gsk3se3limyrf8uoip",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 281,
+              "offset": 810
+            },
+            "end": {
+              "line": 14,
+              "column": 315,
+              "offset": 844
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil.decorators",
+            "id": "grym4gsk3se3limyrf8uoip",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.events",
+          "alias": "Custom Events",
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 41,
+              "offset": 1556
+            },
+            "end": {
+              "line": 28,
+              "column": 94,
+              "offset": 1609
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.events"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 1,
+              "offset": 2585
+            },
+            "end": {
+              "line": 52,
+              "column": 60,
+              "offset": 2644
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.stencil.decorators"
+        }
+      ],
+      "anchors": {
+        "decorators": {
+          "type": "header",
+          "text": "Decorators",
+          "value": "decorators",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "gl5xjjjpsuuiazam6swp1qp",
+      "data": {}
+    },
+    "s3mhgxb78z7jyifmzp1hsd3": {
+      "id": "s3mhgxb78z7jyifmzp1hsd3",
+      "title": "Component Bindings",
+      "desc": "",
+      "updated": 1687545267481,
+      "created": 1687544975227,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.stencil.component-bindings",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "4c2bc54e9494e98cc79aab00b1b49e38",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 61,
+              "column": 1,
+              "offset": 3029
+            },
+            "end": {
+              "line": 61,
+              "column": 68,
+              "offset": 3096
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.stencil.component-bindings"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "gl5xjjjpsuuiazam6swp1qp",
+      "data": {}
+    },
+    "peaxf97kpd4jafg9wekcaz8": {
+      "id": "peaxf97kpd4jafg9wekcaz8",
+      "title": "Building",
+      "desc": "",
+      "updated": 1687545522722,
+      "created": 1687545318947,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.stencil.building",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "c9e5334956a6492f7b26d9ce7d5d8a24",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil.building",
+            "id": "peaxf97kpd4jafg9wekcaz8",
+            "vaultName": "docs"
+          },
+          "value": "https://stenciljs.com/docs/distribution",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 327,
+              "offset": 568
+            },
+            "end": {
+              "line": 8,
+              "column": 370,
+              "offset": 611
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://stenciljs.com/docs/distribution"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 65,
+              "column": 1,
+              "offset": 3144
+            },
+            "end": {
+              "line": 65,
+              "column": 58,
+              "offset": 3201
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.stencil.building"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "gl5xjjjpsuuiazam6swp1qp",
+      "data": {}
+    },
+    "ik9twe6vf70yht7mt79j88t": {
+      "id": "ik9twe6vf70yht7mt79j88t",
+      "title": "Lit",
+      "desc": "",
+      "updated": 1687541891673,
+      "created": 1687540056908,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "5e93c0b6c29050079184467fd8c8d60c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 239,
+              "offset": 239
+            },
+            "end": {
+              "line": 2,
+              "column": 275,
+              "offset": 275
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.lit.template-strings",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 22,
+              "offset": 354
+            },
+            "end": {
+              "line": 4,
+              "column": 82,
+              "offset": 414
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.lit.template-strings"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.lit.template-event-listeners",
+          "alias": "Lit Event Listeners",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 25,
+              "offset": 448
+            },
+            "end": {
+              "line": 6,
+              "column": 113,
+              "offset": 536
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.lit.template-event-listeners"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.lit.properties-and-decorators",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 104,
+              "offset": 663
+            },
+            "end": {
+              "line": 8,
+              "column": 173,
+              "offset": 732
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.lit.properties-and-decorators"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.events",
+          "alias": "Custom Events",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 12,
+              "offset": 745
+            },
+            "end": {
+              "line": 10,
+              "column": 65,
+              "offset": 798
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.events"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.lit.binding-components",
+          "alias": "Bindear a otros Web Components con Lit",
+          "position": {
+            "start": {
+              "line": 59,
+              "column": 20,
+              "offset": 2024
+            },
+            "end": {
+              "line": 59,
+              "column": 121,
+              "offset": 2125
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.lit.binding-components"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 61,
+              "offset": 60
+            },
+            "end": {
+              "line": 1,
+              "column": 104,
+              "offset": 103
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.examples.unit-testing",
+            "id": "jnfxsw50aav1bist3xdmb36",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 73,
+              "offset": 370
+            },
+            "end": {
+              "line": 3,
+              "column": 120,
+              "offset": 417
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit"
+        }
+      ],
+      "anchors": {
+        "": {
+          "type": "header",
+          "text": "",
+          "value": "",
+          "line": 64,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "n0j2ootma2fifoxdm24zs2e",
+        "nx5lgbcvbdsmx43eu1jujpt",
+        "w9h2yeqs0gc5da00dbw690j",
+        "o7lmvujajn5mr0cyficoef5",
+        "ex5lcezatpfmu8p97fgbey7",
+        "m1rggf5t125k41pzjs9cvfa"
+      ],
+      "parent": "vc963s3lgnqueu0uzhrsvk8",
+      "data": {}
+    },
+    "m1rggf5t125k41pzjs9cvfa": {
+      "fname": "web-components.high-level-solutions.lit.examples",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1687566648949,
+      "created": 1687566648949,
+      "id": "m1rggf5t125k41pzjs9cvfa",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "q73ywmrtq7srqjbs0jjzxm2",
+        "jnfxsw50aav1bist3xdmb36"
+      ],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {},
+      "title": "Examples"
+    },
+    "jnfxsw50aav1bist3xdmb36": {
+      "id": "jnfxsw50aav1bist3xdmb36",
+      "title": "Unit Testing",
+      "desc": "",
+      "updated": 1687566529233,
+      "created": 1687551620891,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit.examples.unit-testing",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "816fa4a331f859c34e6bf8342ec84536",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.examples.unit-testing",
+            "id": "jnfxsw50aav1bist3xdmb36",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.lit",
+          "alias": "Lit",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 73,
+              "offset": 370
+            },
+            "end": {
+              "line": 3,
+              "column": 120,
+              "offset": 417
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.lit"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.examples.unit-testing",
+            "id": "jnfxsw50aav1bist3xdmb36",
+            "vaultName": "docs"
+          },
+          "value": "https://open-wc.org/",
+          "alias": "Open Web Components",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 15,
+              "offset": 435
+            },
+            "end": {
+              "line": 5,
+              "column": 61,
+              "offset": 481
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://open-wc.org/"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.examples.unit-testing",
+            "id": "jnfxsw50aav1bist3xdmb36",
+            "vaultName": "docs"
+          },
+          "value": "https://modern-web.dev/",
+          "alias": "Modern Web",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 64,
+              "offset": 484
+            },
+            "end": {
+              "line": 5,
+              "column": 104,
+              "offset": 524
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://modern-web.dev/"
+          }
+        }
+      ],
+      "anchors": {
+        "setting-up-the-test-runner": {
+          "type": "header",
+          "text": "Setting up the Test Runner",
+          "value": "setting-up-the-test-runner",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "unit-test-structure": {
+          "type": "header",
+          "text": "Unit Test Structure",
+          "value": "unit-test-structure",
+          "line": 68,
+          "column": 0,
+          "depth": 2
+        },
+        "primer-test-unitario": {
+          "type": "header",
+          "text": "Primer Test Unitario",
+          "value": "primer-test-unitario",
+          "line": 120,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "m1rggf5t125k41pzjs9cvfa",
+      "data": {}
+    },
+    "q73ywmrtq7srqjbs0jjzxm2": {
+      "id": "q73ywmrtq7srqjbs0jjzxm2",
+      "title": "Todo App",
+      "desc": "",
+      "updated": 1687551455264,
+      "created": 1687548177071,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit.examples.todo-app",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "b27dc2ccbaee8f3e87298722f4c73482",
+      "links": [],
+      "anchors": {
+        "todos-data-service": {
+          "type": "header",
+          "text": "Todos Data Service",
+          "value": "todos-data-service",
+          "line": 66,
+          "column": 0,
+          "depth": 3
+        },
+        "todos-list": {
+          "type": "header",
+          "text": "Todos List",
+          "value": "todos-list",
+          "line": 110,
+          "column": 0,
+          "depth": 3
+        },
+        "todo-item": {
+          "type": "header",
+          "text": "Todo Item",
+          "value": "todo-item",
+          "line": 207,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "m1rggf5t125k41pzjs9cvfa",
+      "data": {}
+    },
+    "ex5lcezatpfmu8p97fgbey7": {
+      "id": "ex5lcezatpfmu8p97fgbey7",
+      "title": "Template Strings",
+      "desc": "",
+      "updated": 1687540735199,
+      "created": 1687540231989,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit.template-strings",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "4fe7e5b732b82474f756501b12e216da",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-strings",
+            "id": "ex5lcezatpfmu8p97fgbey7",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 30,
+              "offset": 329
+            },
+            "end": {
+              "line": 6,
+              "column": 66,
+              "offset": 365
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-strings",
+            "id": "ex5lcezatpfmu8p97fgbey7",
+            "vaultName": "docs"
+          },
+          "value": "https://www.freecodecamp.org/news/a-quick-introduction-to-tagged-template-literals-2a07fd54bc1d/",
+          "alias": "Tagged Template Literals",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 229,
+              "offset": 775
+            },
+            "end": {
+              "line": 19,
+              "column": 356,
+              "offset": 902
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://www.freecodecamp.org/news/a-quick-introduction-to-tagged-template-literals-2a07fd54bc1d/"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 22,
+              "offset": 354
+            },
+            "end": {
+              "line": 4,
+              "column": 82,
+              "offset": 414
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit.template-strings"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "o7lmvujajn5mr0cyficoef5": {
+      "id": "o7lmvujajn5mr0cyficoef5",
+      "title": "Template Event Listeners",
+      "desc": "",
+      "updated": 1687541102560,
+      "created": 1687540795296,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "cd7fc977b093ebec80f9bcc486b9b74a",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+            "id": "o7lmvujajn5mr0cyficoef5",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 170,
+              "offset": 702
+            },
+            "end": {
+              "line": 29,
+              "column": 204,
+              "offset": 736
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+            "id": "o7lmvujajn5mr0cyficoef5",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-encapsulation",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 246,
+              "offset": 778
+            },
+            "end": {
+              "line": 29,
+              "column": 290,
+              "offset": 822
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-encapsulation"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 25,
+              "offset": 448
+            },
+            "end": {
+              "line": 6,
+              "column": 113,
+              "offset": 536
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit.template-event-listeners"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "w9h2yeqs0gc5da00dbw690j": {
+      "id": "w9h2yeqs0gc5da00dbw690j",
+      "title": "Properties and Decorators",
+      "desc": "",
+      "updated": 1687541556538,
+      "created": 1687541175231,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit.properties-and-decorators",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "e77bfaa871fb1b019fc63483e0d687c6",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 104,
+              "offset": 663
+            },
+            "end": {
+              "line": 8,
+              "column": 173,
+              "offset": 732
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit.properties-and-decorators"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "nx5lgbcvbdsmx43eu1jujpt": {
+      "id": "nx5lgbcvbdsmx43eu1jujpt",
+      "title": "Custom Events",
+      "desc": "",
+      "updated": 1687541609204,
+      "created": 1687541609204,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit.custom-events",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "43e9ee125c7432909a0230edf5aeeea9",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "n0j2ootma2fifoxdm24zs2e": {
+      "id": "n0j2ootma2fifoxdm24zs2e",
+      "title": "Binding Components",
+      "desc": "",
+      "updated": 1687542248408,
+      "created": 1687541870116,
+      "custom": {},
+      "fname": "web-components.high-level-solutions.lit.binding-components",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "c8c41efefddce01659f9a2349aeefc91",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 59,
+              "column": 20,
+              "offset": 2024
+            },
+            "end": {
+              "line": 59,
+              "column": 121,
+              "offset": 2125
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit.binding-components"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "rk3mbyx8c8u3ri96j2fdjre": {
+      "fname": "web-components.extra-tools",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1687566648945,
+      "created": 1687566648945,
+      "id": "rk3mbyx8c8u3ri96j2fdjre",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "m75y7l3tusc1xrp3atjv1jz"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {},
+      "title": "Extra Tools"
+    },
+    "m75y7l3tusc1xrp3atjv1jz": {
+      "id": "m75y7l3tusc1xrp3atjv1jz",
+      "title": "Webpack",
+      "desc": "",
+      "updated": 1687535034623,
+      "created": 1687534628804,
+      "custom": {},
+      "fname": "web-components.extra-tools.webpack",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "0365645532c2ae830a58f683e489ee28",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.deployment.browser-support",
+            "id": "l1ofcgjdkle0j55lk21ujrq",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 58,
+              "column": 1,
+              "offset": 3556
+            },
+            "end": {
+              "line": 58,
+              "column": 40,
+              "offset": 3595
+            },
+            "indent": []
+          },
+          "value": "web-components.extra-tools.webpack"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "rk3mbyx8c8u3ri96j2fdjre",
+      "data": {}
+    },
+    "q15otbw8uwv9jvwz49jmfx7": {
+      "fname": "web-components.examples",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1687566648944,
+      "created": 1687566648944,
+      "id": "q15otbw8uwv9jvwz49jmfx7",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "olp8vo3frywt998l6h1f3ws"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {},
+      "title": "Examples"
+    },
+    "olp8vo3frywt998l6h1f3ws": {
+      "id": "olp8vo3frywt998l6h1f3ws",
+      "title": "Dropdown",
+      "desc": "",
+      "updated": 1687488315183,
+      "created": 1687484290187,
+      "custom": {},
+      "fname": "web-components.examples.dropdown",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "f8779dcdb52446b35c2303732c43903f",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "value": "wc.Apiscustom-elements",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 41,
+              "offset": 40
+            },
+            "end": {
+              "line": 1,
+              "column": 67,
+              "offset": 66
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "wc.Apiscustom-elements"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "value": "wc.Apistemplate",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 69,
+              "offset": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 88,
+              "offset": 87
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "wc.Apistemplate"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 90,
+              "offset": 89
+            },
+            "end": {
+              "line": 1,
+              "column": 124,
+              "offset": 123
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.content-slot",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 127,
+              "offset": 126
+            },
+            "end": {
+              "line": 1,
+              "column": 163,
+              "offset": 162
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.content-slot"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.js-properties",
+          "position": {
+            "start": {
+              "line": 80,
+              "column": 15,
+              "offset": 2343
+            },
+            "end": {
+              "line": 80,
+              "column": 61,
+              "offset": 2389
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.js-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.events",
+          "position": {
+            "start": {
+              "line": 80,
+              "column": 64,
+              "offset": 2392
+            },
+            "end": {
+              "line": 80,
+              "column": 103,
+              "offset": 2431
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.events"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.custom-attributes",
+          "position": {
+            "start": {
+              "line": 174,
+              "column": 31,
+              "offset": 4909
+            },
+            "end": {
+              "line": 174,
+              "column": 81,
+              "offset": 4959
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.custom-attributes"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.deployment.npm",
+            "id": "pizkajsyb0lra3nyjuiueiq",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 71,
+              "offset": 377
+            },
+            "end": {
+              "line": 9,
+              "column": 107,
+              "offset": 413
+            },
+            "indent": []
+          },
+          "value": "web-components.examples.dropdown"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 239,
+              "offset": 239
+            },
+            "end": {
+              "line": 2,
+              "column": 275,
+              "offset": 275
+            },
+            "indent": []
+          },
+          "value": "web-components.examples.dropdown"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil",
+            "id": "gl5xjjjpsuuiazam6swp1qp",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 23,
+              "offset": 730
+            },
+            "end": {
+              "line": 5,
+              "column": 59,
+              "offset": 766
+            },
+            "indent": []
+          },
+          "value": "web-components.examples.dropdown"
+        },
+        {
+          "from": {
+            "fname": "web-components.lifecycle.attribute-changed",
+            "id": "37nsf4f13y89b6j5pgbmd9o",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 46,
+              "offset": 150
+            },
+            "end": {
+              "line": 4,
+              "column": 133,
+              "offset": 237
+            },
+            "indent": []
+          },
+          "value": "web-components.examples.dropdown"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-strings",
+            "id": "ex5lcezatpfmu8p97fgbey7",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 30,
+              "offset": 329
+            },
+            "end": {
+              "line": 6,
+              "column": 66,
+              "offset": 365
+            },
+            "indent": []
+          },
+          "value": "web-components.examples.dropdown"
+        }
+      ],
+      "anchors": {
+        "mejoramos-nuestro-componente": {
+          "type": "header",
+          "text": "Mejoramos nuestro componente",
+          "value": "mejoramos-nuestro-componente",
+          "line": 85,
+          "column": 0,
+          "depth": 3
+        },
+        "mejoremos-nuestro-componente-con-custom-attributes": {
+          "type": "header",
+          "text": "Mejoremos nuestro componente con custom attributes",
+          "value": "mejoremos-nuestro-componente-con-custom-attributes",
+          "line": 179,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "q15otbw8uwv9jvwz49jmfx7",
+      "data": {}
+    },
+    "rg687b7to7j4yjrnuq4oou1": {
+      "fname": "web-components.Apis",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1687566648942,
+      "created": 1687566648942,
+      "id": "rg687b7to7j4yjrnuq4oou1",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "d9i2loe47cp2m0xxwdkny69",
+        "1dym5u9edx4r2i85mmldv4m",
+        "efwvmwe8ctv925mkt5wrl5z",
+        "lf0t5f3evkower2vnkbazq5"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {},
+      "title": "Apis"
+    },
+    "lf0t5f3evkower2vnkbazq5": {
+      "id": "lf0t5f3evkower2vnkbazq5",
+      "title": "template",
+      "desc": "",
+      "updated": 1687485029794,
+      "created": 1687482035959,
+      "custom": {},
+      "fname": "web-components.Apis.template",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "1942c085936bca9f134fcc606dbde5a8",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.Apis.template",
+            "id": "lf0t5f3evkower2vnkbazq5",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "alias": "Shadow DOM API",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 77,
+              "offset": 1863
+            },
+            "end": {
+              "line": 48,
+              "column": 126,
+              "offset": 1912
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.Apis.template",
+            "id": "lf0t5f3evkower2vnkbazq5",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.content-slot",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 3,
+              "offset": 2052
+            },
+            "end": {
+              "line": 53,
+              "column": 39,
+              "offset": 2088
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.content-slot"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "web-components.Apis.template",
+            "id": "lf0t5f3evkower2vnkbazq5",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 1,
+              "offset": 1914
+            },
+            "end": {
+              "line": 50,
+              "column": 36,
+              "offset": 1949
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "rg687b7to7j4yjrnuq4oou1",
+      "data": {}
+    },
+    "efwvmwe8ctv925mkt5wrl5z": {
+      "id": "efwvmwe8ctv925mkt5wrl5z",
+      "title": "shadow-dom",
+      "desc": "",
+      "updated": 1687483299173,
+      "created": 1687482746633,
+      "custom": {},
+      "fname": "web-components.Apis.shadow-dom",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "d2513d3daa52082623d5e956452d3791",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.Apis.shadow-dom",
+            "id": "efwvmwe8ctv925mkt5wrl5z",
+            "vaultName": "docs"
+          },
+          "value": "wc.Apistemplate",
+          "alias": "Template API",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 182,
+              "offset": 182
+            },
+            "end": {
+              "line": 2,
+              "column": 214,
+              "offset": 214
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "wc.Apistemplate"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 63,
+              "offset": 63
+            },
+            "end": {
+              "line": 2,
+              "column": 97,
+              "offset": 97
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.shadow-dom"
+        },
+        {
+          "from": {
+            "fname": "web-components.Apis.content-slot",
+            "id": "d9i2loe47cp2m0xxwdkny69",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 144,
+              "offset": 144
+            },
+            "end": {
+              "line": 2,
+              "column": 178,
+              "offset": 178
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.shadow-dom"
+        },
+        {
+          "from": {
+            "fname": "web-components.Apis.template",
+            "id": "lf0t5f3evkower2vnkbazq5",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 77,
+              "offset": 1863
+            },
+            "end": {
+              "line": 48,
+              "column": 126,
+              "offset": 1912
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.shadow-dom"
+        },
+        {
+          "from": {
+            "fname": "web-components.Apis.template",
+            "id": "lf0t5f3evkower2vnkbazq5",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 1,
+              "offset": 1914
+            },
+            "end": {
+              "line": 50,
+              "column": 36,
+              "offset": 1949
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.shadow-dom"
+        },
+        {
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 90,
+              "offset": 89
+            },
+            "end": {
+              "line": 1,
+              "column": 124,
+              "offset": 123
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.shadow-dom"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+            "id": "o7lmvujajn5mr0cyficoef5",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 170,
+              "offset": 702
+            },
+            "end": {
+              "line": 29,
+              "column": 204,
+              "offset": 736
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.shadow-dom"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil.decorators",
+            "id": "grym4gsk3se3limyrf8uoip",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 281,
+              "offset": 810
+            },
+            "end": {
+              "line": 14,
+              "column": 315,
+              "offset": 844
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.shadow-dom"
+        }
+      ],
+      "anchors": {
+        "como-instanciar-un-template-component-con-shadow-dom": {
+          "type": "header",
+          "text": "Como instanciar un template component con shadow dom",
+          "value": "como-instanciar-un-template-component-con-shadow-dom",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "rg687b7to7j4yjrnuq4oou1",
+      "data": {}
+    },
+    "1dym5u9edx4r2i85mmldv4m": {
+      "id": "1dym5u9edx4r2i85mmldv4m",
+      "title": "custom-elements",
+      "desc": "",
+      "updated": 1687481786659,
+      "created": 1687479245037,
+      "custom": {},
+      "fname": "web-components.Apis.custom-elements",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "42f909f89c6a28c2cb26386396b2034b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.Apis.custom-elements",
+            "id": "1dym5u9edx4r2i85mmldv4m",
+            "vaultName": "docs"
+          },
+          "value": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement",
+          "alias": "HTMLElement",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 45,
+              "offset": 485
+            },
+            "end": {
+              "line": 17,
+              "column": 121,
+              "offset": 561
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "rg687b7to7j4yjrnuq4oou1",
+      "data": {}
+    },
+    "d9i2loe47cp2m0xxwdkny69": {
+      "id": "d9i2loe47cp2m0xxwdkny69",
+      "title": "content-slot",
+      "desc": "",
+      "updated": 1687485023175,
+      "created": 1687483365649,
+      "custom": {},
+      "fname": "web-components.Apis.content-slot",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "bced9ca90537fb9869b99372ea225d6a",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.Apis.content-slot",
+            "id": "d9i2loe47cp2m0xxwdkny69",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 144,
+              "offset": 144
+            },
+            "end": {
+              "line": 2,
+              "column": 178,
+              "offset": 178
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.Apis.template",
+            "id": "lf0t5f3evkower2vnkbazq5",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 3,
+              "offset": 2052
+            },
+            "end": {
+              "line": 53,
+              "column": 39,
+              "offset": 2088
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.content-slot"
+        },
+        {
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 127,
+              "offset": 126
+            },
+            "end": {
+              "line": 1,
+              "column": 163,
+              "offset": 162
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.content-slot"
+        }
+      ],
+      "anchors": {
+        "named-slots---slots-nombrados": {
+          "type": "header",
+          "text": "Named Slots - Slots Nombrados",
+          "value": "named-slots---slots-nombrados",
+          "line": 39,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "rg687b7to7j4yjrnuq4oou1",
+      "data": {}
+    },
+    "wulm1e3c9d69le8k1pa5lxh": {
+      "id": "wulm1e3c9d69le8k1pa5lxh",
+      "title": "Theming",
+      "desc": "",
+      "updated": 1687527074068,
+      "created": 1687525757579,
+      "custom": {},
+      "fname": "web-components.theming",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "86735f1ba8431e40d46ccdb2391e0824",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.theming",
+            "id": "wulm1e3c9d69le8k1pa5lxh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-custom-properties",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 9,
+              "offset": 9
+            },
+            "end": {
+              "line": 2,
+              "column": 57,
+              "offset": 57
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-custom-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.theming",
+            "id": "wulm1e3c9d69le8k1pa5lxh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.theming.root-host-scope",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 118
+            },
+            "end": {
+              "line": 4,
+              "column": 45,
+              "offset": 160
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.theming.root-host-scope"
+          }
+        }
+      ],
+      "anchors": {
+        "implementando-un-tema-oscuro": {
+          "type": "header",
+          "text": "Implementando un tema oscuro",
+          "value": "implementando-un-tema-oscuro",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "kguufsu71atg67ixw875jy1"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {}
+    },
+    "kguufsu71atg67ixw875jy1": {
+      "id": "kguufsu71atg67ixw875jy1",
+      "title": "Root Host Scope",
+      "desc": "",
+      "updated": 1687526437506,
+      "created": 1687525843047,
+      "custom": {},
+      "fname": "web-components.theming.root-host-scope",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "8308a4b61ba27d9d045c0b7569d9650f",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.theming.root-host-scope",
+            "id": "kguufsu71atg67ixw875jy1",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-custom-properties",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 31,
+              "offset": 30
+            },
+            "end": {
+              "line": 1,
+              "column": 79,
+              "offset": 78
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-custom-properties"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.theming",
+            "id": "wulm1e3c9d69le8k1pa5lxh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 118
+            },
+            "end": {
+              "line": 4,
+              "column": 45,
+              "offset": 160
+            },
+            "indent": []
+          },
+          "value": "web-components.theming.root-host-scope"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "wulm1e3c9d69le8k1pa5lxh",
+      "data": {}
+    },
+    "f1sy95vvl2cyfpto8miwxhh": {
+      "id": "f1sy95vvl2cyfpto8miwxhh",
+      "title": "Styling",
+      "desc": "",
+      "updated": 1687492228230,
+      "created": 1687489668726,
+      "custom": {},
+      "fname": "web-components.styling",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "0d20dd79f3c47e4997aa8a3b3ffad29e",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-custom-properties",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 12,
+              "offset": 12
+            },
+            "end": {
+              "line": 2,
+              "column": 60,
+              "offset": 60
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-custom-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 63,
+              "offset": 63
+            },
+            "end": {
+              "line": 2,
+              "column": 97,
+              "offset": 97
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "value": "https://getbem.com/introduction/",
+          "alias": "BEM",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 210,
+              "offset": 487
+            },
+            "end": {
+              "line": 12,
+              "column": 250,
+              "offset": 527
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://getbem.com/introduction/"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-encapsulation",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 1,
+              "offset": 1022
+            },
+            "end": {
+              "line": 26,
+              "column": 45,
+              "offset": 1066
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-encapsulation"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-custom-properties",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 1,
+              "offset": 1196
+            },
+            "end": {
+              "line": 29,
+              "column": 49,
+              "offset": 1244
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-custom-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-parts-api",
+          "position": {
+            "start": {
+              "line": 32,
+              "column": 1,
+              "offset": 1491
+            },
+            "end": {
+              "line": 32,
+              "column": 41,
+              "offset": 1531
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-parts-api"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.slotted-elements",
+          "position": {
+            "start": {
+              "line": 34,
+              "column": 76,
+              "offset": 1608
+            },
+            "end": {
+              "line": 34,
+              "column": 119,
+              "offset": 1651
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.slotted-elements"
+          }
+        }
+      ],
+      "anchors": {
+        "estilos-globales": {
+          "type": "header",
+          "text": "Estilos globales",
+          "value": "estilos-globales",
+          "line": 10,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "5vihc22zv3ux3lduf3aaab6",
+        "fcj7t4u5hm6t7amh45uid1n",
+        "lgs19vv9v8nq2megefqyprn",
+        "3lzfo9vm01y09nvjbji1g25"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {}
+    },
+    "3lzfo9vm01y09nvjbji1g25": {
+      "id": "3lzfo9vm01y09nvjbji1g25",
+      "title": "Slotted Elements",
+      "desc": "",
+      "updated": 1687492541849,
+      "created": 1687492228071,
+      "custom": {},
+      "fname": "web-components.styling.slotted-elements",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "3921619ae67bc08ea1a4fd4d8a5ea87d",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 34,
+              "column": 76,
+              "offset": 1608
+            },
+            "end": {
+              "line": 34,
+              "column": 119,
+              "offset": 1651
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.slotted-elements"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "f1sy95vvl2cyfpto8miwxhh",
+      "data": {}
+    },
+    "lgs19vv9v8nq2megefqyprn": {
+      "id": "lgs19vv9v8nq2megefqyprn",
+      "title": "CSS Parts API",
+      "desc": "",
+      "updated": 1687492198938,
+      "created": 1687491778894,
+      "custom": {},
+      "fname": "web-components.styling.css-parts-api",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "312c19367f4188eeb2fde010eeed3a74",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.styling.css-parts-api",
+            "id": "lgs19vv9v8nq2megefqyprn",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-custom-properties",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 234,
+              "offset": 234
+            },
+            "end": {
+              "line": 2,
+              "column": 282,
+              "offset": 282
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-custom-properties"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 32,
+              "column": 1,
+              "offset": 1491
+            },
+            "end": {
+              "line": 32,
+              "column": 41,
+              "offset": 1531
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-parts-api"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "f1sy95vvl2cyfpto8miwxhh",
+      "data": {}
+    },
+    "fcj7t4u5hm6t7amh45uid1n": {
+      "id": "fcj7t4u5hm6t7amh45uid1n",
+      "title": "CSS Encapsulation",
+      "desc": "",
+      "updated": 1687490592516,
+      "created": 1687490156802,
+      "custom": {},
+      "fname": "web-components.styling.css-encapsulation",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "bf70c77bff57462bc88d40095da2afd1",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 1,
+              "offset": 1022
+            },
+            "end": {
+              "line": 26,
+              "column": 45,
+              "offset": 1066
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-encapsulation"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+            "id": "o7lmvujajn5mr0cyficoef5",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 246,
+              "offset": 778
+            },
+            "end": {
+              "line": 29,
+              "column": 290,
+              "offset": 822
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-encapsulation"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "f1sy95vvl2cyfpto8miwxhh",
+      "data": {}
+    },
+    "5vihc22zv3ux3lduf3aaab6": {
+      "id": "5vihc22zv3ux3lduf3aaab6",
+      "title": "CSS Custom Properties",
+      "desc": "",
+      "updated": 1687491677587,
+      "created": 1687489786017,
+      "custom": {},
+      "fname": "web-components.styling.css-custom-properties",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "8ea9285aa4b6858d2a6db80bb7bcf5ad",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 12,
+              "offset": 12
+            },
+            "end": {
+              "line": 2,
+              "column": 60,
+              "offset": 60
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-custom-properties"
+        },
+        {
+          "from": {
+            "fname": "web-components.styling",
+            "id": "f1sy95vvl2cyfpto8miwxhh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 1,
+              "offset": 1196
+            },
+            "end": {
+              "line": 29,
+              "column": 49,
+              "offset": 1244
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-custom-properties"
+        },
+        {
+          "from": {
+            "fname": "web-components.theming",
+            "id": "wulm1e3c9d69le8k1pa5lxh",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 9,
+              "offset": 9
+            },
+            "end": {
+              "line": 2,
+              "column": 57,
+              "offset": 57
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-custom-properties"
+        },
+        {
+          "from": {
+            "fname": "web-components.styling.css-parts-api",
+            "id": "lgs19vv9v8nq2megefqyprn",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 234,
+              "offset": 234
+            },
+            "end": {
+              "line": 2,
+              "column": 282,
+              "offset": 282
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-custom-properties"
+        },
+        {
+          "from": {
+            "fname": "web-components.theming.root-host-scope",
+            "id": "kguufsu71atg67ixw875jy1",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 31,
+              "offset": 30
+            },
+            "end": {
+              "line": 1,
+              "column": 79,
+              "offset": 78
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-custom-properties"
+        }
+      ],
+      "anchors": {
+        "dynamic-css-custom-properties": {
+          "type": "header",
+          "text": "Dynamic CSS Custom Properties",
+          "value": "dynamic-css-custom-properties",
+          "line": 43,
+          "column": 0,
+          "depth": 1
+        },
+        "usando-host": {
+          "type": "header",
+          "text": "Usando :host",
+          "value": "usando-host",
+          "line": 94,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "f1sy95vvl2cyfpto8miwxhh",
+      "data": {}
+    },
+    "gxmnngmtnylxfipxr0980ej": {
+      "id": "gxmnngmtnylxfipxr0980ej",
+      "title": "Lifecycle",
+      "desc": "",
+      "updated": 1687488696885,
+      "created": 1687488651889,
+      "custom": {},
+      "fname": "web-components.lifecycle",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "1da19badfe743115e5692ac55a8428c3",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "iqbswjrdrlwkkca05u33nov",
+        "37nsf4f13y89b6j5pgbmd9o",
+        "uw1ie7bctc50l5lz3cytw4i",
+        "u5xmw029xvzv9yc7s3o152j"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {}
+    },
+    "u5xmw029xvzv9yc7s3o152j": {
+      "id": "u5xmw029xvzv9yc7s3o152j",
+      "title": "Disconnected Callback",
+      "desc": "",
+      "updated": 1687489275525,
+      "created": 1687488932425,
+      "custom": {},
+      "fname": "web-components.lifecycle.disconnected-callback",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "55328862a128a529ca22f688283f0c1d",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "gxmnngmtnylxfipxr0980ej",
+      "data": {}
+    },
+    "uw1ie7bctc50l5lz3cytw4i": {
+      "id": "uw1ie7bctc50l5lz3cytw4i",
+      "title": "Constructor Connected Callback",
+      "desc": "",
+      "updated": 1687488914976,
+      "created": 1687488786121,
+      "custom": {},
+      "fname": "web-components.lifecycle.constructor-connected-callback",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "685e6323b489ff7817ee329e7299b86c",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "gxmnngmtnylxfipxr0980ej",
+      "data": {}
+    },
+    "37nsf4f13y89b6j5pgbmd9o": {
+      "id": "37nsf4f13y89b6j5pgbmd9o",
+      "title": "Attribute Changed",
+      "desc": "",
+      "updated": 1687489537110,
+      "created": 1687489283762,
+      "custom": {},
+      "fname": "web-components.lifecycle.attribute-changed",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "fbc17c06c57a3621a3c4ec57fd080ce5",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.lifecycle.attribute-changed",
+            "id": "37nsf4f13y89b6j5pgbmd9o",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 46,
+              "offset": 150
+            },
+            "end": {
+              "line": 4,
+              "column": 133,
+              "offset": 237
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown",
+            "anchorHeader": "mejoremos-nuestro-componente-con-custom-attributes"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "gxmnngmtnylxfipxr0980ej",
+      "data": {}
+    },
+    "iqbswjrdrlwkkca05u33nov": {
+      "id": "iqbswjrdrlwkkca05u33nov",
+      "title": "Adopted Callback",
+      "desc": "",
+      "updated": 1687489646480,
+      "created": 1687489544258,
+      "custom": {},
+      "fname": "web-components.lifecycle.adopted-callback",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "f3e74ee5309d174ba2ee06536fce4255",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.lifecycle.adopted-callback",
+            "id": "iqbswjrdrlwkkca05u33nov",
+            "vaultName": "docs"
+          },
+          "value": "https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptNode",
+          "alias": "MDN Doc",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 236,
+              "offset": 236
+            },
+            "end": {
+              "line": 2,
+              "column": 315,
+              "offset": 315
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptNode"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "gxmnngmtnylxfipxr0980ej",
+      "data": {}
+    },
+    "a3xw0se9vtlbizvaguc85sw": {
+      "id": "a3xw0se9vtlbizvaguc85sw",
+      "title": "Hierarchy and Architecture",
+      "desc": "",
+      "updated": 1687527501941,
+      "created": 1687527152461,
+      "custom": {},
+      "fname": "web-components.hierarchy-and-architecture",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "6ce16eda041f0d0a47456163dc7f2b8d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.hierarchy-and-architecture",
+            "id": "a3xw0se9vtlbizvaguc85sw",
+            "vaultName": "docs"
+          },
+          "value": "https://swapi.dev/",
+          "alias": "Star Wars API",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 101,
+              "offset": 101
+            },
+            "end": {
+              "line": 2,
+              "column": 137,
+              "offset": 137
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://swapi.dev/"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.hierarchy-and-architecture",
+            "id": "a3xw0se9vtlbizvaguc85sw",
+            "vaultName": "docs"
+          },
+          "value": "web-components.hierarchy-and-architecture.component-data-flow",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 3,
+              "offset": 336
+            },
+            "end": {
+              "line": 8,
+              "column": 68,
+              "offset": 401
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.hierarchy-and-architecture.component-data-flow"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "nz23kt8zcx99qr9ei3td0kg"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {}
+    },
+    "nz23kt8zcx99qr9ei3td0kg": {
+      "id": "nz23kt8zcx99qr9ei3td0kg",
+      "title": "Component Data Flow",
+      "desc": "",
+      "updated": 1687529154874,
+      "created": 1687527334673,
+      "custom": {},
+      "fname": "web-components.hierarchy-and-architecture.component-data-flow",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "ad2162d36fbdc15f45548829cdfd1965",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.hierarchy-and-architecture.component-data-flow",
+            "id": "nz23kt8zcx99qr9ei3td0kg",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.js-properties",
+          "alias": "Custom Properties",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 126,
+              "offset": 421
+            },
+            "end": {
+              "line": 4,
+              "column": 190,
+              "offset": 485
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.js-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.hierarchy-and-architecture.component-data-flow",
+            "id": "nz23kt8zcx99qr9ei3td0kg",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.events",
+          "alias": "Custom Event",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 144,
+              "offset": 799
+            },
+            "end": {
+              "line": 6,
+              "column": 196,
+              "offset": 851
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.events"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.hierarchy-and-architecture",
+            "id": "a3xw0se9vtlbizvaguc85sw",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 3,
+              "offset": 336
+            },
+            "end": {
+              "line": 8,
+              "column": 68,
+              "offset": 401
+            },
+            "indent": []
+          },
+          "value": "web-components.hierarchy-and-architecture.component-data-flow"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "a3xw0se9vtlbizvaguc85sw",
+      "data": {}
+    },
+    "hgfihscw1sv5ewje8sm80r9": {
+      "id": "hgfihscw1sv5ewje8sm80r9",
+      "title": "Frameworks Integration",
+      "desc": "",
+      "updated": 1687536952581,
+      "created": 1687535125459,
+      "custom": {},
+      "fname": "web-components.frameworks-integration",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "7a5e23b80c4077c571c610f6c4efc1e2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.frameworks-integration",
+            "id": "hgfihscw1sv5ewje8sm80r9",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration.angular",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 3,
+              "offset": 143
+            },
+            "end": {
+              "line": 3,
+              "column": 52,
+              "offset": 192
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration.angular"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.frameworks-integration",
+            "id": "hgfihscw1sv5ewje8sm80r9",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration.vue",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 195
+            },
+            "end": {
+              "line": 4,
+              "column": 48,
+              "offset": 240
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration.vue"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.frameworks-integration",
+            "id": "hgfihscw1sv5ewje8sm80r9",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration.react",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 243
+            },
+            "end": {
+              "line": 5,
+              "column": 50,
+              "offset": 290
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration.react"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "3m8fv43uyem4l9uc3y7780z",
+        "tqrfdzuafg2zfze5bj19sns",
+        "95mp2snular2q0j2irih6ht"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {}
+    },
+    "95mp2snular2q0j2irih6ht": {
+      "id": "95mp2snular2q0j2irih6ht",
+      "title": "Vue",
+      "desc": "",
+      "updated": 1687536937494,
+      "created": 1687536128513,
+      "custom": {},
+      "fname": "web-components.frameworks-integration.vue",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "adf57bc25976b7cb7b65c547edbbcead",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.frameworks-integration.vue",
+            "id": "95mp2snular2q0j2irih6ht",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment.npm",
+          "alias": "Dropdown",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 75,
+              "offset": 238
+            },
+            "end": {
+              "line": 3,
+              "column": 117,
+              "offset": 280
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment.npm"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.frameworks-integration.vue",
+            "id": "95mp2snular2q0j2irih6ht",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration.angular",
+          "position": {
+            "start": {
+              "line": 66,
+              "column": 58,
+              "offset": 1794
+            },
+            "end": {
+              "line": 66,
+              "column": 107,
+              "offset": 1843
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration.angular"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.frameworks-integration",
+            "id": "hgfihscw1sv5ewje8sm80r9",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 195
+            },
+            "end": {
+              "line": 4,
+              "column": 48,
+              "offset": 240
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration.vue"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "hgfihscw1sv5ewje8sm80r9",
+      "data": {}
+    },
+    "tqrfdzuafg2zfze5bj19sns": {
+      "id": "tqrfdzuafg2zfze5bj19sns",
+      "title": "React",
+      "desc": "",
+      "updated": 1687538229693,
+      "created": 1687536952489,
+      "custom": {},
+      "fname": "web-components.frameworks-integration.react",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "a5703394dec55313b660824572704e9f",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.frameworks-integration",
+            "id": "hgfihscw1sv5ewje8sm80r9",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 243
+            },
+            "end": {
+              "line": 5,
+              "column": 50,
+              "offset": 290
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration.react"
+        }
+      ],
+      "anchors": {
+        "compatibilidad": {
+          "type": "header",
+          "text": "Compatibilidad",
+          "value": "compatibilidad",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "create-react-app": {
+          "type": "header",
+          "text": "Create React App",
+          "value": "create-react-app",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "propiedades-y-eventos": {
+          "type": "header",
+          "text": "Propiedades y Eventos",
+          "value": "propiedades-y-eventos",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        },
+        "actualizar-props": {
+          "type": "header",
+          "text": "Actualizar props",
+          "value": "actualizar-props",
+          "line": 78,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "hgfihscw1sv5ewje8sm80r9",
+      "data": {}
+    },
+    "3m8fv43uyem4l9uc3y7780z": {
+      "id": "3m8fv43uyem4l9uc3y7780z",
+      "title": "Angular",
+      "desc": "",
+      "updated": 1687536106231,
+      "created": 1687535160787,
+      "custom": {},
+      "fname": "web-components.frameworks-integration.angular",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "95f1164a554c5c32707a55d0407e1f6c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.frameworks-integration.angular",
+            "id": "3m8fv43uyem4l9uc3y7780z",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment.npm",
+          "alias": "Dropdown",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 227,
+              "offset": 227
+            },
+            "end": {
+              "line": 2,
+              "column": 269,
+              "offset": 269
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment.npm"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.frameworks-integration.angular",
+            "id": "3m8fv43uyem4l9uc3y7780z",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment.npm",
+          "alias": "Deploy con npm",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 104,
+              "offset": 646
+            },
+            "end": {
+              "line": 14,
+              "column": 152,
+              "offset": 694
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment.npm"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.frameworks-integration",
+            "id": "hgfihscw1sv5ewje8sm80r9",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 3,
+              "offset": 143
+            },
+            "end": {
+              "line": 3,
+              "column": 52,
+              "offset": 192
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration.angular"
+        },
+        {
+          "from": {
+            "fname": "web-components.frameworks-integration.vue",
+            "id": "95mp2snular2q0j2irih6ht",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 66,
+              "column": 58,
+              "offset": 1794
+            },
+            "end": {
+              "line": 66,
+              "column": 107,
+              "offset": 1843
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration.angular"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "hgfihscw1sv5ewje8sm80r9",
+      "data": {}
+    },
+    "1mhjcs0yb8e8xp0x1g030qq": {
+      "id": "1mhjcs0yb8e8xp0x1g030qq",
+      "title": "Deployment",
+      "desc": "",
+      "updated": 1687532246572,
+      "created": 1687529174125,
+      "custom": {},
+      "fname": "web-components.deployment",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "0831acc66645dfee047c3fedc4e82f9a",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.deployment",
+            "id": "1mhjcs0yb8e8xp0x1g030qq",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment.npm",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 186
+            },
+            "end": {
+              "line": 4,
+              "column": 36,
+              "offset": 219
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment.npm"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.deployment",
+            "id": "1mhjcs0yb8e8xp0x1g030qq",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment.browser-support",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 222
+            },
+            "end": {
+              "line": 5,
+              "column": 48,
+              "offset": 267
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment.browser-support"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "l1ofcgjdkle0j55lk21ujrq",
+        "pizkajsyb0lra3nyjuiueiq"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {}
+    },
+    "pizkajsyb0lra3nyjuiueiq": {
+      "id": "pizkajsyb0lra3nyjuiueiq",
+      "title": "Npm",
+      "desc": "",
+      "updated": 1687532097988,
+      "created": 1687530135861,
+      "custom": {},
+      "fname": "web-components.deployment.npm",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "44c27845f43abb4efe308366a5e4608c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.deployment.npm",
+            "id": "pizkajsyb0lra3nyjuiueiq",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 71,
+              "offset": 377
+            },
+            "end": {
+              "line": 9,
+              "column": 107,
+              "offset": 413
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.deployment.npm",
+            "id": "pizkajsyb0lra3nyjuiueiq",
+            "vaultName": "docs"
+          },
+          "value": "https://unpkg.com/",
+          "alias": "unpkg.com",
+          "position": {
+            "start": {
+              "line": 64,
+              "column": 12,
+              "offset": 2269
+            },
+            "end": {
+              "line": 64,
+              "column": 44,
+              "offset": 2301
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://unpkg.com/"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.deployment",
+            "id": "1mhjcs0yb8e8xp0x1g030qq",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 186
+            },
+            "end": {
+              "line": 4,
+              "column": 36,
+              "offset": 219
+            },
+            "indent": []
+          },
+          "value": "web-components.deployment.npm"
+        },
+        {
+          "from": {
+            "fname": "web-components.frameworks-integration.angular",
+            "id": "3m8fv43uyem4l9uc3y7780z",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 227,
+              "offset": 227
+            },
+            "end": {
+              "line": 2,
+              "column": 269,
+              "offset": 269
+            },
+            "indent": []
+          },
+          "value": "web-components.deployment.npm"
+        },
+        {
+          "from": {
+            "fname": "web-components.frameworks-integration.angular",
+            "id": "3m8fv43uyem4l9uc3y7780z",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 104,
+              "offset": 646
+            },
+            "end": {
+              "line": 14,
+              "column": 152,
+              "offset": 694
+            },
+            "indent": []
+          },
+          "value": "web-components.deployment.npm"
+        },
+        {
+          "from": {
+            "fname": "web-components.frameworks-integration.vue",
+            "id": "95mp2snular2q0j2irih6ht",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 75,
+              "offset": 238
+            },
+            "end": {
+              "line": 3,
+              "column": 117,
+              "offset": 280
+            },
+            "indent": []
+          },
+          "value": "web-components.deployment.npm"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "1mhjcs0yb8e8xp0x1g030qq",
+      "data": {}
+    },
+    "l1ofcgjdkle0j55lk21ujrq": {
+      "id": "l1ofcgjdkle0j55lk21ujrq",
+      "title": "Browser Support",
+      "desc": "",
+      "updated": 1687535070399,
+      "created": 1687532246443,
+      "custom": {},
+      "fname": "web-components.deployment.browser-support",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "3145f855eeb1afcb53b0461734a09137",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.deployment.browser-support",
+            "id": "l1ofcgjdkle0j55lk21ujrq",
+            "vaultName": "docs"
+          },
+          "value": "https://github.com/webcomponents/webcomponentsjs",
+          "alias": "Web Components Polyfills",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 14,
+              "offset": 1172
+            },
+            "end": {
+              "line": 12,
+              "column": 93,
+              "offset": 1251
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://github.com/webcomponents/webcomponentsjs"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "web-components.deployment.browser-support",
+            "id": "l1ofcgjdkle0j55lk21ujrq",
+            "vaultName": "docs"
+          },
+          "value": "web-components.extra-tools.webpack",
+          "position": {
+            "start": {
+              "line": 58,
+              "column": 1,
+              "offset": 3556
+            },
+            "end": {
+              "line": 58,
+              "column": 40,
+              "offset": 3595
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "web-components.extra-tools.webpack"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.deployment",
+            "id": "1mhjcs0yb8e8xp0x1g030qq",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 222
+            },
+            "end": {
+              "line": 5,
+              "column": 48,
+              "offset": 267
+            },
+            "indent": []
+          },
+          "value": "web-components.deployment.browser-support"
+        }
+      ],
+      "anchors": {
+        "polyfills": {
+          "type": "header",
+          "text": "Polyfills",
+          "value": "polyfills",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "instalando-webpack-y-babel": {
+          "type": "header",
+          "text": "Instalando Webpack y Babel",
+          "value": "instalando-webpack-y-babel",
+          "line": 43,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "1mhjcs0yb8e8xp0x1g030qq",
+      "data": {}
+    },
+    "jz2mgtp1h1frnrzmeqocl36": {
+      "id": "jz2mgtp1h1frnrzmeqocl36",
+      "title": "Communication",
+      "desc": "",
+      "updated": 1687487561259,
+      "created": 1687485054514,
+      "custom": {},
+      "fname": "web-components.communication",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "6ac3ff63923e21c1d57cbf5f2e94a370",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.communication",
+            "id": "jz2mgtp1h1frnrzmeqocl36",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.js-properties",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 209
+            },
+            "end": {
+              "line": 4,
+              "column": 49,
+              "offset": 255
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.js-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.communication",
+            "id": "jz2mgtp1h1frnrzmeqocl36",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.events",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 258
+            },
+            "end": {
+              "line": 5,
+              "column": 42,
+              "offset": 297
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.events"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.communication",
+            "id": "jz2mgtp1h1frnrzmeqocl36",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.custom-attributes",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 300
+            },
+            "end": {
+              "line": 6,
+              "column": 53,
+              "offset": 350
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.custom-attributes"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "tnijj658ufqhea7vlwft2r9",
+        "h8e4ccyda8x2xn10jqv3qb2",
+        "6ru1efirtn5teux1y43551d"
+      ],
+      "parent": "zkfccjgcs7b7pqvirwby57p",
+      "data": {}
+    },
+    "6ru1efirtn5teux1y43551d": {
+      "id": "6ru1efirtn5teux1y43551d",
+      "title": "JS Properties",
+      "desc": "",
+      "updated": 1687485860909,
+      "created": 1687485230599,
+      "custom": {},
+      "fname": "web-components.communication.js-properties",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "426173bb727275519cfe498b9062861c",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.communication",
+            "id": "jz2mgtp1h1frnrzmeqocl36",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 209
+            },
+            "end": {
+              "line": 4,
+              "column": 49,
+              "offset": 255
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.js-properties"
+        },
+        {
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 80,
+              "column": 15,
+              "offset": 2343
+            },
+            "end": {
+              "line": 80,
+              "column": 61,
+              "offset": 2389
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.js-properties"
+        },
+        {
+          "from": {
+            "fname": "web-components.hierarchy-and-architecture.component-data-flow",
+            "id": "nz23kt8zcx99qr9ei3td0kg",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 126,
+              "offset": 421
+            },
+            "end": {
+              "line": 4,
+              "column": 190,
+              "offset": 485
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.js-properties"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "jz2mgtp1h1frnrzmeqocl36",
+      "data": {}
+    },
+    "h8e4ccyda8x2xn10jqv3qb2": {
+      "id": "h8e4ccyda8x2xn10jqv3qb2",
+      "title": "Events",
+      "desc": "",
+      "updated": 1687486704168,
+      "created": 1687485867010,
+      "custom": {},
+      "fname": "web-components.communication.events",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "8f029f7b5b5a2614690a8e729a7196bb",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.communication",
+            "id": "jz2mgtp1h1frnrzmeqocl36",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 258
+            },
+            "end": {
+              "line": 5,
+              "column": 42,
+              "offset": 297
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.events"
+        },
+        {
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 80,
+              "column": 64,
+              "offset": 2392
+            },
+            "end": {
+              "line": 80,
+              "column": 103,
+              "offset": 2431
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.events"
+        },
+        {
+          "from": {
+            "fname": "web-components.hierarchy-and-architecture.component-data-flow",
+            "id": "nz23kt8zcx99qr9ei3td0kg",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 144,
+              "offset": 799
+            },
+            "end": {
+              "line": 6,
+              "column": 196,
+              "offset": 851
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.events"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 12,
+              "offset": 745
+            },
+            "end": {
+              "line": 10,
+              "column": 65,
+              "offset": 798
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.events"
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.stencil.decorators",
+            "id": "grym4gsk3se3limyrf8uoip",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 41,
+              "offset": 1556
+            },
+            "end": {
+              "line": 28,
+              "column": 94,
+              "offset": 1609
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.events"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "jz2mgtp1h1frnrzmeqocl36",
+      "data": {}
+    },
+    "tnijj658ufqhea7vlwft2r9": {
+      "id": "tnijj658ufqhea7vlwft2r9",
+      "title": "Custom Attributes",
+      "desc": "",
+      "updated": 1687488005927,
+      "created": 1687487592216,
+      "custom": {},
+      "fname": "web-components.communication.custom-attributes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "6af74630816b7914cd65791af43a0cd8",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.communication",
+            "id": "jz2mgtp1h1frnrzmeqocl36",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 300
+            },
+            "end": {
+              "line": 6,
+              "column": 53,
+              "offset": 350
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.custom-attributes"
+        },
+        {
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 174,
+              "column": 31,
+              "offset": 4909
+            },
+            "end": {
+              "line": 174,
+              "column": 81,
+              "offset": 4959
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.custom-attributes"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "jz2mgtp1h1frnrzmeqocl36",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "guomymvu5xxkrbvedoncjdw",
+      "title": "Root",
+      "desc": "",
+      "updated": 1687553787663,
+      "created": 1687478467553,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "cb6d2289d9babdad43709e4ff265bef2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "guomymvu5xxkrbvedoncjdw",
+            "vaultName": "docs"
+          },
+          "value": "https://webcomponent.dev/",
+          "alias": "Cory Rylan",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 94,
+              "offset": 117
+            },
+            "end": {
+              "line": 4,
+              "column": 134,
+              "offset": 157
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://webcomponent.dev/"
+          }
+        }
+      ],
+      "anchors": {
+        "web-components-docs": {
+          "type": "header",
+          "text": "Web Components DOCS",
+          "value": "web-components-docs",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "zkfccjgcs7b7pqvirwby57p"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n# Web Components DOCS\n\nEsta es una documentación de web components basada en el libro *Web Component Essentials* de [[Cory Rylan|https://webcomponent.dev/]]\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "guomymvu5xxkrbvedoncjdw",
+    "title": "Root",
+    "desc": "",
+    "updated": 1687553787663,
+    "created": 1687478467553,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "docs"
+    },
+    "contentHash": "cb6d2289d9babdad43709e4ff265bef2",
+    "links": [
+      {
+        "type": "wiki",
+        "from": {
+          "fname": "root",
+          "id": "guomymvu5xxkrbvedoncjdw",
+          "vaultName": "docs"
+        },
+        "value": "https://webcomponent.dev/",
+        "alias": "Cory Rylan",
+        "position": {
+          "start": {
+            "line": 4,
+            "column": 94,
+            "offset": 117
+          },
+          "end": {
+            "line": 4,
+            "column": 134,
+            "offset": 157
+          },
+          "indent": []
+        },
+        "xvault": false,
+        "sameFile": false,
+        "to": {
+          "fname": "https://webcomponent.dev/"
+        }
+      }
+    ],
+    "anchors": {
+      "web-components-docs": {
+        "type": "header",
+        "text": "Web Components DOCS",
+        "value": "web-components-docs",
+        "line": 8,
+        "column": 0,
+        "depth": 1
+      }
+    },
+    "children": [
+      "zkfccjgcs7b7pqvirwby57p"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\n# Web Components DOCS\n\nEsta es una documentación de web components basada en el libro *Web Component Essentials* de [[Cory Rylan|https://webcomponent.dev/]]\n"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "docs"
+    }
+  ]
+}

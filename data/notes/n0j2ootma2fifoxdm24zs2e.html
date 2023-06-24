@@ -1,0 +1,69 @@
+<h1 id="binding-components">Binding Components<a aria-hidden="true" class="anchor-heading icon-link" href="#binding-components"></a></h1>
+<p>Lit puede usarse para interactuar con otros Web Components existentes en nuestras aplicaciones. En el ejemplo anterior creamos de forma imperativa una referencia y un event listener para nuestro dropdown. </p>
+<p>Primero crearemos un componente raiz en el nivel mas alto.</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">//x-app.js</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span><span class="token maybe-class-name">LitElement</span><span class="token punctuation">,</span> html<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'lit'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span>property<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'lit/decorators.js'</span>
+<span class="token keyword module">import</span> <span class="token string">'dropdown'</span>
+
+<span class="token keyword">class</span> <span class="token class-name">XApp</span> <span class="token keyword">extends</span> <span class="token class-name">LitElement</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> html<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html">
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span><span class="token punctuation">></span></span>
+        Hello from Lit!
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+    </span><span class="token template-punctuation string">`</span></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-app'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XApp</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Con este componente podemos usar el binding declarativo de Lit para setear propiedades y escuchar a eventos</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">//x-app.js</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span><span class="token maybe-class-name">LitElement</span><span class="token punctuation">,</span> html<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'lit'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span>property<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'lit/decorators.js'</span>
+<span class="token keyword module">import</span> <span class="token string">'dropdown'</span>
+
+<span class="token keyword">class</span> <span class="token class-name">XApp</span> <span class="token keyword">extends</span> <span class="token class-name">LitElement</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> html<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html">
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span> <span class="token attr-name">@visibleChange</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span></span><span class="token punctuation">></span></span>
+        Hello from Lit!
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+    </span><span class="token template-punctuation string">`</span></span>
+  <span class="token punctuation">}</span>
+  <span class="token function">log</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-app'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XApp</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Usamos el <code>@</code> para escuchar al evento. Esto funciona no solo con eventos nativos del DOM sino tambien con eventos custom como <code>visibleChange</code>. Podemos hacer lo mismo con las propiedades:</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">//x-app.js</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span><span class="token maybe-class-name">LitElement</span><span class="token punctuation">,</span> html<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'lit'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span>property<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'lit/decorators.js'</span>
+<span class="token keyword module">import</span> <span class="token string">'dropdown'</span>
+
+<span class="token keyword">class</span> <span class="token class-name">XApp</span> <span class="token keyword">extends</span> <span class="token class-name">LitElement</span><span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">customTitle</span> <span class="token operator">=</span> <span class="token string">'Custom Title!'</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> html<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html">
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span> <span class="token attr-name">@visibleChange</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span></span> <span class="token attr-name">.title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">customTitle</span><span class="token interpolation-punctuation punctuation">}</span></span></span><span class="token punctuation">></span></span>
+        Hello from Lit!
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+    </span><span class="token template-punctuation string">`</span></span>
+  <span class="token punctuation">}</span>
+  <span class="token function">log</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-app'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XApp</span><span class="token punctuation">)</span>
+</code></pre>
+<p>En lit usamos el <code>.</code> para bindear propiedades.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/ik9twe6vf70yht7mt79j88t">Lit</a></li>
+</ul>

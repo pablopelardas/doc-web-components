@@ -1,0 +1,76 @@
+<h1 id="angular">Angular<a aria-hidden="true" class="anchor-heading icon-link" href="#angular"></a></h1>
+<p>Angular fue diseñado desde el principio para funcionar con Web Components. Puede consumir Web Components y publicar los componentes de Angular como Web Components por medio de la API Angular Elements. Vamos a instalar nuestro <a href="/notes/pizkajsyb0lra3nyjuiueiq">Dropdown</a> en un proyecto de Angular CLI.</p>
+<p>Primero creamos el proyecto angular</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g @angular/cli
+ng new my-app
+</code></pre>
+<p>Este comando instalar angular, creara un proyecto e instalara todos los paquetes NPM necesarios. Una vez completado utilizaremos</p>
+<pre class="language-bash"><code class="language-bash">ng serve
+</code></pre>
+<p>Que iniciará nuestra aplicación en <code>localhost:4200</code>. Ahora debemos instalar nuestro componente, en <a href="/notes/pizkajsyb0lra3nyjuiueiq">Deploy con npm</a> utilizamos un CDN, aqui lo instalaremos directamente con npm:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> web-component-essentials
+</code></pre>
+<p>Este componente instalara el dropdown en nuestro proyecto de Angular. En nuestro <code>app.module.ts</code> podemos importarlo</p>
+<pre class="language-ts"><code class="language-ts"><span class="token comment">//app.module.ts</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span><span class="token maybe-class-name">BrowserModule</span><span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'@angular/platform-browser'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token punctuation">{</span><span class="token maybe-class-name">NgModule</span><span class="token punctuation">,</span> <span class="token constant">CUSTOM_ELEMENTS_SCHEMA</span><span class="token punctuation">}</span> <span class="token keyword module">from</span> <span class="token string">'@angular/core'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token string">'web-component-essentials'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span><span class="token maybe-class-name">AppComponent</span><span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'./app.component'</span><span class="token punctuation">;</span>
+
+<span class="token decorator"><span class="token at operator">@</span><span class="token function">NgModule</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  declarations<span class="token operator">:</span><span class="token punctuation">[</span>
+    <span class="token maybe-class-name">AppComponent</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  imports<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token maybe-class-name">BrowserModule</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  providers<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  bootstrap<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token maybe-class-name">AppComponent</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  schemas<span class="token operator">:</span><span class="token punctuation">[</span>
+    <span class="token constant">CUSTOM_ELEMENTS_SCHEMA</span> <span class="token comment">// Le avisa a Angular que tenemos custom tags</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name"><span class="token maybe-class-name">AppModule</span></span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Una vez instalado podemos utilizarlo, vamos a mirar nuestro <code>app.component.ts</code></p>
+<pre class="language-ts"><code class="language-ts"><span class="token comment">//app.component.ts</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span><span class="token maybe-class-name">Component</span><span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'@angular/core'</span>
+
+<span class="token decorator"><span class="token at operator">@</span><span class="token function">Component</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  selector<span class="token operator">:</span> <span class="token string">'app-root'</span><span class="token punctuation">,</span>
+  templateUrl<span class="token operator">:</span> <span class="token string">'./app.component.html'</span><span class="token punctuation">,</span>
+  styleUrls<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'./app.component.css'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name"><span class="token maybe-class-name">AppComponent</span></span><span class="token punctuation">{</span>
+  myTitle <span class="token operator">=</span> <span class="token string">'project-angular'</span><span class="token punctuation">;</span>
+  open <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+
+  <span class="token function">toggle</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">open</span> <span class="token operator">=</span> event<span class="token punctuation">.</span><span class="token property-access">detail</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Este componente es el root de nuesta aplicación Angular. En nuestro componente, tenemos 2 propiedades: el <code>myTitle</code> lo pasaremos al dropdown y la propiedad <code>open</code> observara si el dropdwon esta abierto o cerrado.
+También tenemos un metodo <code>toggle()</code> que se llamará cada vez que el dropdown se abre o cierra.</p>
+<pre class="language-html"><code class="language-html"><span class="token comment">&#x3C;!-- app.component.html --></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h1</span><span class="token punctuation">></span></span>Angular Application using Web Components<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h1</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>
+  {{open ? 'open':'closed'}}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span> <span class="token attr-name">[title]</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>myTitle<span class="token punctuation">'</span></span> <span class="token attr-name">(show)</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>toggle($event)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    Hello from Web Component in Angular!
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>Tenemos un p que muestra el mensaje <code>open</code> o <code>closed</code> basado en el valor de la propiedad open. Esta sintaxis no funciona solo para Angular sino también para los Web Components</p>
+<p>El primer bindeo es la propiedad <code>[title]="myTitle"</code> para avisarle a Angular que esa propiedad debería ser seteada. La segunda sintaxis es la que utiliza Angular para escuchar eventos <code>(show)="toggle($event)"</code>. En el parentesis pasamos el nombre del evento que queremos escuchar, y a la derecha el metodo.</p>
+<p>Angular es una excelente opción para aplicaciones del lado del cliente por su robusta API que funciona bien con aplicaciones de grandes empresas mientras mantiene el soporte de Web Components.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/hgfihscw1sv5ewje8sm80r9">Frameworks Integration</a></li>
+<li><a href="/notes/95mp2snular2q0j2irih6ht">Vue</a></li>
+</ul>

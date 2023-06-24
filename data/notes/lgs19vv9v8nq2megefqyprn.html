@@ -1,0 +1,42 @@
+<h1 id="css-parts-api">CSS Parts API<a aria-hidden="true" class="anchor-heading icon-link" href="#css-parts-api"></a></h1>
+<p>CSS Parts API nos permite exponer un elemento del DOM específico en nuestro template para que pueda ser estilado publicamente. Por defecto, cualquier elemento de nuestro componente está escudado del estilo global. Podemos customizar <a href="/notes/5vihc22zv3ux3lduf3aaab6">CSS Custom Properties</a> pero estás pueden ser dificiles de mantener ya que sólo reprensetan una propiedad.</p>
+<p>CSS Parts expone el elemento entero para que el consumidor pueda estilarlo como necesite.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> template  <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'template'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+template<span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">button</span><span class="token punctuation">{</span>
+      <span class="token property">background</span><span class="token punctuation">:</span> <span class="token color">green</span><span class="token punctuation">;</span>
+      <span class="token property">color</span><span class="token punctuation">:</span> <span class="token hexcode color">#fff</span><span class="token punctuation">;</span>
+      <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">12</span><span class="token unit">px</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token attr-name">part</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button-one<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>one<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token attr-name">part</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button-two<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>two<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token punctuation">></span></span>three<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span>
+</span><span class="token template-punctuation string">`</span></span>
+<span class="token keyword">class</span> <span class="token class-name">XComponent</span> <span class="token keyword">extends</span> <span class="token class-name">HTMLElement</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">attachShadow</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'open'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">shadowRoot</span><span class="token punctuation">.</span><span class="token method function property-access">appendChild</span><span class="token punctuation">(</span>template<span class="token punctuation">.</span><span class="token property-access">content</span><span class="token punctuation">.</span><span class="token method function property-access">cloneNode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-component'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XComponent</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Aca tenemos un componente básico con 3 botones y algunos estilos internos. En dos de los botones esta el atributo <code>part</code> con un nombre unico. Este atributo permite que el boton sea accedido por consumidores con css directamente. Usamos el selector <code>:part</code> y el nombre del part element para accederlo</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">x-component<span class="token pseudo-element">::part</span><span class="token punctuation">(</span>button-one<span class="token punctuation">)</span></span><span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token color">red</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">x-component<span class="token pseudo-element">::part</span><span class="token punctuation">(</span>button-two<span class="token punctuation">)</span></span><span class="token punctuation">{</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token color">blue</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><img src="/image-20.png" alt="Alt text"></p>
+<p>CSS Parts puede hacer que el codigo sea mans mantenible y flexible a los estilos. Esto igual tiene sus desventajas, si exponemos CSS Parts, nuestros estilos pueden romperse de forma imprevisible, si entregamos componentes con un sistema de diseño esto puede otorgarle demasiada flexibilidad al consumidor.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/f1sy95vvl2cyfpto8miwxhh">Styling</a></li>
+</ul>

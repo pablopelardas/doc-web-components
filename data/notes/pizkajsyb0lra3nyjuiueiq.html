@@ -1,0 +1,56 @@
+<h1 id="npm">Npm<a aria-hidden="true" class="anchor-heading icon-link" href="#npm"></a></h1>
+<p>Para este ejemplo vamos a dar por sentado algunas cosas sobre cómo nuestro componente debería ser usado.</p>
+<ul>
+<li>Soporta sólo navegadores que soporten el core de Web Components API.</li>
+<li>Los consumidores de nuestro componente usan NPM</li>
+</ul>
+<p>En nuestor ejemplo tendremos una estructura de carpetas así
+<img src="/image-26.png"></p>
+<p>En nuestro <code>dropdown.js</code> tenemos el componente que construimos en <a href="/notes/olp8vo3frywt998l6h1f3ws">Dropdown</a>. En <code>index.js</code> exportamos el componente y cualquier otro componente que haya en nuestra librería.</p>
+<p>Para publicar a NPM primero necesitamos crear nuestro <code>package.json</code> el cual define la metadata de nuestro paquete así como las otras dependencias que podríamos estar utilizando de otros paquetes NPM. </p>
+<p>Para crear nuestro <code>package.json</code> debemos tener instalado NodeJS. Una vez realizado, la CLI de NPM nos va a permitir crearlo con</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> init
+</code></pre>
+<p>Esto nos abrirá un prompt para completar la configuración básica de nuestro proyecto</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"web-componet"</span><span class="token punctuation">,</span>
+  <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"0.0.1"</span><span class="token punctuation">,</span>
+  <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">" Esto es un web component "</span><span class="token punctuation">,</span>
+  <span class="token property">"main"</span><span class="token operator">:</span> <span class="token string">"src/index.js"</span><span class="token punctuation">,</span>
+  <span class="token property">"module"</span><span class="token operator">:</span> <span class="token string">"src/index.js"</span><span class="token punctuation">,</span>
+  <span class="token property">"directories"</span><span class="token operator">:</span><span class="token punctuation">{</span>
+    <span class="token property">"src"</span><span class="token operator">:</span> <span class="token string">"src"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"author"</span><span class="token operator">:</span> <span class="token string">"El autor"</span><span class="token punctuation">,</span>
+  <span class="token property">"license"</span><span class="token operator">:</span> <span class="token string">"La licencia que corresponda"</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Utilizamos las propiedades <code>main</code> y <code>module</code> para ayudar a los bundlers como Webpack a entender como consumir nuestro paquete y donde se encuentra el entry point de la librería. </p>
+<p>Ahora que ya tenemos la configuración mínima, podemos publicarlo con</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> publish
+</code></pre>
+<p>Asumiendo que tenemos un acuenta de NPM y estamos logeados, nuestro componente debería publicarse correctamente en el registro de NPM. </p>
+<p>Para utilizarlo en otro proyecto tenemos un par de opciones. Normalmente tendríamos un bundler como Webpack para realizar el build, pero para esta demo, lo mantendremos simple con una etiqueta script en un HTML. </p>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>head</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>title</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>head</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span><span class="token punctuation">></span></span>
+    Hola mundo desde componente publicado
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>module<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://unpkg.com/web-component-essentials@0.0.1/src/dropdown.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>Utilizamos <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">unpkg.com (Private)</a> CDN para publicar nuestro componente sin pasos de buildeo facilmente. </p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/1mhjcs0yb8e8xp0x1g030qq">Deployment</a></li>
+<li><a href="/notes/3m8fv43uyem4l9uc3y7780z">Angular</a></li>
+<li><a href="/notes/95mp2snular2q0j2irih6ht">Vue</a></li>
+</ul>

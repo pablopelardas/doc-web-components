@@ -1,0 +1,19 @@
+<h1 id="template-strings">Template Strings<a aria-hidden="true" class="anchor-heading icon-link" href="#template-strings"></a></h1>
+<p>Lit incluye una librería de templating construida por encima de las templated literals de Javascript, que son las que construimos entre backsticks: `</p>
+<p>Las template literals nos permiten crear templates en el navegador, Lit tambien incluye una clase base que facilita la creacion de Web Components.</p>
+<p>En este ejemplo tomaremos el <a href="/notes/olp8vo3frywt998l6h1f3ws">Dropdown</a> y lo convertiremos usando Lit. </p>
+<pre class="language-js"><code class="language-js"><span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span><span class="token maybe-class-name">LitElement</span><span class="token punctuation">,</span> html<span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'lit'</span><span class="token punctuation">;</span>
+<span class="token keyword">class</span> <span class="token class-name">XDropdown</span> <span class="token keyword">extends</span> <span class="token class-name">LitElement</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> html<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html">
+      Hello from Lit 
+    </span><span class="token template-punctuation string">`</span></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Importamos la clase <code>LitElement</code> del paquete de <code>lit</code> para crear nuestro componente. Lit espera que se implemente un metodo <code>render</code>. Este metodo retorna una template con nuestro componente. Nuestra template es creada usando la <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Tagged Template Literals (Private)</a> <code>html</code> del paquete de lit. <code>html</code> nos provee mas funcionalidades de templating que veremos mas adelante.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/ik9twe6vf70yht7mt79j88t">Lit</a></li>
+</ul>
