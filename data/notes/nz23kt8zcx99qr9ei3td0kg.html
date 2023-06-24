@@ -1,7 +1,7 @@
 <h1 id="component-data-flow">Component Data Flow<a aria-hidden="true" class="anchor-heading icon-link" href="#component-data-flow"></a></h1>
-<p>Cuando utilizamos componentes queremos mantenerlos genéricos y reutilizables. Para lograr esto debemos separar la lógica de fetching de datos del componente y recibir estos últimos por medio de custom properties. El flujo de datos de nuestra aplicación sería algo así:
-<img src="/image-25.png" alt="Alt text">
-Hacemos el fetch desde el main de nuestra aplicación <code>index.js</code>, después pasamos esa data a nuestros componentes por las <a href="/notes/6ru1efirtn5teux1y43551d">Custom Properties</a>. Esta propiedada va a tener el arreglo de personajes, y esto mantiene nuestro componente de lista generico y reutilizable ya que no le importa la data que va a recibir.</p>
+<p>Cuando utilizamos componentes queremos mantenerlos genéricos y reutilizables. Para lograr esto debemos separar la lógica de fetching de datos del componente y recibir estos últimos por medio de custom properties. El flujo de datos de nuestra aplicación sería algo así:</p>
+<p><img src="/image-25.png" alt="Alt text"></p>
+<p>Hacemos el fetch desde el main de nuestra aplicación <code>index.js</code>, después pasamos esa data a nuestros componentes por las <a href="/notes/6ru1efirtn5teux1y43551d">Custom Properties</a>. Esta propiedada va a tener el arreglo de personajes, y esto mantiene nuestro componente de lista generico y reutilizable ya que no le importa la data que va a recibir.</p>
 <p>Nuestro componente de lista también necesita comunicarse con el main para avisarle que se ha clickeado sobre un item, para eso utilizaremos un <a href="/notes/h8e4ccyda8x2xn10jqv3qb2">Custom Event</a> para indicarle al root cual fue el item seleccionado y que el pueda pasarle la data al componente de detalle.</p>
 <p>Como el de lista, a nuestro componente de detalle no le importa de donde viene la data, su unica responsabilidad es renderizarla. La idea de este patron utilizado por los principales frameworks ( Angular, Vue y React), es que la mayoría de nuestros componentes sean puros, es decir, <strong>que su única responsabilidad sea renderizar algo</strong>. De esta manera separamos la lógica de la renderización. Esto hace que los componentes puros sean reutilizables y más fáciles de testear con unit testing. </p>
 <pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
@@ -116,5 +116,6 @@ customElements<span class="token punctuation">.</span><span class="token method 
 <hr>
 <strong>Backlinks</strong>
 <ul>
+<li><a href="/notes/zkfccjgcs7b7pqvirwby57p">Web Components</a></li>
 <li><a href="/notes/a3xw0se9vtlbizvaguc85sw">Hierarchy and Architecture</a></li>
 </ul>

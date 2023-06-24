@@ -9,7 +9,7 @@ Las 2 formas más comunes de transpilar el codigo de ES2015 a ES5 es utilizando 
 
 Mientras que casi todos los navegadores soportan ES2015, no todos soportan las APIS de Web Components. Afortunadamente podemos usar polifyll para crear Web Components y mantener un soporte entre los navegadores.
 
-Vamos a usar [[Web Components Polyfills | https://github.com/webcomponents/webcomponentsjs]]. Estos Polyfills incluyen las funcionalidades esenciales de la Web API de Web Components. 
+Vamos a usar https://github.com/webcomponents/webcomponentsjs. Estos Polyfills incluyen las funcionalidades esenciales de la Web API de Web Components. 
 Si abrimos nuestro dropdown en un navegador que no soporta como IE, vamos a tener errores y el componente no va a tener la funcionalidad que corresponde. Vamos a modificar nuestro html para que los navegadores incompatibles lo soporten
 
 ```html

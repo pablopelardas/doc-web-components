@@ -270,6 +270,30 @@
               "vaultName": "docs",
               "children": [
                 {
+                  "key": "ex5lcezatpfmu8p97fgbey7",
+                  "title": "Template Strings",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "docs",
+                  "children": []
+                },
+                {
+                  "key": "o7lmvujajn5mr0cyficoef5",
+                  "title": "Template Event Listeners",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "docs",
+                  "children": []
+                },
+                {
+                  "key": "w9h2yeqs0gc5da00dbw690j",
+                  "title": "Properties and Decorators",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "docs",
+                  "children": []
+                },
+                {
                   "key": "n0j2ootma2fifoxdm24zs2e",
                   "title": "Binding Components",
                   "icon": null,
@@ -278,17 +302,9 @@
                   "children": []
                 },
                 {
-                  "key": "nx5lgbcvbdsmx43eu1jujpt",
-                  "title": "Custom Events",
-                  "icon": null,
-                  "hasTitleNumberOutlined": false,
-                  "vaultName": "docs",
-                  "children": []
-                },
-                {
-                  "key": "218js88kimcujeri1kdql6t",
+                  "key": "43uy6ymggwpwb961ecpakgq",
                   "title": "Examples",
-                  "icon": "plusOutlined",
+                  "icon": null,
                   "hasTitleNumberOutlined": false,
                   "vaultName": "docs",
                   "children": [
@@ -309,30 +325,6 @@
                       "children": []
                     }
                   ]
-                },
-                {
-                  "key": "w9h2yeqs0gc5da00dbw690j",
-                  "title": "Properties and Decorators",
-                  "icon": null,
-                  "hasTitleNumberOutlined": false,
-                  "vaultName": "docs",
-                  "children": []
-                },
-                {
-                  "key": "o7lmvujajn5mr0cyficoef5",
-                  "title": "Template Event Listeners",
-                  "icon": null,
-                  "hasTitleNumberOutlined": false,
-                  "vaultName": "docs",
-                  "children": []
-                },
-                {
-                  "key": "ex5lcezatpfmu8p97fgbey7",
-                  "title": "Template Strings",
-                  "icon": null,
-                  "hasTitleNumberOutlined": false,
-                  "vaultName": "docs",
-                  "children": []
                 }
               ]
             },
@@ -344,8 +336,16 @@
               "vaultName": "docs",
               "children": [
                 {
-                  "key": "peaxf97kpd4jafg9wekcaz8",
-                  "title": "Building",
+                  "key": "grym4gsk3se3limyrf8uoip",
+                  "title": "Decorators",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "docs",
+                  "children": []
+                },
+                {
+                  "key": "3x98jnnbdtk4yacyr4wpefc",
+                  "title": "JSX Templates",
                   "icon": null,
                   "hasTitleNumberOutlined": false,
                   "vaultName": "docs",
@@ -360,16 +360,8 @@
                   "children": []
                 },
                 {
-                  "key": "grym4gsk3se3limyrf8uoip",
-                  "title": "Decorators",
-                  "icon": null,
-                  "hasTitleNumberOutlined": false,
-                  "vaultName": "docs",
-                  "children": []
-                },
-                {
-                  "key": "3x98jnnbdtk4yacyr4wpefc",
-                  "title": "JSX Templates",
+                  "key": "peaxf97kpd4jafg9wekcaz8",
+                  "title": "Building",
                   "icon": null,
                   "hasTitleNumberOutlined": false,
                   "vaultName": "docs",
@@ -450,19 +442,18 @@
     "95mp2snular2q0j2irih6ht": "hgfihscw1sv5ewje8sm80r9",
     "09edenuzuoqp22bxje5l36y": "zkfccjgcs7b7pqvirwby57p",
     "ik9twe6vf70yht7mt79j88t": "09edenuzuoqp22bxje5l36y",
-    "n0j2ootma2fifoxdm24zs2e": "ik9twe6vf70yht7mt79j88t",
-    "nx5lgbcvbdsmx43eu1jujpt": "ik9twe6vf70yht7mt79j88t",
-    "218js88kimcujeri1kdql6t": "ik9twe6vf70yht7mt79j88t",
-    "q73ywmrtq7srqjbs0jjzxm2": "218js88kimcujeri1kdql6t",
-    "jnfxsw50aav1bist3xdmb36": "218js88kimcujeri1kdql6t",
-    "w9h2yeqs0gc5da00dbw690j": "ik9twe6vf70yht7mt79j88t",
-    "o7lmvujajn5mr0cyficoef5": "ik9twe6vf70yht7mt79j88t",
     "ex5lcezatpfmu8p97fgbey7": "ik9twe6vf70yht7mt79j88t",
+    "o7lmvujajn5mr0cyficoef5": "ik9twe6vf70yht7mt79j88t",
+    "w9h2yeqs0gc5da00dbw690j": "ik9twe6vf70yht7mt79j88t",
+    "n0j2ootma2fifoxdm24zs2e": "ik9twe6vf70yht7mt79j88t",
+    "43uy6ymggwpwb961ecpakgq": "ik9twe6vf70yht7mt79j88t",
+    "q73ywmrtq7srqjbs0jjzxm2": "43uy6ymggwpwb961ecpakgq",
+    "jnfxsw50aav1bist3xdmb36": "43uy6ymggwpwb961ecpakgq",
     "gl5xjjjpsuuiazam6swp1qp": "09edenuzuoqp22bxje5l36y",
-    "peaxf97kpd4jafg9wekcaz8": "gl5xjjjpsuuiazam6swp1qp",
-    "s3mhgxb78z7jyifmzp1hsd3": "gl5xjjjpsuuiazam6swp1qp",
     "grym4gsk3se3limyrf8uoip": "gl5xjjjpsuuiazam6swp1qp",
     "3x98jnnbdtk4yacyr4wpefc": "gl5xjjjpsuuiazam6swp1qp",
+    "s3mhgxb78z7jyifmzp1hsd3": "gl5xjjjpsuuiazam6swp1qp",
+    "peaxf97kpd4jafg9wekcaz8": "gl5xjjjpsuuiazam6swp1qp",
     "a4d445e0o55ndcozlhkwqfz": "zkfccjgcs7b7pqvirwby57p",
     "olp8vo3frywt998l6h1f3ws": "a4d445e0o55ndcozlhkwqfz",
     "0qxb469esdfnckmc3254mmp": "zkfccjgcs7b7pqvirwby57p",
@@ -502,19 +493,18 @@
     "95mp2snular2q0j2irih6ht": "Vue",
     "09edenuzuoqp22bxje5l36y": "High Level Solutions",
     "ik9twe6vf70yht7mt79j88t": "Lit",
+    "ex5lcezatpfmu8p97fgbey7": "Template Strings",
+    "o7lmvujajn5mr0cyficoef5": "Template Event Listeners",
+    "w9h2yeqs0gc5da00dbw690j": "Properties and Decorators",
     "n0j2ootma2fifoxdm24zs2e": "Binding Components",
-    "nx5lgbcvbdsmx43eu1jujpt": "Custom Events",
-    "218js88kimcujeri1kdql6t": "Examples",
+    "43uy6ymggwpwb961ecpakgq": "Examples",
     "q73ywmrtq7srqjbs0jjzxm2": "Todo App",
     "jnfxsw50aav1bist3xdmb36": "Unit Testing",
-    "w9h2yeqs0gc5da00dbw690j": "Properties and Decorators",
-    "o7lmvujajn5mr0cyficoef5": "Template Event Listeners",
-    "ex5lcezatpfmu8p97fgbey7": "Template Strings",
     "gl5xjjjpsuuiazam6swp1qp": "Stencil",
-    "peaxf97kpd4jafg9wekcaz8": "Building",
-    "s3mhgxb78z7jyifmzp1hsd3": "Component Bindings",
     "grym4gsk3se3limyrf8uoip": "Decorators",
     "3x98jnnbdtk4yacyr4wpefc": "JSX Templates",
+    "s3mhgxb78z7jyifmzp1hsd3": "Component Bindings",
+    "peaxf97kpd4jafg9wekcaz8": "Building",
     "a4d445e0o55ndcozlhkwqfz": "Examples",
     "olp8vo3frywt998l6h1f3ws": "Dropdown",
     "0qxb469esdfnckmc3254mmp": "Extra Tools",

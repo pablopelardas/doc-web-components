@@ -1,4 +1,4 @@
-Tomaremos lo que aprendimos de las APIS [[wc.Apiscustom-elements]], [[wc.Apistemplate]], [[web-components.Apis.shadow-dom]] y [[web-components.Apis.content-slot]] para crear un simple componente dropdown.
+Tomaremos lo que aprendimos de las APIS [[web-components.Apis.custom-elements]], [[web-components.Apis.template]], [[web-components.Apis.shadow-dom]] y [[web-components.Apis.content-slot]] para crear un simple componente dropdown.
 
 Primero definimos nuestro custom element en un archivo js
 ```js

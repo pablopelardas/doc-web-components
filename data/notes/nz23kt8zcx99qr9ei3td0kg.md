@@ -1,6 +1,10 @@
 
 Cuando utilizamos componentes queremos mantenerlos genéricos y reutilizables. Para lograr esto debemos separar la lógica de fetching de datos del componente y recibir estos últimos por medio de custom properties. El flujo de datos de nuestra aplicación sería algo así:
+
+
 ![Alt text](image-25.png)
+
+
 Hacemos el fetch desde el main de nuestra aplicación ```index.js```, después pasamos esa data a nuestros componentes por las [[Custom Properties|web-components.communication.js-properties]]. Esta propiedada va a tener el arreglo de personajes, y esto mantiene nuestro componente de lista generico y reutilizable ya que no le importa la data que va a recibir.
 
 Nuestro componente de lista también necesita comunicarse con el main para avisarle que se ha clickeado sobre un item, para eso utilizaremos un [[Custom Event|web-components.communication.events]] para indicarle al root cual fue el item seleccionado y que el pueda pasarle la data al componente de detalle.

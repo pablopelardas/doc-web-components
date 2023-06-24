@@ -9,7 +9,7 @@ Utilizando [[web-components.styling.css-custom-properties]] y [[web-components.A
  }
 
  ```
- Esta regla hace que **todos** los ```h1``` sean rojos. Muchas veces solo queremos aplicar una regla a un componente o vista especifico. Para hacer esto en el pasado se utilizaban convenciones de nombres como [[BEM|https://getbem.com/introduction/]], para poder evitar que accidentalmente se pisaran estilos. Por ejemplo
+ Esta regla hace que **todos** los ```h1``` sean rojos. Muchas veces solo queremos aplicar una regla a un componente o vista especifico. Para hacer esto en el pasado se utilizaban convenciones de nombres como BEM, para poder evitar que accidentalmente se pisaran estilos. Por ejemplo
  ```css
  h1.article-heading{
   color: blue

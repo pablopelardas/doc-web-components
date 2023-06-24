@@ -14,7 +14,7 @@ class XComponent extends HTMLElement {
 customElements.define('x-component')
 ```
 
-Debemos extender una clase de la clase base [[HTMLElement|https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement]]. Llamamos al ```super()``` en el constructor donde también inicializaremos los estados y la lógica inicial del componente.
+Debemos extender una clase de la clase base https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement. Llamamos al ```super()``` en el constructor donde también inicializaremos los estados y la lógica inicial del componente.
 
 El método ```connectedCallback()``` es un método del ciclo de vida del componente, se invoca cuando el componente es creado y añadido al DOM. Es donde la lógica más pesada debería ocurrir, como el fetch de datos o la lógica de renderización.
 

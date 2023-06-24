@@ -5,7 +5,7 @@ Para lograr este soporte debemos agregar un paso a nuestro buildeo para transpil
 <p>Las 2 formas más comunes de transpilar el codigo de ES2015 a ES5 es utilizando Bable y Typescript. Typescript tiene un soporte de transpilación similar a Bable y agrega tipado statico a nuestro js, haciendolo más mantenible y testeable. En este ejemplo utilizaremos vanilla javascript y babel.</p>
 <h2 id="polyfills">Polyfills<a aria-hidden="true" class="anchor-heading icon-link" href="#polyfills"></a></h2>
 <p>Mientras que casi todos los navegadores soportan ES2015, no todos soportan las APIS de Web Components. Afortunadamente podemos usar polifyll para crear Web Components y mantener un soporte entre los navegadores.</p>
-<p>Vamos a usar <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Web Components Polyfills (Private)</a>. Estos Polyfills incluyen las funcionalidades esenciales de la Web API de Web Components.
+<p>Vamos a usar <a href="https://github.com/webcomponents/webcomponentsjs">https://github.com/webcomponents/webcomponentsjs</a>. Estos Polyfills incluyen las funcionalidades esenciales de la Web API de Web Components.
 Si abrimos nuestro dropdown en un navegador que no soporta como IE, vamos a tener errores y el componente no va a tener la funcionalidad que corresponde. Vamos a modificar nuestro html para que los navegadores incompatibles lo soporten</p>
 <pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
@@ -70,5 +70,6 @@ module<span class="token punctuation">.</span><span class="token property-access
 <hr>
 <strong>Backlinks</strong>
 <ul>
+<li><a href="/notes/zkfccjgcs7b7pqvirwby57p">Web Components</a></li>
 <li><a href="/notes/1mhjcs0yb8e8xp0x1g030qq">Deployment</a></li>
 </ul>

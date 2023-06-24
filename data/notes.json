@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1687571173613,
-      "created": 1687571173613,
+      "updated": 1687572611916,
+      "created": 1687572611916,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -24,7 +24,7 @@
       "id": "guomymvu5xxkrbvedoncjdw",
       "title": "Root",
       "desc": "",
-      "updated": 1687570355610,
+      "updated": 1687572145233,
       "created": 1687478467553,
       "custom": {
         "nav_order": 0,
@@ -37,175 +37,8 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "503e0f736c7c1d0c26ed87839ccd08a9",
+      "contentHash": "7b933c6af26999e634508c56679dd466",
       "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "https://webcomponent.dev/",
-          "alias": "Cory Rylan",
-          "position": {
-            "start": {
-              "line": 4,
-              "column": 94,
-              "offset": 117
-            },
-            "end": {
-              "line": 4,
-              "column": 134,
-              "offset": 157
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://webcomponent.dev/"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.custom-elements",
-          "alias": "Custom Elements",
-          "position": {
-            "start": {
-              "line": 9,
-              "column": 3,
-              "offset": 227
-            },
-            "end": {
-              "line": 9,
-              "column": 60,
-              "offset": 284
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.custom-elements"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.shadow-dom",
-          "alias": "Shadow Dow",
-          "position": {
-            "start": {
-              "line": 10,
-              "column": 3,
-              "offset": 287
-            },
-            "end": {
-              "line": 10,
-              "column": 49,
-              "offset": 333
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.shadow-dom"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.content-slot",
-          "alias": "Content Slot",
-          "position": {
-            "start": {
-              "line": 11,
-              "column": 3,
-              "offset": 336
-            },
-            "end": {
-              "line": 11,
-              "column": 54,
-              "offset": 387
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.content-slot"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.template",
-          "alias": "Template",
-          "position": {
-            "start": {
-              "line": 12,
-              "column": 3,
-              "offset": 390
-            },
-            "end": {
-              "line": 12,
-              "column": 45,
-              "offset": 432
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.template"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.examples.dropdown",
-          "position": {
-            "start": {
-              "line": 14,
-              "column": 133,
-              "offset": 566
-            },
-            "end": {
-              "line": 14,
-              "column": 169,
-              "offset": 602
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.examples.dropdown"
-          }
-        },
         {
           "type": "ref",
           "from": {
@@ -218,12 +51,12 @@
             "start": {
               "line": 6,
               "column": 1,
-              "offset": 159
+              "offset": 155
             },
             "end": {
               "line": 6,
               "column": 20,
-              "offset": 178
+              "offset": 174
             },
             "indent": []
           },
@@ -241,14 +74,6 @@
           "line": 8,
           "column": 0,
           "depth": 1
-        },
-        "apis-fundamentales-de-los-web-components": {
-          "type": "header",
-          "text": "APIS Fundamentales de los Web Components",
-          "value": "apis-fundamentales-de-los-web-components",
-          "line": 14,
-          "column": 0,
-          "depth": 3
         }
       },
       "children": [
@@ -261,7 +86,7 @@
       "id": "zkfccjgcs7b7pqvirwby57p",
       "title": "Web Components",
       "desc": "",
-      "updated": 1687570183007,
+      "updated": 1687572027272,
       "created": 1687489828462,
       "custom": {},
       "fname": "web-components",
@@ -271,8 +96,978 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "d7477fc12e473e953f7a63e8f92f7056",
+      "contentHash": "ec5219532a01cd909f832f49862ef308",
       "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.custom-elements",
+          "alias": "Custom Elements",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 3,
+              "offset": 626
+            },
+            "end": {
+              "line": 7,
+              "column": 60,
+              "offset": 683
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.custom-elements"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "alias": "Shadow Dow",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 3,
+              "offset": 686
+            },
+            "end": {
+              "line": 8,
+              "column": 49,
+              "offset": 732
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.content-slot",
+          "alias": "Content Slot",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 3,
+              "offset": 735
+            },
+            "end": {
+              "line": 9,
+              "column": 54,
+              "offset": 786
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.content-slot"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.template",
+          "alias": "Template",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 3,
+              "offset": 789
+            },
+            "end": {
+              "line": 10,
+              "column": 45,
+              "offset": 831
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.template"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 133,
+              "offset": 965
+            },
+            "end": {
+              "line": 12,
+              "column": 169,
+              "offset": 1001
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication",
+          "alias": "comunicars",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 93,
+              "offset": 1131
+            },
+            "end": {
+              "line": 16,
+              "column": 136,
+              "offset": 1174
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.js-properties",
+          "alias": "Propiedades",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 3,
+              "offset": 1223
+            },
+            "end": {
+              "line": 18,
+              "column": 62,
+              "offset": 1282
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.js-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.custom-attributes",
+          "alias": "Atributos Personalizados",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 3,
+              "offset": 1285
+            },
+            "end": {
+              "line": 19,
+              "column": 79,
+              "offset": 1361
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.custom-attributes"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.communication.events",
+          "alias": "Eventos y Eventos Personalizados",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 3,
+              "offset": 1364
+            },
+            "end": {
+              "line": 20,
+              "column": 76,
+              "offset": 1437
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.communication.events"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling",
+          "alias": "estilar",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 85,
+              "offset": 1536
+            },
+            "end": {
+              "line": 24,
+              "column": 119,
+              "offset": 1570
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-encapsulation",
+          "alias": "Encapsulamiento",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 3,
+              "offset": 1596
+            },
+            "end": {
+              "line": 26,
+              "column": 64,
+              "offset": 1657
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-encapsulation"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-custom-properties",
+          "alias": "Propiedades Personalizadas",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 3,
+              "offset": 1660
+            },
+            "end": {
+              "line": 27,
+              "column": 79,
+              "offset": 1736
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-custom-properties"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-parts-api",
+          "alias": "CSS Parts API",
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 3,
+              "offset": 1739
+            },
+            "end": {
+              "line": 28,
+              "column": 58,
+              "offset": 1794
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-parts-api"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.slotted-elements",
+          "alias": "Slotted Elements",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 3,
+              "offset": 1797
+            },
+            "end": {
+              "line": 29,
+              "column": 64,
+              "offset": 1858
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.slotted-elements"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.theming",
+          "alias": "Temas",
+          "position": {
+            "start": {
+              "line": 33,
+              "column": 55,
+              "offset": 1926
+            },
+            "end": {
+              "line": 33,
+              "column": 88,
+              "offset": 1959
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.theming"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.theming.root-host-scope",
+          "alias": "Root Host Scope",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 4,
+              "offset": 1989
+            },
+            "end": {
+              "line": 35,
+              "column": 63,
+              "offset": 2048
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.theming.root-host-scope"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.lifecycle",
+          "alias": "Ciclo de vida",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 27,
+              "offset": 2091
+            },
+            "end": {
+              "line": 39,
+              "column": 70,
+              "offset": 2134
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.lifecycle"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.lifecycle.constructor-connected-callback",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 3,
+              "offset": 2161
+            },
+            "end": {
+              "line": 41,
+              "column": 62,
+              "offset": 2220
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.lifecycle.constructor-connected-callback"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.lifecycle.attribute-changed",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 3,
+              "offset": 2223
+            },
+            "end": {
+              "line": 42,
+              "column": 49,
+              "offset": 2269
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.lifecycle.attribute-changed"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.lifecycle.disconnected-callback",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 3,
+              "offset": 2272
+            },
+            "end": {
+              "line": 43,
+              "column": 53,
+              "offset": 2322
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.lifecycle.disconnected-callback"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.lifecycle.adopted-callback",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 3,
+              "offset": 2325
+            },
+            "end": {
+              "line": 44,
+              "column": 48,
+              "offset": 2370
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.lifecycle.adopted-callback"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.hierarchy-and-architecture",
+          "alias": "Arquitectura",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 82,
+              "offset": 2483
+            },
+            "end": {
+              "line": 48,
+              "column": 141,
+              "offset": 2542
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.hierarchy-and-architecture"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.hierarchy-and-architecture.component-data-flow",
+          "alias": "Data Flow",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 3,
+              "offset": 2546
+            },
+            "end": {
+              "line": 50,
+              "column": 78,
+              "offset": 2621
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.hierarchy-and-architecture.component-data-flow"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment",
+          "alias": "Desplegar",
+          "position": {
+            "start": {
+              "line": 54,
+              "column": 12,
+              "offset": 2650
+            },
+            "end": {
+              "line": 54,
+              "column": 52,
+              "offset": 2690
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment.npm",
+          "alias": "NPM",
+          "position": {
+            "start": {
+              "line": 56,
+              "column": 3,
+              "offset": 2724
+            },
+            "end": {
+              "line": 56,
+              "column": 41,
+              "offset": 2762
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment.npm"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.deployment.browser-support",
+          "alias": "Soporte de navegador",
+          "position": {
+            "start": {
+              "line": 57,
+              "column": 3,
+              "offset": 2765
+            },
+            "end": {
+              "line": 57,
+              "column": 70,
+              "offset": 2832
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.deployment.browser-support"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration",
+          "alias": "Integrar",
+          "position": {
+            "start": {
+              "line": 60,
+              "column": 20,
+              "offset": 2880
+            },
+            "end": {
+              "line": 60,
+              "column": 71,
+              "offset": 2931
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration.angular",
+          "position": {
+            "start": {
+              "line": 62,
+              "column": 3,
+              "offset": 2998
+            },
+            "end": {
+              "line": 62,
+              "column": 52,
+              "offset": 3047
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration.angular"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration.react",
+          "position": {
+            "start": {
+              "line": 63,
+              "column": 3,
+              "offset": 3050
+            },
+            "end": {
+              "line": 63,
+              "column": 50,
+              "offset": 3097
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration.react"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.frameworks-integration.vue",
+          "position": {
+            "start": {
+              "line": 64,
+              "column": 3,
+              "offset": 3100
+            },
+            "end": {
+              "line": 64,
+              "column": 48,
+              "offset": 3145
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.frameworks-integration.vue"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions",
+          "alias": "Soluciones",
+          "position": {
+            "start": {
+              "line": 68,
+              "column": 11,
+              "offset": 3187
+            },
+            "end": {
+              "line": 68,
+              "column": 62,
+              "offset": 3238
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.lit",
+          "alias": "Libreria Lit",
+          "position": {
+            "start": {
+              "line": 70,
+              "column": 3,
+              "offset": 3308
+            },
+            "end": {
+              "line": 70,
+              "column": 60,
+              "offset": 3365
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.lit"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.high-level-solutions.stencil",
+          "alias": "Framework StencilJS",
+          "position": {
+            "start": {
+              "line": 71,
+              "column": 3,
+              "offset": 3368
+            },
+            "end": {
+              "line": 71,
+              "column": 71,
+              "offset": 3436
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.high-level-solutions.stencil"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 28,
+              "offset": 3479
+            },
+            "end": {
+              "line": 75,
+              "column": 64,
+              "offset": 3515
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "value": "web-components.extra-tools.webpack",
+          "position": {
+            "start": {
+              "line": 79,
+              "column": 3,
+              "offset": 3614
+            },
+            "end": {
+              "line": 79,
+              "column": 41,
+              "offset": 3652
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.extra-tools.webpack"
+          }
+        },
         {
           "from": {
             "fname": "root",
@@ -284,12 +1079,12 @@
             "start": {
               "line": 6,
               "column": 1,
-              "offset": 159
+              "offset": 155
             },
             "end": {
               "line": 6,
               "column": 20,
-              "offset": 178
+              "offset": 174
             },
             "indent": []
           },
@@ -302,6 +1097,94 @@
           "text": "Qué es un Web Component",
           "value": "qué-es-un-web-component",
           "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "apis-fundamentales-de-los-web-components": {
+          "type": "header",
+          "text": "APIS Fundamentales de los Web Components",
+          "value": "apis-fundamentales-de-los-web-components",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "comunicacion-entre-componentes": {
+          "type": "header",
+          "text": "Comunicacion entre componentes",
+          "value": "comunicacion-entre-componentes",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "estilos": {
+          "type": "header",
+          "text": "Estilos",
+          "value": "estilos",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "temas": {
+          "type": "header",
+          "text": "Temas",
+          "value": "temas",
+          "line": 37,
+          "column": 0,
+          "depth": 3
+        },
+        "lifecycle": {
+          "type": "header",
+          "text": "Lifecycle",
+          "value": "lifecycle",
+          "line": 43,
+          "column": 0,
+          "depth": 3
+        },
+        "jerarquia-y-arquitectura": {
+          "type": "header",
+          "text": "Jerarquia y Arquitectura",
+          "value": "jerarquia-y-arquitectura",
+          "line": 52,
+          "column": 0,
+          "depth": 3
+        },
+        "deployment": {
+          "type": "header",
+          "text": "Deployment",
+          "value": "deployment",
+          "line": 58,
+          "column": 0,
+          "depth": 3
+        },
+        "frameworks-integration": {
+          "type": "header",
+          "text": "Frameworks Integration",
+          "value": "frameworks-integration",
+          "line": 65,
+          "column": 0,
+          "depth": 3
+        },
+        "soluciones-de-alto-nivel": {
+          "type": "header",
+          "text": "Soluciones de alto nivel",
+          "value": "soluciones-de-alto-nivel",
+          "line": 72,
+          "column": 0,
+          "depth": 3
+        },
+        "ejemplos": {
+          "type": "header",
+          "text": "Ejemplos",
+          "value": "ejemplos",
+          "line": 79,
+          "column": 0,
+          "depth": 3
+        },
+        "herramientas-extras": {
+          "type": "header",
+          "text": "Herramientas Extras",
+          "value": "herramientas-extras",
+          "line": 83,
           "column": 0,
           "depth": 3
         }
@@ -394,6 +1277,28 @@
           "to": {
             "fname": "web-components.theming.root-host-scope"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 33,
+              "column": 55,
+              "offset": 1926
+            },
+            "end": {
+              "line": 33,
+              "column": 88,
+              "offset": 1959
+            },
+            "indent": []
+          },
+          "value": "web-components.theming"
         }
       ],
       "anchors": {
@@ -457,6 +1362,28 @@
         },
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 4,
+              "offset": 1989
+            },
+            "end": {
+              "line": 35,
+              "column": 63,
+              "offset": 2048
+            },
+            "indent": []
+          },
+          "value": "web-components.theming.root-host-scope"
+        },
+        {
+          "from": {
             "fname": "web-components.theming",
             "id": "wulm1e3c9d69le8k1pa5lxh",
             "vaultName": "docs"
@@ -487,7 +1414,7 @@
       "id": "f1sy95vvl2cyfpto8miwxhh",
       "title": "Styling",
       "desc": "",
-      "updated": 1687570499211,
+      "updated": 1687572263059,
       "created": 1687489668726,
       "nav_order": 3,
       "custom": {
@@ -500,7 +1427,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "165cd98d207714ab7dd4af3bdbe93bdf",
+      "contentHash": "011ffb34c80d5fc777e8897504be0121",
       "links": [
         {
           "type": "wiki",
@@ -563,45 +1490,17 @@
             "id": "f1sy95vvl2cyfpto8miwxhh",
             "vaultName": "docs"
           },
-          "value": "https://getbem.com/introduction/",
-          "alias": "BEM",
-          "position": {
-            "start": {
-              "line": 12,
-              "column": 210,
-              "offset": 487
-            },
-            "end": {
-              "line": 12,
-              "column": 250,
-              "offset": 527
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://getbem.com/introduction/"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.styling",
-            "id": "f1sy95vvl2cyfpto8miwxhh",
-            "vaultName": "docs"
-          },
           "value": "web-components.styling.css-encapsulation",
           "position": {
             "start": {
               "line": 26,
               "column": 1,
-              "offset": 1022
+              "offset": 985
             },
             "end": {
               "line": 26,
               "column": 45,
-              "offset": 1066
+              "offset": 1029
             },
             "indent": []
           },
@@ -623,12 +1522,12 @@
             "start": {
               "line": 29,
               "column": 1,
-              "offset": 1196
+              "offset": 1159
             },
             "end": {
               "line": 29,
               "column": 49,
-              "offset": 1244
+              "offset": 1207
             },
             "indent": []
           },
@@ -650,12 +1549,12 @@
             "start": {
               "line": 32,
               "column": 1,
-              "offset": 1491
+              "offset": 1454
             },
             "end": {
               "line": 32,
               "column": 41,
-              "offset": 1531
+              "offset": 1494
             },
             "indent": []
           },
@@ -677,12 +1576,12 @@
             "start": {
               "line": 34,
               "column": 76,
-              "offset": 1608
+              "offset": 1571
             },
             "end": {
               "line": 34,
               "column": 119,
-              "offset": 1651
+              "offset": 1614
             },
             "indent": []
           },
@@ -691,6 +1590,28 @@
           "to": {
             "fname": "web-components.styling.slotted-elements"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 85,
+              "offset": 1536
+            },
+            "end": {
+              "line": 24,
+              "column": 119,
+              "offset": 1570
+            },
+            "indent": []
+          },
+          "value": "web-components.styling"
         }
       ],
       "anchors": {
@@ -733,6 +1654,28 @@
       "links": [
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 3,
+              "offset": 1797
+            },
+            "end": {
+              "line": 29,
+              "column": 64,
+              "offset": 1858
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.slotted-elements"
+        },
+        {
+          "from": {
             "fname": "web-components.styling",
             "id": "f1sy95vvl2cyfpto8miwxhh",
             "vaultName": "docs"
@@ -742,12 +1685,12 @@
             "start": {
               "line": 34,
               "column": 76,
-              "offset": 1608
+              "offset": 1571
             },
             "end": {
               "line": 34,
               "column": 119,
-              "offset": 1651
+              "offset": 1614
             },
             "indent": []
           },
@@ -807,6 +1750,28 @@
         },
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 3,
+              "offset": 1739
+            },
+            "end": {
+              "line": 28,
+              "column": 58,
+              "offset": 1794
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-parts-api"
+        },
+        {
+          "from": {
             "fname": "web-components.styling",
             "id": "f1sy95vvl2cyfpto8miwxhh",
             "vaultName": "docs"
@@ -816,12 +1781,12 @@
             "start": {
               "line": 32,
               "column": 1,
-              "offset": 1491
+              "offset": 1454
             },
             "end": {
               "line": 32,
               "column": 41,
-              "offset": 1531
+              "offset": 1494
             },
             "indent": []
           },
@@ -854,6 +1819,28 @@
       "links": [
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 3,
+              "offset": 1596
+            },
+            "end": {
+              "line": 26,
+              "column": 64,
+              "offset": 1657
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-encapsulation"
+        },
+        {
+          "from": {
             "fname": "web-components.styling",
             "id": "f1sy95vvl2cyfpto8miwxhh",
             "vaultName": "docs"
@@ -863,12 +1850,12 @@
             "start": {
               "line": 26,
               "column": 1,
-              "offset": 1022
+              "offset": 985
             },
             "end": {
               "line": 26,
               "column": 45,
-              "offset": 1066
+              "offset": 1029
             },
             "indent": []
           },
@@ -923,6 +1910,28 @@
       "links": [
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 3,
+              "offset": 1660
+            },
+            "end": {
+              "line": 27,
+              "column": 79,
+              "offset": 1736
+            },
+            "indent": []
+          },
+          "value": "web-components.styling.css-custom-properties"
+        },
+        {
+          "from": {
             "fname": "web-components.styling",
             "id": "f1sy95vvl2cyfpto8miwxhh",
             "vaultName": "docs"
@@ -954,12 +1963,12 @@
             "start": {
               "line": 29,
               "column": 1,
-              "offset": 1196
+              "offset": 1159
             },
             "end": {
               "line": 29,
               "column": 49,
-              "offset": 1244
+              "offset": 1207
             },
             "indent": []
           },
@@ -1072,7 +2081,30 @@
         "name": "docs"
       },
       "contentHash": "e3101bac8cb14f40c35ce077cfc777ba",
-      "links": [],
+      "links": [
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 27,
+              "offset": 2091
+            },
+            "end": {
+              "line": 39,
+              "column": 70,
+              "offset": 2134
+            },
+            "indent": []
+          },
+          "value": "web-components.lifecycle"
+        }
+      ],
       "anchors": {},
       "children": [
         "iqbswjrdrlwkkca05u33nov",
@@ -1101,7 +2133,30 @@
         "name": "docs"
       },
       "contentHash": "cb8c7bf2840f4439b4d6930d35511097",
-      "links": [],
+      "links": [
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 3,
+              "offset": 2272
+            },
+            "end": {
+              "line": 43,
+              "column": 53,
+              "offset": 2322
+            },
+            "indent": []
+          },
+          "value": "web-components.lifecycle.disconnected-callback"
+        }
+      ],
       "anchors": {},
       "children": [],
       "parent": "gxmnngmtnylxfipxr0980ej",
@@ -1125,7 +2180,30 @@
         "name": "docs"
       },
       "contentHash": "4ad53c1bdab6e1cb84e5bcc1bc442981",
-      "links": [],
+      "links": [
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 3,
+              "offset": 2161
+            },
+            "end": {
+              "line": 41,
+              "column": 62,
+              "offset": 2220
+            },
+            "indent": []
+          },
+          "value": "web-components.lifecycle.constructor-connected-callback"
+        }
+      ],
       "anchors": {},
       "children": [],
       "parent": "gxmnngmtnylxfipxr0980ej",
@@ -1177,6 +2255,28 @@
             "fname": "web-components.examples.dropdown",
             "anchorHeader": "mejoremos-nuestro-componente-con-custom-attributes"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 3,
+              "offset": 2223
+            },
+            "end": {
+              "line": 42,
+              "column": 49,
+              "offset": 2269
+            },
+            "indent": []
+          },
+          "value": "web-components.lifecycle.attribute-changed"
         }
       ],
       "anchors": {},
@@ -1188,7 +2288,7 @@
       "id": "iqbswjrdrlwkkca05u33nov",
       "title": "Adopted Callback",
       "desc": "",
-      "updated": 1687570606941,
+      "updated": 1687572305027,
       "created": 1687489544258,
       "nav_order": 4,
       "custom": {
@@ -1201,35 +2301,29 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "6158d29d244e1b512461ed6d729a646c",
+      "contentHash": "cec81ad522bee037d493ebe8e7af29c3",
       "links": [
         {
-          "type": "wiki",
           "from": {
-            "fname": "web-components.lifecycle.adopted-callback",
-            "id": "iqbswjrdrlwkkca05u33nov",
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
             "vaultName": "docs"
           },
-          "value": "https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptNode",
-          "alias": "MDN Doc",
+          "type": "backlink",
           "position": {
             "start": {
-              "line": 2,
-              "column": 236,
-              "offset": 236
+              "line": 44,
+              "column": 3,
+              "offset": 2325
             },
             "end": {
-              "line": 2,
-              "column": 315,
-              "offset": 315
+              "line": 44,
+              "column": 48,
+              "offset": 2370
             },
             "indent": []
           },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptNode"
-          }
+          "value": "web-components.lifecycle.adopted-callback"
         }
       ],
       "anchors": {},
@@ -1255,7 +2349,30 @@
         "name": "docs"
       },
       "contentHash": "d0285dae7b80284dbad589e8402d2323",
-      "links": [],
+      "links": [
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 68,
+              "column": 11,
+              "offset": 3187
+            },
+            "end": {
+              "line": 68,
+              "column": 62,
+              "offset": 3238
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions"
+        }
+      ],
       "anchors": {},
       "children": [
         "ik9twe6vf70yht7mt79j88t",
@@ -1437,6 +2554,28 @@
           "to": {
             "fname": "web-components.high-level-solutions.stencil.building"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 71,
+              "column": 3,
+              "offset": 3368
+            },
+            "end": {
+              "line": 71,
+              "column": 71,
+              "offset": 3436
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.stencil"
         }
       ],
       "anchors": {
@@ -1462,9 +2601,12 @@
       "id": "3x98jnnbdtk4yacyr4wpefc",
       "title": "JSX Templates",
       "desc": "",
-      "updated": 1687544886392,
+      "updated": 1687572531721,
       "created": 1687544796710,
-      "custom": {},
+      "nav_order": 2,
+      "custom": {
+        "nav_order": 2
+      },
       "fname": "web-components.high-level-solutions.stencil.jsx-templates",
       "type": "note",
       "vault": {
@@ -1472,7 +2614,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "e33e8007eb570694b59aba3d7d208d90",
+      "contentHash": "5b23d2b07e4a6974eb14f2d35a19f500",
       "links": [
         {
           "from": {
@@ -1506,9 +2648,12 @@
       "id": "grym4gsk3se3limyrf8uoip",
       "title": "Decorators",
       "desc": "",
-      "updated": 1687544726783,
+      "updated": 1687572525524,
       "created": 1687544289078,
-      "custom": {},
+      "nav_order": 1,
+      "custom": {
+        "nav_order": 1
+      },
       "fname": "web-components.high-level-solutions.stencil.decorators",
       "type": "note",
       "vault": {
@@ -1516,7 +2661,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "b9eae4f47a40b7cbb5fdeb13b0abacb1",
+      "contentHash": "45952a146ac08c3d18729b50a09d910f",
       "links": [
         {
           "type": "wiki",
@@ -1601,7 +2746,7 @@
           "type": "header",
           "text": "Decorators",
           "value": "decorators",
-          "line": 7,
+          "line": 8,
           "column": 0,
           "depth": 1
         }
@@ -1614,9 +2759,12 @@
       "id": "s3mhgxb78z7jyifmzp1hsd3",
       "title": "Component Bindings",
       "desc": "",
-      "updated": 1687545267481,
+      "updated": 1687572537067,
       "created": 1687544975227,
-      "custom": {},
+      "nav_order": 3,
+      "custom": {
+        "nav_order": 3
+      },
       "fname": "web-components.high-level-solutions.stencil.component-bindings",
       "type": "note",
       "vault": {
@@ -1624,7 +2772,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "4c2bc54e9494e98cc79aab00b1b49e38",
+      "contentHash": "de080e56016db18b43dc398df74d336a",
       "links": [
         {
           "from": {
@@ -1658,9 +2806,12 @@
       "id": "peaxf97kpd4jafg9wekcaz8",
       "title": "Building",
       "desc": "",
-      "updated": 1687545522722,
+      "updated": 1687572552787,
       "created": 1687545318947,
-      "custom": {},
+      "nav_order": 4,
+      "custom": {
+        "nav_order": 4
+      },
       "fname": "web-components.high-level-solutions.stencil.building",
       "type": "note",
       "vault": {
@@ -1668,35 +2819,8 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "c9e5334956a6492f7b26d9ce7d5d8a24",
+      "contentHash": "6add2e249f7cc3a318608904b3ada4c7",
       "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.high-level-solutions.stencil.building",
-            "id": "peaxf97kpd4jafg9wekcaz8",
-            "vaultName": "docs"
-          },
-          "value": "https://stenciljs.com/docs/distribution",
-          "position": {
-            "start": {
-              "line": 8,
-              "column": 327,
-              "offset": 568
-            },
-            "end": {
-              "line": 8,
-              "column": 370,
-              "offset": 611
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://stenciljs.com/docs/distribution"
-          }
-        },
         {
           "from": {
             "fname": "web-components.high-level-solutions.stencil",
@@ -1908,6 +3032,28 @@
         },
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 70,
+              "column": 3,
+              "offset": 3308
+            },
+            "end": {
+              "line": 70,
+              "column": 60,
+              "offset": 3365
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit"
+        },
+        {
+          "from": {
             "fname": "web-components.high-level-solutions.stencil",
             "id": "gl5xjjjpsuuiazam6swp1qp",
             "vaultName": "docs"
@@ -1963,29 +3109,282 @@
       },
       "children": [
         "n0j2ootma2fifoxdm24zs2e",
-        "nx5lgbcvbdsmx43eu1jujpt",
+        "43uy6ymggwpwb961ecpakgq",
         "w9h2yeqs0gc5da00dbw690j",
         "o7lmvujajn5mr0cyficoef5",
-        "ex5lcezatpfmu8p97fgbey7",
-        "218js88kimcujeri1kdql6t"
+        "ex5lcezatpfmu8p97fgbey7"
       ],
       "parent": "09edenuzuoqp22bxje5l36y",
       "data": {}
     },
-    "218js88kimcujeri1kdql6t": {
-      "fname": "web-components.high-level-solutions.lit.examples",
-      "stub": true,
+    "ex5lcezatpfmu8p97fgbey7": {
+      "id": "ex5lcezatpfmu8p97fgbey7",
+      "title": "Template Strings",
+      "desc": "",
+      "updated": 1687572465505,
+      "created": 1687540231989,
+      "nav_order": 1,
+      "custom": {
+        "nav_order": 1
+      },
+      "fname": "web-components.high-level-solutions.lit.template-strings",
+      "type": "note",
       "vault": {
         "fsPath": ".",
         "selfContained": true,
         "name": "docs"
       },
-      "schemaStub": false,
-      "type": "note",
-      "updated": 1687571173138,
-      "created": 1687571173138,
-      "id": "218js88kimcujeri1kdql6t",
+      "contentHash": "5025b5aa5462449a43641c5117b61beb",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-strings",
+            "id": "ex5lcezatpfmu8p97fgbey7",
+            "vaultName": "docs"
+          },
+          "value": "web-components.examples.dropdown",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 30,
+              "offset": 329
+            },
+            "end": {
+              "line": 6,
+              "column": 66,
+              "offset": 365
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.examples.dropdown"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-strings",
+            "id": "ex5lcezatpfmu8p97fgbey7",
+            "vaultName": "docs"
+          },
+          "value": "https://www.freecodecamp.org/news/a-quick-introduction-to-tagged-template-literals-2a07fd54bc1d/",
+          "alias": "Tagged Template Literals",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 229,
+              "offset": 775
+            },
+            "end": {
+              "line": 19,
+              "column": 356,
+              "offset": 902
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "https://www.freecodecamp.org/news/a-quick-introduction-to-tagged-template-literals-2a07fd54bc1d/"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 22,
+              "offset": 354
+            },
+            "end": {
+              "line": 4,
+              "column": 82,
+              "offset": 414
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit.template-strings"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "o7lmvujajn5mr0cyficoef5": {
+      "id": "o7lmvujajn5mr0cyficoef5",
+      "title": "Template Event Listeners",
       "desc": "",
+      "updated": 1687572469485,
+      "created": 1687540795296,
+      "nav_order": 2,
+      "custom": {
+        "nav_order": 2
+      },
+      "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "e25fb880fb3ca81f6e792a3ac6a9f068",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+            "id": "o7lmvujajn5mr0cyficoef5",
+            "vaultName": "docs"
+          },
+          "value": "web-components.Apis.shadow-dom",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 170,
+              "offset": 702
+            },
+            "end": {
+              "line": 29,
+              "column": 204,
+              "offset": 736
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.Apis.shadow-dom"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
+            "id": "o7lmvujajn5mr0cyficoef5",
+            "vaultName": "docs"
+          },
+          "value": "web-components.styling.css-encapsulation",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 246,
+              "offset": 778
+            },
+            "end": {
+              "line": 29,
+              "column": 290,
+              "offset": 822
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "web-components.styling.css-encapsulation"
+          }
+        },
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 25,
+              "offset": 448
+            },
+            "end": {
+              "line": 6,
+              "column": 113,
+              "offset": 536
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit.template-event-listeners"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "w9h2yeqs0gc5da00dbw690j": {
+      "id": "w9h2yeqs0gc5da00dbw690j",
+      "title": "Properties and Decorators",
+      "desc": "",
+      "updated": 1687572472630,
+      "created": 1687541175231,
+      "nav_order": 3,
+      "custom": {
+        "nav_order": 3
+      },
+      "fname": "web-components.high-level-solutions.lit.properties-and-decorators",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "54e92f4e5ea1876f6a5ba6b8cf4d4846",
+      "links": [
+        {
+          "from": {
+            "fname": "web-components.high-level-solutions.lit",
+            "id": "ik9twe6vf70yht7mt79j88t",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 104,
+              "offset": 663
+            },
+            "end": {
+              "line": 8,
+              "column": 173,
+              "offset": 732
+            },
+            "indent": []
+          },
+          "value": "web-components.high-level-solutions.lit.properties-and-decorators"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "ik9twe6vf70yht7mt79j88t",
+      "data": {}
+    },
+    "43uy6ymggwpwb961ecpakgq": {
+      "id": "43uy6ymggwpwb961ecpakgq",
+      "title": "Examples",
+      "desc": "",
+      "updated": 1687572484520,
+      "created": 1687571830683,
+      "nav_order": 5,
+      "custom": {
+        "nav_order": 5
+      },
+      "fname": "web-components.high-level-solutions.lit.examples",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "docs"
+      },
+      "contentHash": "2cea6bf0b171854f8c3569e5331135ec",
       "links": [],
       "anchors": {},
       "children": [
@@ -1993,8 +3392,7 @@
         "jnfxsw50aav1bist3xdmb36"
       ],
       "parent": "ik9twe6vf70yht7mt79j88t",
-      "data": {},
-      "title": "Examples"
+      "data": {}
     },
     "jnfxsw50aav1bist3xdmb36": {
       "id": "jnfxsw50aav1bist3xdmb36",
@@ -2124,7 +3522,7 @@
         }
       },
       "children": [],
-      "parent": "218js88kimcujeri1kdql6t",
+      "parent": "43uy6ymggwpwb961ecpakgq",
       "data": {}
     },
     "q73ywmrtq7srqjbs0jjzxm2": {
@@ -2170,278 +3568,19 @@
         }
       },
       "children": [],
-      "parent": "218js88kimcujeri1kdql6t",
-      "data": {}
-    },
-    "ex5lcezatpfmu8p97fgbey7": {
-      "id": "ex5lcezatpfmu8p97fgbey7",
-      "title": "Template Strings",
-      "desc": "",
-      "updated": 1687540735199,
-      "created": 1687540231989,
-      "custom": {},
-      "fname": "web-components.high-level-solutions.lit.template-strings",
-      "type": "note",
-      "vault": {
-        "fsPath": ".",
-        "selfContained": true,
-        "name": "docs"
-      },
-      "contentHash": "4fe7e5b732b82474f756501b12e216da",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.high-level-solutions.lit.template-strings",
-            "id": "ex5lcezatpfmu8p97fgbey7",
-            "vaultName": "docs"
-          },
-          "value": "web-components.examples.dropdown",
-          "position": {
-            "start": {
-              "line": 6,
-              "column": 30,
-              "offset": 329
-            },
-            "end": {
-              "line": 6,
-              "column": 66,
-              "offset": 365
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.examples.dropdown"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.high-level-solutions.lit.template-strings",
-            "id": "ex5lcezatpfmu8p97fgbey7",
-            "vaultName": "docs"
-          },
-          "value": "https://www.freecodecamp.org/news/a-quick-introduction-to-tagged-template-literals-2a07fd54bc1d/",
-          "alias": "Tagged Template Literals",
-          "position": {
-            "start": {
-              "line": 19,
-              "column": 229,
-              "offset": 775
-            },
-            "end": {
-              "line": 19,
-              "column": 356,
-              "offset": 902
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://www.freecodecamp.org/news/a-quick-introduction-to-tagged-template-literals-2a07fd54bc1d/"
-          }
-        },
-        {
-          "from": {
-            "fname": "web-components.high-level-solutions.lit",
-            "id": "ik9twe6vf70yht7mt79j88t",
-            "vaultName": "docs"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 4,
-              "column": 22,
-              "offset": 354
-            },
-            "end": {
-              "line": 4,
-              "column": 82,
-              "offset": 414
-            },
-            "indent": []
-          },
-          "value": "web-components.high-level-solutions.lit.template-strings"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "ik9twe6vf70yht7mt79j88t",
-      "data": {}
-    },
-    "o7lmvujajn5mr0cyficoef5": {
-      "id": "o7lmvujajn5mr0cyficoef5",
-      "title": "Template Event Listeners",
-      "desc": "",
-      "updated": 1687541102560,
-      "created": 1687540795296,
-      "custom": {},
-      "fname": "web-components.high-level-solutions.lit.template-event-listeners",
-      "type": "note",
-      "vault": {
-        "fsPath": ".",
-        "selfContained": true,
-        "name": "docs"
-      },
-      "contentHash": "cd7fc977b093ebec80f9bcc486b9b74a",
-      "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
-            "id": "o7lmvujajn5mr0cyficoef5",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.shadow-dom",
-          "position": {
-            "start": {
-              "line": 29,
-              "column": 170,
-              "offset": 702
-            },
-            "end": {
-              "line": 29,
-              "column": 204,
-              "offset": 736
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.shadow-dom"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.high-level-solutions.lit.template-event-listeners",
-            "id": "o7lmvujajn5mr0cyficoef5",
-            "vaultName": "docs"
-          },
-          "value": "web-components.styling.css-encapsulation",
-          "position": {
-            "start": {
-              "line": 29,
-              "column": 246,
-              "offset": 778
-            },
-            "end": {
-              "line": 29,
-              "column": 290,
-              "offset": 822
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.styling.css-encapsulation"
-          }
-        },
-        {
-          "from": {
-            "fname": "web-components.high-level-solutions.lit",
-            "id": "ik9twe6vf70yht7mt79j88t",
-            "vaultName": "docs"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 6,
-              "column": 25,
-              "offset": 448
-            },
-            "end": {
-              "line": 6,
-              "column": 113,
-              "offset": 536
-            },
-            "indent": []
-          },
-          "value": "web-components.high-level-solutions.lit.template-event-listeners"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "ik9twe6vf70yht7mt79j88t",
-      "data": {}
-    },
-    "w9h2yeqs0gc5da00dbw690j": {
-      "id": "w9h2yeqs0gc5da00dbw690j",
-      "title": "Properties and Decorators",
-      "desc": "",
-      "updated": 1687541556538,
-      "created": 1687541175231,
-      "custom": {},
-      "fname": "web-components.high-level-solutions.lit.properties-and-decorators",
-      "type": "note",
-      "vault": {
-        "fsPath": ".",
-        "selfContained": true,
-        "name": "docs"
-      },
-      "contentHash": "e77bfaa871fb1b019fc63483e0d687c6",
-      "links": [
-        {
-          "from": {
-            "fname": "web-components.high-level-solutions.lit",
-            "id": "ik9twe6vf70yht7mt79j88t",
-            "vaultName": "docs"
-          },
-          "type": "backlink",
-          "position": {
-            "start": {
-              "line": 8,
-              "column": 104,
-              "offset": 663
-            },
-            "end": {
-              "line": 8,
-              "column": 173,
-              "offset": 732
-            },
-            "indent": []
-          },
-          "value": "web-components.high-level-solutions.lit.properties-and-decorators"
-        }
-      ],
-      "anchors": {},
-      "children": [],
-      "parent": "ik9twe6vf70yht7mt79j88t",
-      "data": {}
-    },
-    "nx5lgbcvbdsmx43eu1jujpt": {
-      "id": "nx5lgbcvbdsmx43eu1jujpt",
-      "title": "Custom Events",
-      "desc": "",
-      "updated": 1687541609204,
-      "created": 1687541609204,
-      "custom": {},
-      "fname": "web-components.high-level-solutions.lit.custom-events",
-      "type": "note",
-      "vault": {
-        "fsPath": ".",
-        "selfContained": true,
-        "name": "docs"
-      },
-      "contentHash": "43e9ee125c7432909a0230edf5aeeea9",
-      "links": [],
-      "anchors": {},
-      "children": [],
-      "parent": "ik9twe6vf70yht7mt79j88t",
+      "parent": "43uy6ymggwpwb961ecpakgq",
       "data": {}
     },
     "n0j2ootma2fifoxdm24zs2e": {
       "id": "n0j2ootma2fifoxdm24zs2e",
       "title": "Binding Components",
       "desc": "",
-      "updated": 1687542248408,
+      "updated": 1687572476271,
       "created": 1687541870116,
-      "custom": {},
+      "nav_order": 4,
+      "custom": {
+        "nav_order": 4
+      },
       "fname": "web-components.high-level-solutions.lit.binding-components",
       "type": "note",
       "vault": {
@@ -2449,7 +3588,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "c8c41efefddce01659f9a2349aeefc91",
+      "contentHash": "251cc0e1ef4f53ca1458e03ad88f2489",
       "links": [
         {
           "from": {
@@ -2483,7 +3622,7 @@
       "id": "a3xw0se9vtlbizvaguc85sw",
       "title": "Hierarchy and Architecture",
       "desc": "",
-      "updated": 1687570629311,
+      "updated": 1687572321860,
       "created": 1687527152461,
       "nav_order": 6,
       "custom": {
@@ -2496,36 +3635,8 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "5db83c389015f3f3f06c16cb43b94164",
+      "contentHash": "aeff7c1216cf48f7894fb9ca48ffcb08",
       "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.hierarchy-and-architecture",
-            "id": "a3xw0se9vtlbizvaguc85sw",
-            "vaultName": "docs"
-          },
-          "value": "https://swapi.dev/",
-          "alias": "Star Wars API",
-          "position": {
-            "start": {
-              "line": 2,
-              "column": 101,
-              "offset": 101
-            },
-            "end": {
-              "line": 2,
-              "column": 137,
-              "offset": 137
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://swapi.dev/"
-          }
-        },
         {
           "type": "wiki",
           "from": {
@@ -2538,12 +3649,12 @@
             "start": {
               "line": 8,
               "column": 3,
-              "offset": 336
+              "offset": 332
             },
             "end": {
               "line": 8,
               "column": 68,
-              "offset": 401
+              "offset": 397
             },
             "indent": []
           },
@@ -2552,6 +3663,28 @@
           "to": {
             "fname": "web-components.hierarchy-and-architecture.component-data-flow"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 82,
+              "offset": 2483
+            },
+            "end": {
+              "line": 48,
+              "column": 141,
+              "offset": 2542
+            },
+            "indent": []
+          },
+          "value": "web-components.hierarchy-and-architecture"
         }
       ],
       "anchors": {},
@@ -2565,7 +3698,7 @@
       "id": "nz23kt8zcx99qr9ei3td0kg",
       "title": "Component Data Flow",
       "desc": "",
-      "updated": 1687529154874,
+      "updated": 1687572347841,
       "created": 1687527334673,
       "custom": {},
       "fname": "web-components.hierarchy-and-architecture.component-data-flow",
@@ -2575,7 +3708,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "ad2162d36fbdc15f45548829cdfd1965",
+      "contentHash": "840aa0dcfd619017eeb39470bfaec37b",
       "links": [
         {
           "type": "wiki",
@@ -2588,14 +3721,14 @@
           "alias": "Custom Properties",
           "position": {
             "start": {
-              "line": 4,
+              "line": 8,
               "column": 126,
-              "offset": 421
+              "offset": 425
             },
             "end": {
-              "line": 4,
+              "line": 8,
               "column": 190,
-              "offset": 485
+              "offset": 489
             },
             "indent": []
           },
@@ -2616,14 +3749,14 @@
           "alias": "Custom Event",
           "position": {
             "start": {
-              "line": 6,
+              "line": 10,
               "column": 144,
-              "offset": 799
+              "offset": 803
             },
             "end": {
-              "line": 6,
+              "line": 10,
               "column": 196,
-              "offset": 851
+              "offset": 855
             },
             "indent": []
           },
@@ -2632,6 +3765,28 @@
           "to": {
             "fname": "web-components.communication.events"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 3,
+              "offset": 2546
+            },
+            "end": {
+              "line": 50,
+              "column": 78,
+              "offset": 2621
+            },
+            "indent": []
+          },
+          "value": "web-components.hierarchy-and-architecture.component-data-flow"
         },
         {
           "from": {
@@ -2644,12 +3799,12 @@
             "start": {
               "line": 8,
               "column": 3,
-              "offset": 336
+              "offset": 332
             },
             "end": {
               "line": 8,
               "column": 68,
-              "offset": 401
+              "offset": 397
             },
             "indent": []
           },
@@ -2760,6 +3915,28 @@
           "to": {
             "fname": "web-components.frameworks-integration.react"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 60,
+              "column": 20,
+              "offset": 2880
+            },
+            "end": {
+              "line": 60,
+              "column": 71,
+              "offset": 2931
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration"
         }
       ],
       "anchors": {},
@@ -2844,6 +4021,28 @@
         },
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 64,
+              "column": 3,
+              "offset": 3100
+            },
+            "end": {
+              "line": 64,
+              "column": 48,
+              "offset": 3145
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration.vue"
+        },
+        {
+          "from": {
             "fname": "web-components.frameworks-integration",
             "id": "hgfihscw1sv5ewje8sm80r9",
             "vaultName": "docs"
@@ -2886,6 +4085,28 @@
       },
       "contentHash": "a5703394dec55313b660824572704e9f",
       "links": [
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 63,
+              "column": 3,
+              "offset": 3050
+            },
+            "end": {
+              "line": 63,
+              "column": 50,
+              "offset": 3097
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration.react"
+        },
         {
           "from": {
             "fname": "web-components.frameworks-integration",
@@ -3021,6 +4242,28 @@
         },
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 62,
+              "column": 3,
+              "offset": 2998
+            },
+            "end": {
+              "line": 62,
+              "column": 52,
+              "offset": 3047
+            },
+            "indent": []
+          },
+          "value": "web-components.frameworks-integration.angular"
+        },
+        {
+          "from": {
             "fname": "web-components.frameworks-integration",
             "id": "hgfihscw1sv5ewje8sm80r9",
             "vaultName": "docs"
@@ -3113,6 +4356,28 @@
       "links": [
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 79,
+              "column": 3,
+              "offset": 3614
+            },
+            "end": {
+              "line": 79,
+              "column": 41,
+              "offset": 3652
+            },
+            "indent": []
+          },
+          "value": "web-components.extra-tools.webpack"
+        },
+        {
+          "from": {
             "fname": "web-components.deployment.browser-support",
             "id": "l1ofcgjdkle0j55lk21ujrq",
             "vaultName": "docs"
@@ -3122,12 +4387,12 @@
             "start": {
               "line": 58,
               "column": 1,
-              "offset": 3556
+              "offset": 3525
             },
             "end": {
               "line": 58,
               "column": 40,
-              "offset": 3595
+              "offset": 3564
             },
             "indent": []
           },
@@ -3169,7 +4434,7 @@
       "id": "olp8vo3frywt998l6h1f3ws",
       "title": "Dropdown",
       "desc": "",
-      "updated": 1687488315183,
+      "updated": 1687572587607,
       "created": 1687484290187,
       "custom": {},
       "fname": "web-components.examples.dropdown",
@@ -3179,7 +4444,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "f8779dcdb52446b35c2303732c43903f",
+      "contentHash": "5de86dcaa19346362fee664184df69e3",
       "links": [
         {
           "type": "wiki",
@@ -3188,7 +4453,7 @@
             "id": "olp8vo3frywt998l6h1f3ws",
             "vaultName": "docs"
           },
-          "value": "wc.Apiscustom-elements",
+          "value": "web-components.Apis.custom-elements",
           "position": {
             "start": {
               "line": 1,
@@ -3197,15 +4462,15 @@
             },
             "end": {
               "line": 1,
-              "column": 67,
-              "offset": 66
+              "column": 80,
+              "offset": 79
             },
             "indent": []
           },
           "xvault": false,
           "sameFile": false,
           "to": {
-            "fname": "wc.Apiscustom-elements"
+            "fname": "web-components.Apis.custom-elements"
           }
         },
         {
@@ -3215,24 +4480,24 @@
             "id": "olp8vo3frywt998l6h1f3ws",
             "vaultName": "docs"
           },
-          "value": "wc.Apistemplate",
+          "value": "web-components.Apis.template",
           "position": {
             "start": {
               "line": 1,
-              "column": 69,
-              "offset": 68
+              "column": 82,
+              "offset": 81
             },
             "end": {
               "line": 1,
-              "column": 88,
-              "offset": 87
+              "column": 114,
+              "offset": 113
             },
             "indent": []
           },
           "xvault": false,
           "sameFile": false,
           "to": {
-            "fname": "wc.Apistemplate"
+            "fname": "web-components.Apis.template"
           }
         },
         {
@@ -3246,13 +4511,13 @@
           "position": {
             "start": {
               "line": 1,
-              "column": 90,
-              "offset": 89
+              "column": 116,
+              "offset": 115
             },
             "end": {
               "line": 1,
-              "column": 124,
-              "offset": 123
+              "column": 150,
+              "offset": 149
             },
             "indent": []
           },
@@ -3273,13 +4538,13 @@
           "position": {
             "start": {
               "line": 1,
-              "column": 127,
-              "offset": 126
+              "column": 153,
+              "offset": 152
             },
             "end": {
               "line": 1,
-              "column": 163,
-              "offset": 162
+              "column": 189,
+              "offset": 188
             },
             "indent": []
           },
@@ -3301,12 +4566,12 @@
             "start": {
               "line": 80,
               "column": 15,
-              "offset": 2343
+              "offset": 2369
             },
             "end": {
               "line": 80,
               "column": 61,
-              "offset": 2389
+              "offset": 2415
             },
             "indent": []
           },
@@ -3328,12 +4593,12 @@
             "start": {
               "line": 80,
               "column": 64,
-              "offset": 2392
+              "offset": 2418
             },
             "end": {
               "line": 80,
               "column": 103,
-              "offset": 2431
+              "offset": 2457
             },
             "indent": []
           },
@@ -3355,12 +4620,12 @@
             "start": {
               "line": 174,
               "column": 31,
-              "offset": 4909
+              "offset": 4935
             },
             "end": {
               "line": 174,
               "column": 81,
-              "offset": 4959
+              "offset": 4985
             },
             "indent": []
           },
@@ -3372,21 +4637,43 @@
         },
         {
           "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
             "vaultName": "docs"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 14,
+              "line": 12,
               "column": 133,
-              "offset": 566
+              "offset": 965
             },
             "end": {
-              "line": 14,
+              "line": 12,
               "column": 169,
-              "offset": 602
+              "offset": 1001
+            },
+            "indent": []
+          },
+          "value": "web-components.examples.dropdown"
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 28,
+              "offset": 3479
+            },
+            "end": {
+              "line": 75,
+              "column": 64,
+              "offset": 3515
             },
             "indent": []
           },
@@ -3597,6 +4884,28 @@
           "to": {
             "fname": "web-components.deployment.browser-support"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 54,
+              "column": 12,
+              "offset": 2650
+            },
+            "end": {
+              "line": 54,
+              "column": 52,
+              "offset": 2690
+            },
+            "indent": []
+          },
+          "value": "web-components.deployment"
         }
       ],
       "anchors": {},
@@ -3611,7 +4920,7 @@
       "id": "pizkajsyb0lra3nyjuiueiq",
       "title": "Npm",
       "desc": "",
-      "updated": 1687570654079,
+      "updated": 1687572370069,
       "created": 1687530135861,
       "nav_order": 1,
       "custom": {
@@ -3624,7 +4933,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "b4ba5f9c5f818ae533e5c5a437e444a7",
+      "contentHash": "e04d82629d0cdb0b98e0ee9d452e5a1b",
       "links": [
         {
           "type": "wiki",
@@ -3654,32 +4963,26 @@
           }
         },
         {
-          "type": "wiki",
           "from": {
-            "fname": "web-components.deployment.npm",
-            "id": "pizkajsyb0lra3nyjuiueiq",
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
             "vaultName": "docs"
           },
-          "value": "https://unpkg.com/",
-          "alias": "unpkg.com",
+          "type": "backlink",
           "position": {
             "start": {
-              "line": 64,
-              "column": 12,
-              "offset": 2269
+              "line": 56,
+              "column": 3,
+              "offset": 2724
             },
             "end": {
-              "line": 64,
-              "column": 44,
-              "offset": 2301
+              "line": 56,
+              "column": 41,
+              "offset": 2762
             },
             "indent": []
           },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://unpkg.com/"
-          }
+          "value": "web-components.deployment.npm"
         },
         {
           "from": {
@@ -3779,7 +5082,7 @@
       "id": "l1ofcgjdkle0j55lk21ujrq",
       "title": "Browser Support",
       "desc": "",
-      "updated": 1687570657932,
+      "updated": 1687572391985,
       "created": 1687532246443,
       "nav_order": 2,
       "custom": {
@@ -3792,36 +5095,8 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "42ef1dd027196de4f19606c4679b1bb3",
+      "contentHash": "a1525d014bb6cb987a977936c7c0de88",
       "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "web-components.deployment.browser-support",
-            "id": "l1ofcgjdkle0j55lk21ujrq",
-            "vaultName": "docs"
-          },
-          "value": "https://github.com/webcomponents/webcomponentsjs",
-          "alias": "Web Components Polyfills",
-          "position": {
-            "start": {
-              "line": 12,
-              "column": 14,
-              "offset": 1172
-            },
-            "end": {
-              "line": 12,
-              "column": 93,
-              "offset": 1251
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://github.com/webcomponents/webcomponentsjs"
-          }
-        },
         {
           "type": "ref",
           "from": {
@@ -3834,12 +5109,12 @@
             "start": {
               "line": 58,
               "column": 1,
-              "offset": 3556
+              "offset": 3525
             },
             "end": {
               "line": 58,
               "column": 40,
-              "offset": 3595
+              "offset": 3564
             },
             "indent": []
           },
@@ -3847,6 +5122,28 @@
           "to": {
             "fname": "web-components.extra-tools.webpack"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 57,
+              "column": 3,
+              "offset": 2765
+            },
+            "end": {
+              "line": 57,
+              "column": 70,
+              "offset": 2832
+            },
+            "indent": []
+          },
+          "value": "web-components.deployment.browser-support"
         },
         {
           "from": {
@@ -3992,6 +5289,28 @@
           "to": {
             "fname": "web-components.communication.custom-attributes"
           }
+        },
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 93,
+              "offset": 1131
+            },
+            "end": {
+              "line": 16,
+              "column": 136,
+              "offset": 1174
+            },
+            "indent": []
+          },
+          "value": "web-components.communication"
         }
       ],
       "anchors": {},
@@ -4022,6 +5341,28 @@
       },
       "contentHash": "069b3a0f6531d42dd0ff645b1c52ee5f",
       "links": [
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 3,
+              "offset": 1223
+            },
+            "end": {
+              "line": 18,
+              "column": 62,
+              "offset": 1282
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.js-properties"
+        },
         {
           "from": {
             "fname": "web-components.communication",
@@ -4055,12 +5396,12 @@
             "start": {
               "line": 80,
               "column": 15,
-              "offset": 2343
+              "offset": 2369
             },
             "end": {
               "line": 80,
               "column": 61,
-              "offset": 2389
+              "offset": 2415
             },
             "indent": []
           },
@@ -4075,14 +5416,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 4,
+              "line": 8,
               "column": 126,
-              "offset": 421
+              "offset": 425
             },
             "end": {
-              "line": 4,
+              "line": 8,
               "column": 190,
-              "offset": 485
+              "offset": 489
             },
             "indent": []
           },
@@ -4113,6 +5454,28 @@
       },
       "contentHash": "06c912b71af03658c3969b85930e08a5",
       "links": [
+        {
+          "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 3,
+              "offset": 1364
+            },
+            "end": {
+              "line": 20,
+              "column": 76,
+              "offset": 1437
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.events"
+        },
         {
           "from": {
             "fname": "web-components.communication",
@@ -4146,12 +5509,12 @@
             "start": {
               "line": 80,
               "column": 64,
-              "offset": 2392
+              "offset": 2418
             },
             "end": {
               "line": 80,
               "column": 103,
-              "offset": 2431
+              "offset": 2457
             },
             "indent": []
           },
@@ -4166,14 +5529,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 6,
+              "line": 10,
               "column": 144,
-              "offset": 799
+              "offset": 803
             },
             "end": {
-              "line": 6,
+              "line": 10,
               "column": 196,
-              "offset": 851
+              "offset": 855
             },
             "indent": []
           },
@@ -4250,6 +5613,28 @@
       "links": [
         {
           "from": {
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 3,
+              "offset": 1285
+            },
+            "end": {
+              "line": 19,
+              "column": 79,
+              "offset": 1361
+            },
+            "indent": []
+          },
+          "value": "web-components.communication.custom-attributes"
+        },
+        {
+          "from": {
             "fname": "web-components.communication",
             "id": "jz2mgtp1h1frnrzmeqocl36",
             "vaultName": "docs"
@@ -4281,12 +5666,12 @@
             "start": {
               "line": 174,
               "column": 31,
-              "offset": 4909
+              "offset": 4935
             },
             "end": {
               "line": 174,
               "column": 81,
-              "offset": 4959
+              "offset": 4985
             },
             "indent": []
           },
@@ -4429,21 +5814,65 @@
         },
         {
           "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
             "vaultName": "docs"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 12,
+              "line": 10,
               "column": 3,
-              "offset": 390
+              "offset": 789
             },
             "end": {
-              "line": 12,
+              "line": 10,
               "column": 45,
-              "offset": 432
+              "offset": 831
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.template"
+        },
+        {
+          "from": {
+            "fname": "web-components.Apis.shadow-dom",
+            "id": "efwvmwe8ctv925mkt5wrl5z",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 182,
+              "offset": 182
+            },
+            "end": {
+              "line": 2,
+              "column": 227,
+              "offset": 227
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.template"
+        },
+        {
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 82,
+              "offset": 81
+            },
+            "end": {
+              "line": 1,
+              "column": 114,
+              "offset": 113
             },
             "indent": []
           },
@@ -4459,7 +5888,7 @@
       "id": "efwvmwe8ctv925mkt5wrl5z",
       "title": "shadow-dom",
       "desc": "",
-      "updated": 1687570453151,
+      "updated": 1687572192355,
       "created": 1687482746633,
       "nav_order": 2,
       "custom": {
@@ -4472,7 +5901,7 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "967815b963954706e79e1aea6d03b90f",
+      "contentHash": "e2b49989f64817f255920e6130918803",
       "links": [
         {
           "type": "wiki",
@@ -4481,7 +5910,7 @@
             "id": "efwvmwe8ctv925mkt5wrl5z",
             "vaultName": "docs"
           },
-          "value": "wc.Apistemplate",
+          "value": "web-components.Apis.template",
           "alias": "Template API",
           "position": {
             "start": {
@@ -4491,34 +5920,34 @@
             },
             "end": {
               "line": 2,
-              "column": 214,
-              "offset": 214
+              "column": 227,
+              "offset": 227
             },
             "indent": []
           },
           "xvault": false,
           "sameFile": false,
           "to": {
-            "fname": "wc.Apistemplate"
+            "fname": "web-components.Apis.template"
           }
         },
         {
           "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
             "vaultName": "docs"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 10,
+              "line": 8,
               "column": 3,
-              "offset": 287
+              "offset": 686
             },
             "end": {
-              "line": 10,
+              "line": 8,
               "column": 49,
-              "offset": 333
+              "offset": 732
             },
             "indent": []
           },
@@ -4622,13 +6051,13 @@
           "position": {
             "start": {
               "line": 1,
-              "column": 90,
-              "offset": 89
+              "column": 116,
+              "offset": 115
             },
             "end": {
               "line": 1,
-              "column": 124,
-              "offset": 123
+              "column": 150,
+              "offset": 149
             },
             "indent": []
           },
@@ -4697,7 +6126,7 @@
       "id": "1dym5u9edx4r2i85mmldv4m",
       "title": "custom-elements",
       "desc": "",
-      "updated": 1687570446918,
+      "updated": 1687572077175,
       "created": 1687479245037,
       "nav_order": 1,
       "custom": {
@@ -4710,53 +6139,47 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "97804f85637e31399d9668e8be097942",
+      "contentHash": "a68ae152082cbe6eae753d8cc8c455f3",
       "links": [
         {
-          "type": "wiki",
           "from": {
-            "fname": "web-components.Apis.custom-elements",
-            "id": "1dym5u9edx4r2i85mmldv4m",
-            "vaultName": "docs"
-          },
-          "value": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement",
-          "alias": "HTMLElement",
-          "position": {
-            "start": {
-              "line": 17,
-              "column": 45,
-              "offset": 485
-            },
-            "end": {
-              "line": 17,
-              "column": 121,
-              "offset": 561
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement"
-          }
-        },
-        {
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
             "vaultName": "docs"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 9,
+              "line": 7,
               "column": 3,
-              "offset": 227
+              "offset": 626
             },
             "end": {
-              "line": 9,
+              "line": 7,
               "column": 60,
-              "offset": 284
+              "offset": 683
+            },
+            "indent": []
+          },
+          "value": "web-components.Apis.custom-elements"
+        },
+        {
+          "from": {
+            "fname": "web-components.examples.dropdown",
+            "id": "olp8vo3frywt998l6h1f3ws",
+            "vaultName": "docs"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 41,
+              "offset": 40
+            },
+            "end": {
+              "line": 1,
+              "column": 80,
+              "offset": 79
             },
             "indent": []
           },
@@ -4816,21 +6239,21 @@
         },
         {
           "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
+            "fname": "web-components",
+            "id": "zkfccjgcs7b7pqvirwby57p",
             "vaultName": "docs"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 11,
+              "line": 9,
               "column": 3,
-              "offset": 336
+              "offset": 735
             },
             "end": {
-              "line": 11,
+              "line": 9,
               "column": 54,
-              "offset": 387
+              "offset": 786
             },
             "indent": []
           },
@@ -4868,13 +6291,13 @@
           "position": {
             "start": {
               "line": 1,
-              "column": 127,
-              "offset": 126
+              "column": 153,
+              "offset": 152
             },
             "end": {
               "line": 1,
-              "column": 163,
-              "offset": 162
+              "column": 189,
+              "offset": 188
             },
             "indent": []
           },
@@ -4901,7 +6324,7 @@
       "id": "guomymvu5xxkrbvedoncjdw",
       "title": "Root",
       "desc": "",
-      "updated": 1687570355610,
+      "updated": 1687572145233,
       "created": 1687478467553,
       "custom": {
         "nav_order": 0,
@@ -4914,175 +6337,8 @@
         "selfContained": true,
         "name": "docs"
       },
-      "contentHash": "503e0f736c7c1d0c26ed87839ccd08a9",
+      "contentHash": "7b933c6af26999e634508c56679dd466",
       "links": [
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "https://webcomponent.dev/",
-          "alias": "Cory Rylan",
-          "position": {
-            "start": {
-              "line": 4,
-              "column": 94,
-              "offset": 117
-            },
-            "end": {
-              "line": 4,
-              "column": 134,
-              "offset": 157
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "https://webcomponent.dev/"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.custom-elements",
-          "alias": "Custom Elements",
-          "position": {
-            "start": {
-              "line": 9,
-              "column": 3,
-              "offset": 227
-            },
-            "end": {
-              "line": 9,
-              "column": 60,
-              "offset": 284
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.custom-elements"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.shadow-dom",
-          "alias": "Shadow Dow",
-          "position": {
-            "start": {
-              "line": 10,
-              "column": 3,
-              "offset": 287
-            },
-            "end": {
-              "line": 10,
-              "column": 49,
-              "offset": 333
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.shadow-dom"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.content-slot",
-          "alias": "Content Slot",
-          "position": {
-            "start": {
-              "line": 11,
-              "column": 3,
-              "offset": 336
-            },
-            "end": {
-              "line": 11,
-              "column": 54,
-              "offset": 387
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.content-slot"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.Apis.template",
-          "alias": "Template",
-          "position": {
-            "start": {
-              "line": 12,
-              "column": 3,
-              "offset": 390
-            },
-            "end": {
-              "line": 12,
-              "column": 45,
-              "offset": 432
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.Apis.template"
-          }
-        },
-        {
-          "type": "wiki",
-          "from": {
-            "fname": "root",
-            "id": "guomymvu5xxkrbvedoncjdw",
-            "vaultName": "docs"
-          },
-          "value": "web-components.examples.dropdown",
-          "position": {
-            "start": {
-              "line": 14,
-              "column": 133,
-              "offset": 566
-            },
-            "end": {
-              "line": 14,
-              "column": 169,
-              "offset": 602
-            },
-            "indent": []
-          },
-          "xvault": false,
-          "sameFile": false,
-          "to": {
-            "fname": "web-components.examples.dropdown"
-          }
-        },
         {
           "type": "ref",
           "from": {
@@ -5095,12 +6351,12 @@
             "start": {
               "line": 6,
               "column": 1,
-              "offset": 159
+              "offset": 155
             },
             "end": {
               "line": 6,
               "column": 20,
-              "offset": 178
+              "offset": 174
             },
             "indent": []
           },
@@ -5118,14 +6374,6 @@
           "line": 8,
           "column": 0,
           "depth": 1
-        },
-        "apis-fundamentales-de-los-web-components": {
-          "type": "header",
-          "text": "APIS Fundamentales de los Web Components",
-          "value": "apis-fundamentales-de-los-web-components",
-          "line": 14,
-          "column": 0,
-          "depth": 3
         }
       },
       "children": [
@@ -5133,14 +6381,14 @@
       ],
       "parent": null,
       "data": {},
-      "body": "\n# Web Components DOCS\n\nEsta es una documentación de web components basada en el libro *Web Component Essentials* de [[Cory Rylan|https://webcomponent.dev/]]\n\n![[web-components]]\n\n### APIS Fundamentales de los Web Components\n- [[Custom Elements | web-components.Apis.custom-elements]]\n- [[Shadow Dow |web-components.Apis.shadow-dom]]\n- [[Content Slot | web-components.Apis.content-slot]]\n- [[Template |web-components.Apis.template]]\n\nPodemos ver la puesta en común de estas APIS y como funcionan para crear un Web Component en la primera parte de nuestro ejemplo de [[web-components.examples.dropdown]]\n\n"
+      "body": "\n# Web Components DOCS\n\nEsta es una documentación de web components basada en el libro *Web Component Essentials* de Cory Rylan https://webcomponent.dev/\n\n![[web-components]]\n\n"
     }
   ],
   "noteIndex": {
     "id": "guomymvu5xxkrbvedoncjdw",
     "title": "Root",
     "desc": "",
-    "updated": 1687570355610,
+    "updated": 1687572145233,
     "created": 1687478467553,
     "custom": {
       "nav_order": 0,
@@ -5153,175 +6401,8 @@
       "selfContained": true,
       "name": "docs"
     },
-    "contentHash": "503e0f736c7c1d0c26ed87839ccd08a9",
+    "contentHash": "7b933c6af26999e634508c56679dd466",
     "links": [
-      {
-        "type": "wiki",
-        "from": {
-          "fname": "root",
-          "id": "guomymvu5xxkrbvedoncjdw",
-          "vaultName": "docs"
-        },
-        "value": "https://webcomponent.dev/",
-        "alias": "Cory Rylan",
-        "position": {
-          "start": {
-            "line": 4,
-            "column": 94,
-            "offset": 117
-          },
-          "end": {
-            "line": 4,
-            "column": 134,
-            "offset": 157
-          },
-          "indent": []
-        },
-        "xvault": false,
-        "sameFile": false,
-        "to": {
-          "fname": "https://webcomponent.dev/"
-        }
-      },
-      {
-        "type": "wiki",
-        "from": {
-          "fname": "root",
-          "id": "guomymvu5xxkrbvedoncjdw",
-          "vaultName": "docs"
-        },
-        "value": "web-components.Apis.custom-elements",
-        "alias": "Custom Elements",
-        "position": {
-          "start": {
-            "line": 9,
-            "column": 3,
-            "offset": 227
-          },
-          "end": {
-            "line": 9,
-            "column": 60,
-            "offset": 284
-          },
-          "indent": []
-        },
-        "xvault": false,
-        "sameFile": false,
-        "to": {
-          "fname": "web-components.Apis.custom-elements"
-        }
-      },
-      {
-        "type": "wiki",
-        "from": {
-          "fname": "root",
-          "id": "guomymvu5xxkrbvedoncjdw",
-          "vaultName": "docs"
-        },
-        "value": "web-components.Apis.shadow-dom",
-        "alias": "Shadow Dow",
-        "position": {
-          "start": {
-            "line": 10,
-            "column": 3,
-            "offset": 287
-          },
-          "end": {
-            "line": 10,
-            "column": 49,
-            "offset": 333
-          },
-          "indent": []
-        },
-        "xvault": false,
-        "sameFile": false,
-        "to": {
-          "fname": "web-components.Apis.shadow-dom"
-        }
-      },
-      {
-        "type": "wiki",
-        "from": {
-          "fname": "root",
-          "id": "guomymvu5xxkrbvedoncjdw",
-          "vaultName": "docs"
-        },
-        "value": "web-components.Apis.content-slot",
-        "alias": "Content Slot",
-        "position": {
-          "start": {
-            "line": 11,
-            "column": 3,
-            "offset": 336
-          },
-          "end": {
-            "line": 11,
-            "column": 54,
-            "offset": 387
-          },
-          "indent": []
-        },
-        "xvault": false,
-        "sameFile": false,
-        "to": {
-          "fname": "web-components.Apis.content-slot"
-        }
-      },
-      {
-        "type": "wiki",
-        "from": {
-          "fname": "root",
-          "id": "guomymvu5xxkrbvedoncjdw",
-          "vaultName": "docs"
-        },
-        "value": "web-components.Apis.template",
-        "alias": "Template",
-        "position": {
-          "start": {
-            "line": 12,
-            "column": 3,
-            "offset": 390
-          },
-          "end": {
-            "line": 12,
-            "column": 45,
-            "offset": 432
-          },
-          "indent": []
-        },
-        "xvault": false,
-        "sameFile": false,
-        "to": {
-          "fname": "web-components.Apis.template"
-        }
-      },
-      {
-        "type": "wiki",
-        "from": {
-          "fname": "root",
-          "id": "guomymvu5xxkrbvedoncjdw",
-          "vaultName": "docs"
-        },
-        "value": "web-components.examples.dropdown",
-        "position": {
-          "start": {
-            "line": 14,
-            "column": 133,
-            "offset": 566
-          },
-          "end": {
-            "line": 14,
-            "column": 169,
-            "offset": 602
-          },
-          "indent": []
-        },
-        "xvault": false,
-        "sameFile": false,
-        "to": {
-          "fname": "web-components.examples.dropdown"
-        }
-      },
       {
         "type": "ref",
         "from": {
@@ -5334,12 +6415,12 @@
           "start": {
             "line": 6,
             "column": 1,
-            "offset": 159
+            "offset": 155
           },
           "end": {
             "line": 6,
             "column": 20,
-            "offset": 178
+            "offset": 174
           },
           "indent": []
         },
@@ -5357,14 +6438,6 @@
         "line": 8,
         "column": 0,
         "depth": 1
-      },
-      "apis-fundamentales-de-los-web-components": {
-        "type": "header",
-        "text": "APIS Fundamentales de los Web Components",
-        "value": "apis-fundamentales-de-los-web-components",
-        "line": 14,
-        "column": 0,
-        "depth": 3
       }
     },
     "children": [
@@ -5372,7 +6445,7 @@
     ],
     "parent": null,
     "data": {},
-    "body": "\n# Web Components DOCS\n\nEsta es una documentación de web components basada en el libro *Web Component Essentials* de [[Cory Rylan|https://webcomponent.dev/]]\n\n![[web-components]]\n\n### APIS Fundamentales de los Web Components\n- [[Custom Elements | web-components.Apis.custom-elements]]\n- [[Shadow Dow |web-components.Apis.shadow-dom]]\n- [[Content Slot | web-components.Apis.content-slot]]\n- [[Template |web-components.Apis.template]]\n\nPodemos ver la puesta en común de estas APIS y como funcionan para crear un Web Component en la primera parte de nuestro ejemplo de [[web-components.examples.dropdown]]\n\n"
+    "body": "\n# Web Components DOCS\n\nEsta es una documentación de web components basada en el libro *Web Component Essentials* de Cory Rylan https://webcomponent.dev/\n\n![[web-components]]\n\n"
   },
   "vaults": [
     {

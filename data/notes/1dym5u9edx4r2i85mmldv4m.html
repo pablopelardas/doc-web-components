@@ -11,7 +11,7 @@
 <span class="token punctuation">}</span>
 customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-component'</span><span class="token punctuation">)</span>
 </code></pre>
-<p>Debemos extender una clase de la clase base <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">HTMLElement (Private)</a>. Llamamos al <code>super()</code> en el constructor donde también inicializaremos los estados y la lógica inicial del componente.</p>
+<p>Debemos extender una clase de la clase base <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement">https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement</a>. Llamamos al <code>super()</code> en el constructor donde también inicializaremos los estados y la lógica inicial del componente.</p>
 <p>El método <code>connectedCallback()</code> es un método del ciclo de vida del componente, se invoca cuando el componente es creado y añadido al DOM. Es donde la lógica más pesada debería ocurrir, como el fetch de datos o la lógica de renderización.</p>
 <p>Como extendemos de la clase <code>HTMLElement</code> obtenemos todos sus métodos y podemos acceder por el <code>this</code>.</p>
 <p>Por último registramos el componente en el DOM por medio de la sentencia <code>customElements.define('x-component', XComponent)</code>
@@ -34,5 +34,6 @@ Pasamos como primer parámetro la etiqueta que vamos a utilizar y como segundo l
 <hr>
 <strong>Backlinks</strong>
 <ul>
-<li><a href="/">Root</a></li>
+<li><a href="/notes/zkfccjgcs7b7pqvirwby57p">Web Components</a></li>
+<li><a href="/notes/olp8vo3frywt998l6h1f3ws">Dropdown</a></li>
 </ul>

@@ -5,5 +5,5 @@ Stencil puede buildear aplicaciones enteras, pero esta diseñada para permitir e
 npm run build
 ```
 
-Este comando va a compilar nuestros componentes Stencil a Web Components planos que podremos usar en cualquier lado. Podemos configurar el archivo `stencil.config.js` para especificar a donde se compilan los componentes. Podemos encontrar mas opciones sobre como distribuir nuestros componentes en la documentacion de stencil [[https://stenciljs.com/docs/distribution]]
+Este comando va a compilar nuestros componentes Stencil a Web Components planos que podremos usar en cualquier lado. Podemos configurar el archivo `stencil.config.js` para especificar a donde se compilan los componentes. Podemos encontrar mas opciones sobre como distribuir nuestros componentes en la documentacion de stencil https://stenciljs.com/docs/distribution
 

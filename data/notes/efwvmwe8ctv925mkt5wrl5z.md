@@ -1,5 +1,5 @@
 
-Esta api nos permite declarar piezas de de DOM encapsuladas y aisladas en nuestra aplicación. Junto a ellas pueden encapsular sus estilos (CSS) y usar plantillas declarativas de la [[Template API|wc.Apistemplate]]
+Esta api nos permite declarar piezas de de DOM encapsuladas y aisladas en nuestra aplicación. Junto a ellas pueden encapsular sus estilos (CSS) y usar plantillas declarativas de la [[Template API|web-components.Apis.template]]
 
 Este encapsulamiento facilita la reutilización del componente y oculta su complejidad.
 

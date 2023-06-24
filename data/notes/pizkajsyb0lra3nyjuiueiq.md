@@ -61,4 +61,4 @@ Para utilizarlo en otro proyecto tenemos un par de opciones. Normalmente tendrí
 </body>
 </html>
 ```
-Utilizamos [[unpkg.com|https://unpkg.com/]] CDN para publicar nuestro componente sin pasos de buildeo facilmente. 
+Utilizamos https://unpkg.com/ CDN para publicar nuestro componente sin pasos de buildeo facilmente. 
