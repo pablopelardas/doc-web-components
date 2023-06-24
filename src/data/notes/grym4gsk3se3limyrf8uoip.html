@@ -1,0 +1,24 @@
+<h1 id="decorators">Decorators<a aria-hidden="true" class="anchor-heading icon-link" href="#decorators"></a></h1>
+<h1 id="decorators-1">Decorators<a aria-hidden="true" class="anchor-heading icon-link" href="#decorators-1"></a></h1>
+<p>Stencil usa una combinacion de decoradores y JSX para mantener una forma declarativa y sencilla de crear Web Components. </p>
+<pre class="language-tsx"><code class="language-tsx">@<span class="token function"><span class="token maybe-class-name">Component</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tag<span class="token operator">:</span> <span class="token string">'x-dropdown'</span><span class="token punctuation">,</span>
+  styleUrl<span class="token operator">:</span> <span class="token string">'x-dropdown.css'</span><span class="token punctuation">,</span>
+  shadow<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Si usaste Angular, este decorador te parecerá familiar. Los decoradores se compilan en TypeScript y luego en Javascript. Estos permiten a los desarrolladores agregar metadata adicional a clases y propiedades. Stencil los utiliza para ayudarte a crear y compilar tus componentes en un Web Component.</p>
+<p>El decorador <code>@Component</code> describe nuestro componente. El <code>tag</code> indica cual va a ser el tag de nuestro elemento. El <code>styleUrl</code> nos permite definir un archivo separado para los estilos del componente. El <code>shadow</code> nos permite decirle a Stencil si queremos que active o desactive el <a href="/notes/efwvmwe8ctv925mkt5wrl5z">shadow-dom</a> para nuestro componente.</p>
+<p>Tambien tenemos decoradores en nuestras propiedades: </p>
+<pre class="language-tsx"><code class="language-tsx">@<span class="token function"><span class="token maybe-class-name">Prop</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> title <span class="token operator">=</span> <span class="token string">'dropdown'</span><span class="token punctuation">;</span>
+@<span class="token function"><span class="token maybe-class-name">State</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> show <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+@<span class="token function"><span class="token maybe-class-name">Event</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> showChange<span class="token operator">:</span> <span class="token maybe-class-name">EventEmitter</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Cada decorador agrega un comportamiento a nuestro componente. El primero decorador <code>@Prop</code> nos permite definir propiedades publicas para que otros pasen data. En este caso tenemos el <code>title</code> para setear el texto del boton.</p>
+<p>El decorador <code>@State</code> nos permite indicarle a Stencil que propiedades, cuando sean actualizadas, deberian disparar un re-render. En nuestro caso, siempre que el boton se clickee, actualizamos al propiedad <code>show</code>, y por el <code>@State</code> el template se vuelve a renderizar.</p>
+<p>El decorador <code>@Event</code> nos permite crear <a href="/notes/h8e4ccyda8x2xn10jqv3qb2">Custom Events</a> para nuestro componente. Aplicando el <code>@Event</code> podemos llamar a <code>this.showChange.emit(this.show)</code> para disparar nuestro evento <code>showChange</code>. El nombre de la propiedad es el nombre del evento emitido.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/gl5xjjjpsuuiazam6swp1qp">Stencil</a></li>
+</ul>

@@ -1,0 +1,49 @@
+<h1 id="css-encapsulation">CSS Encapsulation<a aria-hidden="true" class="anchor-heading icon-link" href="#css-encapsulation"></a></h1>
+<p>La encapsulación de css nos permite escribir css especifico por componente que sólo va a aplicar a esa plantilla.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> template  <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'template'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+template<span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">p</span><span class="token punctuation">{</span>
+      <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">red</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>Hola desde template, yo soy rojo<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="token template-punctuation string">`</span></span>
+<span class="token keyword">class</span> <span class="token class-name">XComponent</span> <span class="token keyword">extends</span> <span class="token class-name">HTMLElement</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">attachShadow</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'open'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">shadowRoot</span><span class="token punctuation">.</span><span class="token method function property-access">appendChild</span><span class="token punctuation">(</span>template<span class="token punctuation">.</span><span class="token property-access">content</span><span class="token punctuation">.</span><span class="token method function property-access">cloneNode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-component'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XComponent</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>head</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>title</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">p</span><span class="token punctuation">{</span>
+      <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">blue</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>style</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>head</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>Soy un parrafo azul<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-component</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-component</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>module<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</code></pre>
+<p><img src="/image-15.png" alt="Alt text"></p>
+<p>Vemos que a pesar de la regla <code>p{color: blue}</code> que aplica a todos los p, como en nuestro componente el html y el css esta encapsulado, no se ve afectado.</p>
+<p>En las devtools podemos ver que el navegador creo un shadow root para el componente. Esto es lo que nos provee nuestro encapsulamiento. Esto funciona para ambos lados, los estilos del componente no impactan en el resto del dom y los estilos globales no impactan en el componente.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/f1sy95vvl2cyfpto8miwxhh">Styling</a></li>
+<li><a href="/notes/o7lmvujajn5mr0cyficoef5">Template Event Listeners</a></li>
+</ul>

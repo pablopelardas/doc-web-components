@@ -1,0 +1,99 @@
+<h1 id="react">React<a aria-hidden="true" class="anchor-heading icon-link" href="#react"></a></h1>
+<p>Vamos a ver como podemos integrar un Web Component en una librería de componentes de React.</p>
+<p>React es la librería de js hecha por Facebook para que los desarrolladores puedan componer UIs con componentes. Fue la primer librería / framework en popularizar la arquitectura de componentes. Fue creado incluso antes de que se estandarizaran las APIs de Web Components. Por lo tanto no tiene un gran soporte de los Web Components como si los tienen la mayoría de los otros frameworks.</p>
+<h2 id="compatibilidad">Compatibilidad<a aria-hidden="true" class="anchor-heading icon-link" href="#compatibilidad"></a></h2>
+<p>React usa un mecanismo de comunicación similar para la comunicación entre los componentes pasando propiedades y funciones como eventos. Desgraciadamente, el sistema de eventos de React es un sistema procesado que no utiliza los eventos nativos el anvegador. Esto significa que los eventos de los Web Components no pueden comunicarse con los componentes de React. React y la sintaxis de tempaltes JSX tratan todas las propiedades de los custom elements como atributos de manera incorrecta, forzando a los usuarios a usar valores de tipo string.</p>
+<p>Para superar estos bloqueos en nuestro ejemplo, vamos a crear componentes wrapper que envuelvan a nuestros Web Components. Esto permitira que React sea compatible con nuestros Web Components.</p>
+<h3 id="create-react-app">Create React App<a aria-hidden="true" class="anchor-heading icon-link" href="#create-react-app"></a></h3>
+<p>Vamos a usar la CLI de Create React App para crear la aplicación</p>
+<pre class="language-bash"><code class="language-bash">npx create-react-app my-app
+<span class="token builtin class-name">cd</span> my-app
+<span class="token function">npm</span> start
+</code></pre>
+<p>Una vez creada, instalamos nuestro componente</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> web-component-essentials --save
+</code></pre>
+<p>Ahora debemos crear en nuestra aplicación, un React Dropdown que envuelva nuestro x-dropdown</p>
+<pre class="language-jsx"><code class="language-jsx"><span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">React</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token maybe-class-name">Component</span><span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token string">'web-component-essentials'</span>
+
+<span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name">Dropdown</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span><span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">children</span><span class="token punctuation">}</span><span class="token plain-text">
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Importamos nuestro paquete en <code>Dropdown.jsx</code> y en la función render agregamos <code>{this.props.children}</code> para pasar los hijos elementos a nuestro slot.</p>
+<h2 id="propiedades-y-eventos">Propiedades y Eventos<a aria-hidden="true" class="anchor-heading icon-link" href="#propiedades-y-eventos"></a></h2>
+<p>Necesitamos mapear las propiedades y eventos del Web Component a nuestra versión de react. Para eso utilizaremos el hook <code>componentDidMount()</code></p>
+<pre class="language-jsx"><code class="language-jsx"><span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">React</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token maybe-class-name">Component</span><span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token string">'web-component-essentials'</span>
+
+<span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name">Dropdown</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span><span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span> <span class="token operator">=</span> <span class="token maybe-class-name">React</span><span class="token punctuation">.</span><span class="token method function property-access">createRef</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">.</span><span class="token property-access">current</span><span class="token punctuation">.</span><span class="token property-access">title</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">title</span><span class="token punctuation">;</span>
+    <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">onShow</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">.</span><span class="token property-access">current</span><span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">'show'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token method function property-access">onShow</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> <span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span> <span class="token attr-name">ref</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">children</span><span class="token punctuation">}</span><span class="token plain-text">
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Usando la Refs API podemos tomar la referencia a nuestro x-dropdown. con esta referencia podemos crear un <code>eventListener</code>, en él podemos usar la función que pasemos en nuestra <code>onShow</code> prop de nuestro react component. Esto permitirá que el Web Component se comunique con otros componentes de React. También asignamso el <code>title</code> a nuestro componente React para pasarlo a nuestra propiedad del web component.</p>
+<h2 id="actualizar-props">Actualizar props<a aria-hidden="true" class="anchor-heading icon-link" href="#actualizar-props"></a></h2>
+<p>Necesitamos agregar codigo adicional para que cuando nuestras propiedades del React component cambien, esto impacte en nuestro dropdown. Para esto agregamos el hook <code>componentDidUpdate()</code></p>
+<pre class="language-jsx"><code class="language-jsx"><span class="token keyword module">import</span> <span class="token imports"><span class="token maybe-class-name">React</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token maybe-class-name">Component</span><span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword module">import</span> <span class="token string">'web-component-essentials'</span>
+
+<span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name">Dropdown</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span><span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span> <span class="token operator">=</span> <span class="token maybe-class-name">React</span><span class="token punctuation">.</span><span class="token method function property-access">createRef</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">.</span><span class="token property-access">current</span><span class="token punctuation">.</span><span class="token property-access">title</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">title</span><span class="token punctuation">;</span>
+    <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">onShow</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">.</span><span class="token property-access">current</span><span class="token punctuation">.</span><span class="token method function property-access">addEventListener</span><span class="token punctuation">(</span><span class="token string">'show'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token method function property-access">onShow</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">componentDidUpdate</span><span class="token punctuation">(</span><span class="token parameter">prevProps</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">title</span> <span class="token operator">!==</span> prevProps<span class="token punctuation">.</span><span class="token property-access">title</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">.</span><span class="token property-access">current</span><span class="token punctuation">.</span><span class="token property-access">title</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">title</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">show</span> <span class="token operator">!==</span> prevProps<span class="token punctuation">.</span><span class="token property-access">show</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">.</span><span class="token property-access">current</span><span class="token punctuation">.</span><span class="token property-access">show</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">show</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> <span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span> <span class="token attr-name">ref</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">dropdownRef</span><span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">props</span><span class="token punctuation">.</span><span class="token property-access">children</span><span class="token punctuation">}</span><span class="token plain-text">
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Usando el hook <code>componentDidUpdate()</code> podemos reaccionar cuando se actualizan las propiedades y actualizar nuestro Web Component.</p>
+<p>Ahora tenemos todas las funcionalidades de nuestro web component andando y comunicandose con otros componentes de react.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/hgfihscw1sv5ewje8sm80r9">Frameworks Integration</a></li>
+</ul>

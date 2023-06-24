@@ -1,0 +1,160 @@
+<h1 id="stencil">Stencil<a aria-hidden="true" class="anchor-heading icon-link" href="#stencil"></a></h1>
+<p>Stencil es un compilador de Web Components. Al contrario de <a href="/notes/ik9twe6vf70yht7mt79j88t">Lit</a>, Stencil añade un proceso de buildeo para crear los Web Components. Es menos flexible que Lit pero provee una API de mas alto nivel para crear componentes. Aprovecha tecnologías como TypeScript y JSX. Fue creado y mantenido por Ionic, la empresa especializada en native mobile apps y progressive web apps con tecnologias web.</p>
+<p>El kit de UI de Ionic fue construido inicialmente con Angular components, pero recientemente Ionic creo Stencil para desarrollar sus componentes como Web Components. Esto permitio que cualquiera use los componentes de Ionic y que no esten restringidos a aplicaciones Angular.</p>
+<p>Vamos a crear nuestro <a href="/notes/olp8vo3frywt998l6h1f3ws">Dropdown</a> con Stencil. Vamos a cubrir los beneficios que provee Stencil como una solucion end to end.</p>
+<h2 id="stencil-cli">Stencil CLI<a aria-hidden="true" class="anchor-heading icon-link" href="#stencil-cli"></a></h2>
+<p>Es la herramienta de linea de comandos que facilita el creado y buildeo de librerias y progressive apps con Stencil. Nos permite escribir nuestros componentes con JSX y TypeScript. Tambien provee un mecanismo para escribir CSS y Sass en archivos individuales. Por ultimo, tambien provee test unitario incorporado para escribir test automatizados para los componentes. </p>
+<p>Primero necesitamos instalar la CLI</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> init Stencil
+</code></pre>
+<p>Este comando va a iniciar la Stencil CLI y nos va a generar una prompt para elegir el nombre del proyecto. Nosotros vamos a seleccionar la component library option, es decir una libreria.
+Una vez completado, vamosa  tener el proyecto iniciado para poder empezar a crear nuestros componentes.</p>
+<p>Vamos a tener un directorio <code>src/components</code> donde se va a encontrar un componente único <code>my-component.tsx</code>. Stencil se escribe en TypeScript y JSX, si usaste React o Angular esto se va a sentir muy familiar. Se ve como una mezcla entre ambos frameworks.</p>
+<p>Creamos el archivo <code>x-dropdown.tsx</code> para nuestro componente en el directorio de componentes.</p>
+<pre class="language-tsx"><code class="language-tsx"> <span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> <span class="token maybe-class-name">Component</span><span class="token punctuation">,</span> <span class="token maybe-class-name">Event</span><span class="token punctuation">,</span> <span class="token maybe-class-name">EventEmitter</span><span class="token punctuation">,</span> <span class="token maybe-class-name">Prop</span><span class="token punctuation">,</span> <span class="token maybe-class-name">State</span><span class="token punctuation">,</span> h <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">"@stencil/core"</span><span class="token punctuation">;</span>
+
+ @<span class="token function"><span class="token maybe-class-name">Component</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    tag<span class="token operator">:</span> <span class="token string">"x-dropdown"</span><span class="token punctuation">,</span>
+    styleUrl<span class="token operator">:</span> <span class="token string">"x-dropdown.css"</span><span class="token punctuation">,</span>
+    shadow<span class="token operator">:</span> <span class="token boolean">true</span>
+ <span class="token punctuation">}</span><span class="token punctuation">)</span>
+ <span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name"><span class="token maybe-class-name">XDropdown</span></span> <span class="token punctuation">{</span>
+  @<span class="token function"><span class="token maybe-class-name">Prop</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> myTitle <span class="token operator">=</span> <span class="token string">'dropdown'</span><span class="token punctuation">;</span>
+  @<span class="token function"><span class="token maybe-class-name">State</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> show <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+  @<span class="token function"><span class="token maybe-class-name">Event</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> showChange<span class="token operator">:</span> <span class="token maybe-class-name">EventEmitter</span><span class="token punctuation">;</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span><span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token attr-name">onClick</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">toggle</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">myTitle</span><span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">show</span>
+          <span class="token operator">?</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>x-dropdown__content<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token plain-text">&#x3C;slot /></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+          <span class="token operator">:</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+        <span class="token punctuation">}</span><span class="token plain-text">
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">toggle</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">show</span> <span class="token operator">=</span> <span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">show</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">showChange</span><span class="token punctuation">.</span><span class="token method function property-access">emit</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">show</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+ <span class="token punctuation">}</span>
+</code></pre>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Decorators</span></div>
+<a href="/notes/grym4gsk3se3limyrf8uoip" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h1 id="decorators">Decorators<a aria-hidden="true" class="anchor-heading icon-link" href="#decorators"></a></h1>
+<p>Stencil usa una combinacion de decoradores y JSX para mantener una forma declarativa y sencilla de crear Web Components. </p>
+<pre class="language-tsx"><code class="language-tsx">@<span class="token function"><span class="token maybe-class-name">Component</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tag<span class="token operator">:</span> <span class="token string">'x-dropdown'</span><span class="token punctuation">,</span>
+  styleUrl<span class="token operator">:</span> <span class="token string">'x-dropdown.css'</span><span class="token punctuation">,</span>
+  shadow<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Si usaste Angular, este decorador te parecerá familiar. Los decoradores se compilan en TypeScript y luego en Javascript. Estos permiten a los desarrolladores agregar metadata adicional a clases y propiedades. Stencil los utiliza para ayudarte a crear y compilar tus componentes en un Web Component.</p>
+<p>El decorador <code>@Component</code> describe nuestro componente. El <code>tag</code> indica cual va a ser el tag de nuestro elemento. El <code>styleUrl</code> nos permite definir un archivo separado para los estilos del componente. El <code>shadow</code> nos permite decirle a Stencil si queremos que active o desactive el <a href="/notes/efwvmwe8ctv925mkt5wrl5z">shadow-dom</a> para nuestro componente.</p>
+<p>Tambien tenemos decoradores en nuestras propiedades: </p>
+<pre class="language-tsx"><code class="language-tsx">@<span class="token function"><span class="token maybe-class-name">Prop</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> title <span class="token operator">=</span> <span class="token string">'dropdown'</span><span class="token punctuation">;</span>
+@<span class="token function"><span class="token maybe-class-name">State</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> show <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+@<span class="token function"><span class="token maybe-class-name">Event</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span> showChange<span class="token operator">:</span> <span class="token maybe-class-name">EventEmitter</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Cada decorador agrega un comportamiento a nuestro componente. El primero decorador <code>@Prop</code> nos permite definir propiedades publicas para que otros pasen data. En este caso tenemos el <code>title</code> para setear el texto del boton.</p>
+<p>El decorador <code>@State</code> nos permite indicarle a Stencil que propiedades, cuando sean actualizadas, deberian disparar un re-render. En nuestro caso, siempre que el boton se clickee, actualizamos al propiedad <code>show</code>, y por el <code>@State</code> el template se vuelve a renderizar.</p>
+<p>El decorador <code>@Event</code> nos permite crear <a href="/notes/h8e4ccyda8x2xn10jqv3qb2">Custom Events</a> para nuestro componente. Aplicando el <code>@Event</code> podemos llamar a <code>this.showChange.emit(this.show)</code> para disparar nuestro evento <code>showChange</code>. El nombre de la propiedad es el nombre del evento emitido.</p></div></div><p></p><p></p>
+<p>Despues de los decoradores encontramos un metodo <code>render()</code> que espera que le pasemos una plantilla JSX
+</p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">JSX Templates</span></div>
+<a href="/notes/3x98jnnbdtk4yacyr4wpefc" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><pre class="language-tsx"><code class="language-tsx">  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span><span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>button</span> <span class="token attr-name">onClick</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">toggle</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">myTitle</span><span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>button</span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">show</span>
+          <span class="token operator">?</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>x-dropdown__content<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token plain-text">&#x3C;slot /></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+          <span class="token operator">:</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+        <span class="token punctuation">}</span><span class="token plain-text">
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+</code></pre>
+<p>En la plantilla podemos escuchar eventos del DOM y disparar llamadas a los metodos. En nuestro ejemplo llamamos el metodo <code>toggle()</code> en el <code>onClick</code></p>
+<p>Para los renderizados condicionales podemos usar ternarios como en</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">show</span>
+          <span class="token operator">?</span> <span class="token operator">&#x3C;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"x-dropdown__content"</span><span class="token operator">></span><span class="token operator">&#x3C;</span>slot <span class="token operator">/</span><span class="token operator">></span><span class="token operator">&#x3C;</span><span class="token operator">/</span>div<span class="token operator">></span>
+          <span class="token operator">:</span> <span class="token operator">&#x3C;</span>div<span class="token operator">></span><span class="token operator">&#x3C;</span><span class="token operator">/</span>div<span class="token operator">></span>
+</code></pre></div></div><p></p><p></p>
+<p>Y por ultimo tenemos el metodo <code>toggle()</code> que va a invertir nuestra propiedad show y dispara el evento <code>showChange</code></p>
+<p>Ahora vamos a ver como podemos utilizar nuestro componente dentro de otro componente de Stencil.</p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Component Bindings</span></div>
+<a href="/notes/s3mhgxb78z7jyifmzp1hsd3" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>En el componente MYComponent que creo la CLI de Stencil vamos a usar nuestro XDropdown.</p>
+<pre class="language-tsx"><code class="language-tsx"><span class="token comment">//my-component.tsx</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> <span class="token maybe-class-name">Component</span><span class="token punctuation">,</span> h <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'@stencil/core'</span><span class="token punctuation">;</span>
+
+@<span class="token function"><span class="token maybe-class-name">Component</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tag<span class="token operator">:</span> <span class="token string">'my-component'</span><span class="token punctuation">,</span>
+  styleUrl<span class="token operator">:</span> <span class="token string">'my-component.css'</span><span class="token punctuation">,</span>
+  shadow<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name"><span class="token maybe-class-name">MyComponent</span></span> <span class="token punctuation">{</span>
+  <span class="token keyword">private</span> myTitle <span class="token operator">=</span> <span class="token string">'StencilJS'</span><span class="token punctuation">;</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> <span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+        Hello World, I am web component built with stencil
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+          </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span> <span class="token attr-name">title</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">myTitle</span><span class="token punctuation">}</span></span> <span class="token attr-name">onShowChange</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token plain-text">
+            Hello  </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>b</span><span class="token punctuation">></span></span><span class="token plain-text">from Stencil</span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>b</span><span class="token punctuation">></span></span><span class="token plain-text"> Dropdown!
+          </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">private</span> <span class="token function">log</span><span class="token punctuation">(</span>e<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><img src="/image-27.png" alt="example"></p></div></div><p></p><p></p>
+<p>Por ultimo vamos a buildear nuestra libreria</p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Building</span></div>
+<a href="/notes/peaxf97kpd4jafg9wekcaz8" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Stencil puede buildear aplicaciones enteras, pero esta diseñada para permitir escribir y publicar rapidamente Web Components. Para crear los Web Components, escribimos en el root del proyecto el siguiente comando</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run build
+</code></pre>
+<p>Este comando va a compilar nuestros componentes Stencil a Web Components planos que podremos usar en cualquier lado. Podemos configurar el archivo <code>stencil.config.js</code> para especificar a donde se compilan los componentes. Podemos encontrar mas opciones sobre como distribuir nuestros componentes en la documentacion de stencil <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">https://stenciljs.com/docs/distribution (Private)</a></p></div></div><p></p><p></p>
+<p>Stencil es una excelente opcion para crear Web Components ya que nos da la conveniencia de un framework y todas las ventajas de los Web Components.</p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/peaxf97kpd4jafg9wekcaz8">Building</a></li>
+<li><a href="/notes/s3mhgxb78z7jyifmzp1hsd3">Component Bindings</a></li>
+<li><a href="/notes/grym4gsk3se3limyrf8uoip">Decorators</a></li>
+<li><a href="/notes/3x98jnnbdtk4yacyr4wpefc">JSX Templates</a></li>
+</ol>

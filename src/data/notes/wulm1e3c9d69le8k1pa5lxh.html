@@ -1,0 +1,40 @@
+<h1 id="theming">Theming<a aria-hidden="true" class="anchor-heading icon-link" href="#theming"></a></h1>
+<p>Con las <a href="/notes/5vihc22zv3ux3lduf3aaab6">CSS Custom Properties</a> podemos construir temas flexibles y fáciles de mantener.</p>
+<ul>
+<li><a href="/notes/kguufsu71atg67ixw875jy1">Root Host Scope</a></li>
+</ul>
+<h2 id="implementando-un-tema-oscuro">Implementando un tema oscuro<a aria-hidden="true" class="anchor-heading icon-link" href="#implementando-un-tema-oscuro"></a></h2>
+<p>Cuando implementamos temas en web components, tenemos un par de estrategias disponibles para utilizar. Podríamos utilizar una hoja de estilso separada que contiene una lista actualizada de las CSS Custom Properties para ese tema particular.</p>
+<pre class="language-css"><code class="language-css"><span class="token selector"><span class="token pseudo-class">:root</span></span><span class="token punctuation">{</span>
+  <span class="token variable">--modal-background-color</span><span class="token punctuation">:</span> <span class="token color">black</span><span class="token punctuation">;</span>
+  <span class="token variable">--modal-color</span><span class="token punctuation">:</span> <span class="token color">white</span><span class="token punctuation">;</span>
+  <span class="token variable">--dropdown-background-color</span><span class="token punctuation">:</span> <span class="token color">black</span><span class="token punctuation">;</span>
+  <span class="token variable">--dropdown-color</span><span class="token punctuation">:</span> <span class="token color">white</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+...
+</code></pre>
+<p>Podríamos aplicar esta hoja cuando querramos cambiar el tema. Otra estrategia es aplicar el stilo utilizando una clase particular, cuando la clase se aplica el tema se aplica:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector"><span class="token pseudo-class">:root</span> <span class="token class">.dark-theme</span></span><span class="token punctuation">{</span>
+  <span class="token variable">--modal-background-color</span><span class="token punctuation">:</span> <span class="token color">black</span><span class="token punctuation">;</span>
+  <span class="token variable">--modal-color</span><span class="token punctuation">:</span> <span class="token color">white</span><span class="token punctuation">;</span>
+  <span class="token variable">--dropdown-background-color</span><span class="token punctuation">:</span> <span class="token color">black</span><span class="token punctuation">;</span>
+  <span class="token variable">--dropdown-color</span><span class="token punctuation">:</span> <span class="token color">white</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+...
+</code></pre>
+<p>Cualquiera de las 2 estrategias funcionaría. Podemos llevar esto un paso más adelante construyendo temas incorporados a nuestros componentes. Para hacer esto usaremos el selector <code>:host</code> para aplicar distintas propiedades basadas en algún atributo de nuestro elemento host.</p>
+<pre class="language-css"><code class="language-css"><span class="token comment">/**
+  Si nuestro elemento host tiene el atributo dark, hacer esto
+*/</span>
+<span class="token selector"><span class="token pseudo-class">:host</span><span class="token punctuation">(</span><span class="token attribute"><span class="token punctuation">[</span><span class="token attr-name">dark</span><span class="token punctuation">]</span></span><span class="token punctuation">)</span> p</span><span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> <span class="token hexcode color">#fff</span><span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode color">#2d2d2d</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>De esta manera podemos usar el <code>:host</code> para reemplazar las CSS Custom Properties y aplicar unos estilos u otros basados en los atributos de la etiqueta.</p>
+<p>Esto nos da una penalidad menor en la performance ya que todos los estilos del componente se van a descargar aunque los estilos de ese tema no se esten usando actualmente. Esto no sucedería si sólo se descarga la hoja de estilos que corresponda al tema actual.</p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/kguufsu71atg67ixw875jy1">Root Host Scope</a></li>
+</ol>

@@ -1,0 +1,31 @@
+<h1 id="shadow-dom">shadow-dom<a aria-hidden="true" class="anchor-heading icon-link" href="#shadow-dom"></a></h1>
+<p>Esta api nos permite declarar piezas de de DOM encapsuladas y aisladas en nuestra aplicación. Junto a ellas pueden encapsular sus estilos (CSS) y usar plantillas declarativas de la <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">Template API (Private)</a></p>
+<p>Este encapsulamiento facilita la reutilización del componente y oculta su complejidad.</p>
+<h3 id="como-instanciar-un-template-component-con-shadow-dom">Como instanciar un template component con shadow dom<a aria-hidden="true" class="anchor-heading icon-link" href="#como-instanciar-un-template-component-con-shadow-dom"></a></h3>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> template <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'template'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+template<span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span>Hola desde template<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">XComponent</span> <span class="token keyword">extends</span> <span class="token class-name">HTMLElement</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">attachShadow</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'open'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">shadowRoot</span><span class="token punctuation">.</span><span class="token method function property-access">appendChild</span><span class="token punctuation">(</span>template<span class="token punctuation">.</span><span class="token property-access">content</span><span class="token punctuation">.</span><span class="token method function property-access">cloneNode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-component'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XComponent</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>En vez de adherir la plantilla directo al componente, creamos un <code>shadowRoot</code> para que utilice.
+<code>this.attachShadow({mode: 'open'})</code> le dice al navegador que este custom element debería tener un shadow root adherido. Creando este shadow root ahora tenemos una plantilla aislada donde podemos actualizar nuestro componente. La opción <code>mode</code> nos permite configurar si queremos que el shadow root sea accesible desde fuera del componente.
+Desgraciadamente incluso poniendo el mode en 'closed' hay formas de mediante javascript manipular el shadow root ya que no existe un constructor privado en js aún por lo que no se debería tomar esta medida como seguridad.
+Una vez creado el shadow root, podemos adherir y comenzar a actualizar nuestra plantilla.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/f1sy95vvl2cyfpto8miwxhh">Styling</a></li>
+<li><a href="/notes/d9i2loe47cp2m0xxwdkny69">content-slot</a></li>
+<li><a href="/notes/lf0t5f3evkower2vnkbazq5">template</a></li>
+<li><a href="/notes/olp8vo3frywt998l6h1f3ws">Dropdown</a></li>
+<li><a href="/notes/o7lmvujajn5mr0cyficoef5">Template Event Listeners</a></li>
+<li><a href="/notes/grym4gsk3se3limyrf8uoip">Decorators</a></li>
+</ul>

@@ -1,0 +1,35 @@
+<h1 id="component-bindings">Component Bindings<a aria-hidden="true" class="anchor-heading icon-link" href="#component-bindings"></a></h1>
+<p>En el componente MYComponent que creo la CLI de Stencil vamos a usar nuestro XDropdown.</p>
+<pre class="language-tsx"><code class="language-tsx"><span class="token comment">//my-component.tsx</span>
+<span class="token keyword module">import</span> <span class="token imports"><span class="token punctuation">{</span> <span class="token maybe-class-name">Component</span><span class="token punctuation">,</span> h <span class="token punctuation">}</span></span> <span class="token keyword module">from</span> <span class="token string">'@stencil/core'</span><span class="token punctuation">;</span>
+
+@<span class="token function"><span class="token maybe-class-name">Component</span></span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tag<span class="token operator">:</span> <span class="token string">'my-component'</span><span class="token punctuation">,</span>
+  styleUrl<span class="token operator">:</span> <span class="token string">'my-component.css'</span><span class="token punctuation">,</span>
+  shadow<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword module">export</span> <span class="token keyword">class</span> <span class="token class-name"><span class="token maybe-class-name">MyComponent</span></span> <span class="token punctuation">{</span>
+  <span class="token keyword">private</span> myTitle <span class="token operator">=</span> <span class="token string">'StencilJS'</span><span class="token punctuation">;</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> <span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+        Hello World, I am web component built with stencil
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+          </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-dropdown</span> <span class="token attr-name">title</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">myTitle</span><span class="token punctuation">}</span></span> <span class="token attr-name">onShowChange</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token punctuation">></span></span><span class="token plain-text">
+            Hello  </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>b</span><span class="token punctuation">></span></span><span class="token plain-text">from Stencil</span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>b</span><span class="token punctuation">></span></span><span class="token plain-text"> Dropdown!
+          </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-dropdown</span><span class="token punctuation">></span></span><span class="token plain-text">
+        </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">
+      </span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">private</span> <span class="token function">log</span><span class="token punctuation">(</span>e<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><img src="/image-27.png" alt="example"></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/gl5xjjjpsuuiazam6swp1qp">Stencil</a></li>
+</ul>

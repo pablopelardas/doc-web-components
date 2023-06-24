@@ -1,0 +1,13 @@
+<h1 id="constructor-connected-callback">Constructor Connected Callback<a aria-hidden="true" class="anchor-heading icon-link" href="#constructor-connected-callback"></a></h1>
+<pre class="language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">XComponent</span> <span class="token keyword">extends</span> <span class="token class-name">HTMLElement</span> <span class="token punctuation">{</span>
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+    <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+    <span class="token punctuation">}</span> 
+
+  <span class="token function">connectedCallback</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token string">'Hello World from a Web Component!'</span> 
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-component'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XComponent</span><span class="token punctuation">)</span>
+</code></pre>
+<p>El constructor se ejecuta cada vez que una instancia del componente se crea. Sin embargo, si tenemos que instanciar al DOM o ejecutar la lógica inicial, vamos a querer correr este código en el <code>connectedCallback()</code> hook. Este se ejecuta cuando un componente se agrega al DOM, después de eso podemos empezar a renderizar e interactuar con el DOM.</p>

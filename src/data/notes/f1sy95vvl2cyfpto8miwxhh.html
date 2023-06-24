@@ -1,0 +1,35 @@
+<h1 id="styling">Styling<a aria-hidden="true" class="anchor-heading icon-link" href="#styling"></a></h1>
+<p>Utilizando <a href="/notes/5vihc22zv3ux3lduf3aaab6">CSS Custom Properties</a> y <a href="/notes/efwvmwe8ctv925mkt5wrl5z">shadow-dom</a> podemos crear temas y estilar nuestros componentes.</p>
+<h1 id="estilos-globales">Estilos globales<a aria-hidden="true" class="anchor-heading icon-link" href="#estilos-globales"></a></h1>
+<p> Uno de los puntos malos del CSS es que por default, el CSS es global. </p>
+<pre class="language-css"><code class="language-css"><span class="token selector">h1</span> <span class="token punctuation">{</span>
+ <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">red</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+<p> Esta regla hace que <strong>todos</strong> los <code>h1</code> sean rojos. Muchas veces solo queremos aplicar una regla a un componente o vista especifico. Para hacer esto en el pasado se utilizaban convenciones de nombres como <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">BEM (Private)</a>, para poder evitar que accidentalmente se pisaran estilos. Por ejemplo</p>
+<pre class="language-css"><code class="language-css"><span class="token selector">h1<span class="token class">.article-heading</span></span><span class="token punctuation">{</span>
+ <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">blue</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">h1<span class="token class">.article-heading</span> <span class="token class">.article-heading--green</span></span><span class="token punctuation">{</span>
+ <span class="token property">color</span><span class="token punctuation">:</span> <span class="token color">green</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+<p> De esta forma se evita que el estilo impacte en todos los h1 y solo en el que tiene la clase. Esto es mejor pero no es escalable ya que es posible que en proyectos grandes nos encontremos con colisiones en los nombres.</p>
+<p> Con Web Componenst podemos usar el Shadow DOM para simplificar como escribimos CSS.
+<a href="/notes/fcj7t4u5hm6t7amh45uid1n">CSS Encapsulation</a></p>
+<p>Pero ¿Qué ocurre si queremos pisar los estilos del componente? Tal vez para usar un tema custom. Para esto nos van a servir las
+<a href="/notes/5vihc22zv3ux3lduf3aaab6">CSS Custom Properties</a></p>
+<p>Mientras que las CSS Custom Properties permiten una mejor customización del componente y los temas, todavía puede haber veces en las que necesitemos más flexibilidad y debamos activar el estilo de elementos del DOM enteros en nuestro componente
+<a href="/notes/lgs19vv9v8nq2megefqyprn">CSS Parts API</a></p>
+<p>Por ultimo nos queda ver como estilar componentes dentro de nuestros slots <a href="/notes/3lzfo9vm01y09nvjbji1g25">Slotted Elements</a></p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/5vihc22zv3ux3lduf3aaab6">CSS Custom Properties</a></li>
+<li><a href="/notes/fcj7t4u5hm6t7amh45uid1n">CSS Encapsulation</a></li>
+<li><a href="/notes/lgs19vv9v8nq2megefqyprn">CSS Parts API</a></li>
+<li><a href="/notes/3lzfo9vm01y09nvjbji1g25">Slotted Elements</a></li>
+</ol>

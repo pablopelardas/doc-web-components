@@ -1,0 +1,58 @@
+<h1 id="js-properties">JS Properties<a aria-hidden="true" class="anchor-heading icon-link" href="#js-properties"></a></h1>
+<p>Con las props podemos pasar cualquier tipo de dato de javascript a nuestro componente, incluyendo datos no primitivos como los objetos y arreglos. </p>
+<pre class="language-js"><code class="language-js"><span class="token comment">//x-component.js</span>
+<span class="token keyword">const</span> template <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'template'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+template<span class="token punctuation">.</span><span class="token property-access">innerHTML</span> <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token html language-html">
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">XComponent</span> <span class="token keyword">extends</span> <span class="token class-name">HTMLElement</span> <span class="token punctuation">{</span>
+  <span class="token keyword">set</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">_name</span> <span class="token operator">=</span> value<span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">nameElement</span><span class="token punctuation">.</span><span class="token property-access">innerText</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">_name</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">get</span> <span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword control-flow">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">_name</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token method function property-access">attachShadow</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">mode</span><span class="token operator">:</span> <span class="token string">'open'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">shadowRoot</span><span class="token punctuation">.</span><span class="token method function property-access">appendChild</span><span class="token punctuation">(</span>template<span class="token punctuation">.</span><span class="token property-access">content</span><span class="token punctuation">.</span><span class="token method function property-access">cloneNode</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">nameElement</span> <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token property-access">shadowRoot</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+customElements<span class="token punctuation">.</span><span class="token method function property-access">define</span><span class="token punctuation">(</span><span class="token string">'x-component'</span><span class="token punctuation">,</span> <span class="token maybe-class-name">XComponent</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Gracias a ES2015 podemos utilizar getters y setters para definir propiedades en nuestro componente que, cuando se setean, pueden involucrar alguna logica. En este ejemplo tenemos un set y get <code>name</code>. El getter devuelve el valor de <code>_name</code>, nuestra propiedad privada para mantener el valor que se renderizará. El setter setea la variable privada <code>_name</code> y el texto de nuestro <code>nameElement</code> el cual creamos en el constructor. Cualquiera que utilice nuestro componente puede setear la variable name para ver los cambios.</p>
+<pre class="language-js"><code class="language-js"><span class="token comment">// index.js</span>
+<span class="token keyword module">import</span> <span class="token string">'./x-component.js'</span>
+
+<span class="token keyword">const</span> component <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'x-component'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+component<span class="token punctuation">.</span><span class="token property-access">name</span> <span class="token operator">=</span> <span class="token string">'Hello World from Prop'</span>
+</code></pre>
+<pre class="language-html"><code class="language-html"><span class="token comment">&#x3C;!--index.html--></span>
+<span class="token doctype"><span class="token punctuation">&#x3C;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>head</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>title</span><span class="token punctuation">></span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>title</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>head</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>body</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>x-component</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>x-component</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>module<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>script</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>body</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>html</span><span class="token punctuation">></span></span>
+</code></pre>
+<p><img src="/image-7.png" alt="Alt text"></p>
+<p>Usar propiedades es la manera principal y más recomendada para pasar data a los componentes.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/jz2mgtp1h1frnrzmeqocl36">Communication</a></li>
+<li><a href="/notes/olp8vo3frywt998l6h1f3ws">Dropdown</a></li>
+<li><a href="/notes/nz23kt8zcx99qr9ei3td0kg">Component Data Flow</a></li>
+</ul>
