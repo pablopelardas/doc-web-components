@@ -127,6 +127,7 @@
     "enableTaskNotes": true,
     "enablePrettyLinks": true,
     "searchMode": "search",
+    "theme": "dark",
     "siteUrl": "localhost:3000",
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
